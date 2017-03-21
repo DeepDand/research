@@ -20,13 +20,13 @@ flags = tf.app.flags
 FLAGS = flags.FLAGS
 
 # Autoencoder Architecture Specific Flags
-flags.DEFINE_integer("num_hidden_layers", 2, "Number of hidden layers")
+flags.DEFINE_integer("num_hidden_layers", 3, "Number of hidden layers")
 
-flags.DEFINE_integer('hidden1_units', 100,
+flags.DEFINE_integer('hidden1_units', 64,
                      'Number of units in hidden layer 1.')
-flags.DEFINE_integer('hidden2_units', 50,
+flags.DEFINE_integer('hidden2_units', 49,
                      'Number of units in hidden layer 2.')
-flags.DEFINE_integer('hidden3_units', 31,
+flags.DEFINE_integer('hidden3_units', 36,
                      'Number of units in hidden layer 3.')
 
 flags.DEFINE_integer('image_pixels', IMAGE_PIXELS, 'Total number of pixels')
@@ -47,7 +47,7 @@ flags.DEFINE_float('noise_3', 0.0, 'Rate at which to set pixels to 0')
 flags.DEFINE_integer('seed', 1234, 'Random seed')
 flags.DEFINE_integer('image_size', 256, 'Image square size')
 
-flags.DEFINE_integer('batch_size', 50,
+flags.DEFINE_integer('batch_size', 100,
                      'Batch size. Must divide evenly into the dataset sizes.')
 
 flags.DEFINE_float('supervised_learning_rate', 0.1,
@@ -68,7 +68,7 @@ flags.DEFINE_float('one_bound', 1.0 - 1.0e-9,
 flags.DEFINE_float('flush_secs', 120, 'Number of seconds to flush summaries')
 
 # Directories
-flags.DEFINE_string('data_dir', '../papermcpr/repo/dataset/*.jpeg',
+flags.DEFINE_string('data_dir', '../dataset/*.jpeg',
                     'Directory to put the training data.')
 
 flags.DEFINE_string('summary_dir', './summaries',

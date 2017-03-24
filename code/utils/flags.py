@@ -12,7 +12,7 @@ NUM_CLASSES = 31
 
 
 # subjects for training/testing/validation
-sub = {'tr': ['S01'],
+sub = {'tr': ['S01','S02','S03','S04','S05'],
        'te': [],
       'val': []}
 
@@ -47,15 +47,15 @@ flags.DEFINE_float('noise_3', 0.0, 'Rate at which to set pixels to 0')
 flags.DEFINE_integer('seed', 1234, 'Random seed')
 flags.DEFINE_integer('image_size', 256, 'Image square size')
 
-flags.DEFINE_integer('batch_size', 100,
+flags.DEFINE_integer('batch_size', 250,
                      'Batch size. Must divide evenly into the dataset sizes.')
 
 flags.DEFINE_float('supervised_learning_rate', 0.1,
                    'Supervised initial learning rate.')
 
-flags.DEFINE_integer('pretraining_epochs', 400,
+flags.DEFINE_integer('pretraining_epochs', 20,
                      "Number of training epochs for pretraining layers")
-flags.DEFINE_integer('finetuning_epochs', 100,
+flags.DEFINE_integer('finetuning_epochs', 20,
                      "Number of training epochs for "
                      "fine tuning supervised step")
 

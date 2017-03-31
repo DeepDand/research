@@ -1,0 +1,78 @@
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcurand.so locally
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:951] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:03:00.0
+Total memory: 15.89GiB
+Free memory: 444.25MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x3a704e0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:951] Found device 1 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:82:00.0
+Total memory: 15.89GiB
+Free memory: 444.25MiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:855] cannot enable peer access from device ordinal 0 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:855] cannot enable peer access from device ordinal 1 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:972] DMA: 0 1 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] 0:   Y N 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] 1:   N Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:03:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla P100-PCIE-16GB, pci bus id: 0000:82:00.0)
+['S03', 'S04', 'S05']
+['S02']
+['S01']
+Loading images  ../dataset/*.jpeg ['S03', 'S04', 'S05']
+Number of images: 18600
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (18600, 256, 256, 1)
+Loading images  ../dataset/*.jpeg ['S02']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+(18600, 256, 256, 1)
+(6200, 256, 256, 1)
+(6200, 256, 256, 1)
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |    45560.7305 | Layer 1 | Epoch 1  |
+|           100 |    43782.0195 | Layer 1 | Epoch 1  |
+|           200 |    41026.0117 | Layer 1 | Epoch 1  |
+|           300 |    39036.0508 | Layer 1 | Epoch 1  |
+|           400 |    37466.2344 | Layer 1 | Epoch 1  |
+|           500 |    36467.2578 | Layer 1 | Epoch 1  |
+|           600 |    35765.9453 | Layer 1 | Epoch 1  |
+|           700 |    35165.4180 | Layer 1 | Epoch 1  |
+|           800 |    34606.6992 | Layer 1 | Epoch 1  |
+|           900 |    34429.1719 | Layer 1 | Epoch 1  |
+|          1000 |    33777.9492 | Layer 1 | Epoch 1  |
+|          1100 |    33632.4062 | Layer 1 | Epoch 1  |
+|          1200 |    33596.9844 | Layer 1 | Epoch 1  |
+|          1300 |    33379.4766 | Layer 1 | Epoch 1  |
+|          1400 |    32820.8438 | Layer 1 | Epoch 1  |
+|          1500 |    32715.4395 | Layer 1 | Epoch 1  |
+|          1600 |    32714.0879 | Layer 1 | Epoch 1  |
+|          1700 |    32487.8125 | Layer 1 | Epoch 1  |
+|          1800 |    32398.5078 | Layer 1 | Epoch 1  |
+|          1900 |    32562.6973 | Layer 1 | Epoch 1  |
+|          2000 |    31489.0449 | Layer 1 | Epoch 1  |
+|          2100 |    32028.1504 | Layer 1 | Epoch 1  |
+|          2200 |    31694.6895 | Layer 1 | Epoch 1  |
+|          2300 |    31381.1191 | Layer 1 | Epoch 1  |
+|          2400 |    31315.8945 | Layer 1 | Epoch 1  |
+|          2500 |    31423.0801 | Layer 1 | Epoch 1  |
+|          2600 |    31189.8750 | Layer 1 | Epoch 1  |

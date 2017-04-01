@@ -9797,3 +9797,5 @@ Dataset array size:  (6200, 256, 256, 1)
 |         45100 |       36.1859 | Layer 2 | Epoch 3  |
 |         45200 |       35.9445 | Layer 2 | Epoch 3  |
 |         45300 |       35.8871 | Layer 2 | Epoch 3  |
+|         45400 |       35.8843 | Layer 2 | Epoch 3  |
+|         45500 |       36.4174 | Layer 2 | Epoch 3  |

@@ -3,4 +3,5 @@
 *.npy
 *.acergpu940
 *.novalocal
+*.fox2
 .DS_Store

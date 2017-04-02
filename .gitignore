@@ -5,3 +5,4 @@
 *.novalocal
 *.fox2
 .DS_Store
+t*.csv

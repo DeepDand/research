@@ -26412,3 +26412,17 @@ Best parameters are:
 {'epsilon': 0.0, 'C': 16.0, 'gamma': 0.0009765625, 'kernel': 'rbf'}
 Accuracy on training set fold: 0.904
 Accuracy on validation set fold: 0.697
+Accuracy on training set fold: 0.904
+Accuracy on validation set fold: 0.698
+Accuracy on training set fold: 0.904
+Accuracy on validation set fold: 0.703
+Accuracy on training set fold: 0.905
+Accuracy on validation set fold: 0.691
+Accuracy on training set fold: 0.902
+Accuracy on validation set fold: 0.702
+Accuracy on training set fold: 0.903
+Accuracy on validation set fold: 0.690
+Accuracy on training set fold: 0.903
+Accuracy on validation set fold: 0.696
+Accuracy on training set fold: 0.903
+Accuracy on validation set fold: 0.700

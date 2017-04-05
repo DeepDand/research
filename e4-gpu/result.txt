@@ -21241,3 +21241,8 @@ Step 197600: loss = 2.56 (0.123 sec)
 Step 197700: loss = 2.53 (0.106 sec)
 Step 197800: loss = 2.57 (0.123 sec)
 Step 197900: loss = 2.56 (0.134 sec)
+  Num examples: 18600  Num correct: 17525  Error @ 1: 0.0578
+  Num examples: 6200  Num correct: 3522  Error @ 1: 0.4319
+  Num examples: 6200  Num correct: 3823  Error @ 1: 0.3834
+Step 198000: loss = 2.55 (0.151 sec)
+Step 198100: loss = 2.55 (0.168 sec)

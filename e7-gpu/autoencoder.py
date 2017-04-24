@@ -268,10 +268,7 @@ def loss_x_entropy(output, target):
 
 def main_unsupervised():
   with tf.Graph().as_default() as g:
-    config = tf.ConfigProto(
-      device_count = {'GPU': 0}
-    )
-    sess = tf.Session(config=config)
+    sess = tf.Session()
 
     num_hidden = FLAGS.num_hidden_layers
     ae_hidden_shapes = [getattr(FLAGS, "hidden{0}_units".format(j + 1))
@@ -335,7 +332,7 @@ def main_unsupervised():
           loss_summary, loss_value = sess.run([train_op, loss],
                                               feed_dict=feed_dict)
 
-          if step % 1000 == 0:
+          if step % 100 == 0:
             summary_str = sess.run(summary_op, feed_dict=feed_dict)
             summary_writer.add_summary(summary_str, step)
             image_summary_op = \
@@ -429,7 +426,7 @@ def main_supervised(ae):
       duration = time.time() - start_time
 
       # Write the summaries and print an overview fairly often.
-      if step % 1000 == 0:
+      if step % 100 == 0:
         # Print status to stdout.
         print('Step %d: loss = %.2f (%.3f sec)' % (step, loss_value, duration))
         # Update the events file.

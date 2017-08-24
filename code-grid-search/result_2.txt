@@ -1,0 +1,188 @@
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:925] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:951] Found device 0 with properties: 
+name: GeForce 940MX
+major: 5 minor: 0 memoryClockRate (GHz) 0.8605
+pciBusID 0000:01:00.0
+Total memory: 1.96GiB
+Free memory: 1.72GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:972] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce 940MX, pci bus id: 0000:01:00.0)
+['S01']
+[]
+[]
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+(3100, 256, 256, 1)
+(1550, 256, 256, 1)
+(1550, 256, 256, 1)
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |    46184.7617 | Layer 1 | Epoch 1  |
+|           100 |    37807.5938 | Layer 1 | Epoch 1  |
+|           200 |    33764.2305 | Layer 1 | Epoch 1  |
+|           300 |    32375.3242 | Layer 1 | Epoch 1  |
+|           400 |    31787.5371 | Layer 1 | Epoch 1  |
+|           500 |    31228.4844 | Layer 1 | Epoch 1  |
+|           600 |    30441.6348 | Layer 1 | Epoch 1  |
+|           700 |    30147.5254 | Layer 1 | Epoch 1  |
+|           800 |    29829.6641 | Layer 1 | Epoch 1  |
+|           900 |    29818.9844 | Layer 1 | Epoch 1  |
+|          1000 |    29195.8770 | Layer 1 | Epoch 1  |
+|          1100 |    29163.0625 | Layer 1 | Epoch 1  |
+|          1200 |    28954.0723 | Layer 1 | Epoch 1  |
+|          1300 |    28793.2617 | Layer 1 | Epoch 1  |
+|          1400 |    28772.3516 | Layer 1 | Epoch 1  |
+|          1500 |    28678.2090 | Layer 1 | Epoch 1  |
+|          1600 |    28505.2031 | Layer 1 | Epoch 1  |
+|          1700 |    28093.1035 | Layer 1 | Epoch 1  |
+|          1800 |    28246.9297 | Layer 1 | Epoch 1  |
+|          1900 |    28107.8613 | Layer 1 | Epoch 1  |
+|          2000 |    27763.6680 | Layer 1 | Epoch 1  |
+|          2100 |    27977.8828 | Layer 1 | Epoch 1  |
+|          2200 |    27913.2891 | Layer 1 | Epoch 1  |
+|          2300 |    27448.6211 | Layer 1 | Epoch 1  |
+|          2400 |    27510.4668 | Layer 1 | Epoch 1  |
+|          2500 |    27520.0000 | Layer 1 | Epoch 1  |
+|          2600 |    27289.4688 | Layer 1 | Epoch 1  |
+|          2700 |    27223.6289 | Layer 1 | Epoch 1  |
+|          2800 |    27308.7812 | Layer 1 | Epoch 1  |
+|          2900 |    26996.8125 | Layer 1 | Epoch 1  |
+|          3000 |    26822.9805 | Layer 1 | Epoch 1  |
+|          3100 |    26805.4590 | Layer 1 | Epoch 2  |
+|          3200 |    26848.0918 | Layer 1 | Epoch 2  |
+|          3300 |    26703.3809 | Layer 1 | Epoch 2  |
+|          3400 |    26478.0625 | Layer 1 | Epoch 2  |
+|          3500 |    26292.1113 | Layer 1 | Epoch 2  |
+|          3600 |    26401.3887 | Layer 1 | Epoch 2  |
+|          3700 |    26185.9922 | Layer 1 | Epoch 2  |
+|          3800 |    26475.4238 | Layer 1 | Epoch 2  |
+|          3900 |    26064.9355 | Layer 1 | Epoch 2  |
+|          4000 |    26087.0430 | Layer 1 | Epoch 2  |
+|          4100 |    25984.8008 | Layer 1 | Epoch 2  |
+|          4200 |    25962.6914 | Layer 1 | Epoch 2  |
+|          4300 |    25890.9316 | Layer 1 | Epoch 2  |
+|          4400 |    25863.7578 | Layer 1 | Epoch 2  |
+|          4500 |    25689.3496 | Layer 1 | Epoch 2  |
+|          4600 |    25699.4805 | Layer 1 | Epoch 2  |
+|          4700 |    25453.2598 | Layer 1 | Epoch 2  |
+|          4800 |    25543.8457 | Layer 1 | Epoch 2  |
+|          4900 |    25486.8984 | Layer 1 | Epoch 2  |
+|          5000 |    25329.2031 | Layer 1 | Epoch 2  |
+|          5100 |    25442.2168 | Layer 1 | Epoch 2  |
+|          5200 |    25431.1758 | Layer 1 | Epoch 2  |
+|          5300 |    25194.5312 | Layer 1 | Epoch 2  |
+|          5400 |    25412.4805 | Layer 1 | Epoch 2  |
+|          5500 |    25175.1094 | Layer 1 | Epoch 2  |
+|          5600 |    24969.2676 | Layer 1 | Epoch 2  |
+|          5700 |    24972.9141 | Layer 1 | Epoch 2  |
+|          5800 |    24986.3242 | Layer 1 | Epoch 2  |
+|          5900 |    24989.6875 | Layer 1 | Epoch 2  |
+|          6000 |    24814.6094 | Layer 1 | Epoch 2  |
+|          6100 |    24971.6934 | Layer 1 | Epoch 2  |
+|          6200 |    24732.1875 | Layer 1 | Epoch 3  |
+|          6300 |    24512.4863 | Layer 1 | Epoch 3  |
+|          6400 |    24475.4102 | Layer 1 | Epoch 3  |
+|          6500 |    24674.5664 | Layer 1 | Epoch 3  |
+|          6600 |    24454.2520 | Layer 1 | Epoch 3  |
+|          6700 |    24381.7402 | Layer 1 | Epoch 3  |
+|          6800 |    24303.8672 | Layer 1 | Epoch 3  |
+|          6900 |    24453.0879 | Layer 1 | Epoch 3  |
+|          7000 |    24322.8711 | Layer 1 | Epoch 3  |
+|          7100 |    24372.4590 | Layer 1 | Epoch 3  |
+|          7200 |    24463.7109 | Layer 1 | Epoch 3  |
+|          7300 |    24009.6582 | Layer 1 | Epoch 3  |
+|          7400 |    23950.4297 | Layer 1 | Epoch 3  |
+|          7500 |    24252.9512 | Layer 1 | Epoch 3  |
+|          7600 |    24105.6270 | Layer 1 | Epoch 3  |
+|          7700 |    23922.6309 | Layer 1 | Epoch 3  |
+|          7800 |    24098.9746 | Layer 1 | Epoch 3  |
+|          7900 |    23756.4414 | Layer 1 | Epoch 3  |
+|          8000 |    23926.5156 | Layer 1 | Epoch 3  |
+|          8100 |    24016.9102 | Layer 1 | Epoch 3  |
+|          8200 |    23822.9102 | Layer 1 | Epoch 3  |
+|          8300 |    23765.2480 | Layer 1 | Epoch 3  |
+|          8400 |    23644.9531 | Layer 1 | Epoch 3  |
+|          8500 |    23581.3398 | Layer 1 | Epoch 3  |
+|          8600 |    23639.5781 | Layer 1 | Epoch 3  |
+|          8700 |    23696.7891 | Layer 1 | Epoch 3  |
+|          8800 |    23516.9492 | Layer 1 | Epoch 3  |
+|          8900 |    23694.8438 | Layer 1 | Epoch 3  |
+|          9000 |    23469.4707 | Layer 1 | Epoch 3  |
+|          9100 |    23656.8691 | Layer 1 | Epoch 3  |
+|          9200 |    23411.9258 | Layer 1 | Epoch 3  |
+|          9300 |    23409.1094 | Layer 1 | Epoch 4  |
+|          9400 |    23639.5176 | Layer 1 | Epoch 4  |
+|          9500 |    23301.8906 | Layer 1 | Epoch 4  |
+|          9600 |    23334.3125 | Layer 1 | Epoch 4  |
+|          9700 |    23356.9141 | Layer 1 | Epoch 4  |
+|          9800 |    23139.1016 | Layer 1 | Epoch 4  |
+|          9900 |    23080.3984 | Layer 1 | Epoch 4  |
+|         10000 |    23047.4297 | Layer 1 | Epoch 4  |
+|         10100 |    23277.7988 | Layer 1 | Epoch 4  |
+|         10200 |    22958.6543 | Layer 1 | Epoch 4  |
+|         10300 |    23090.4160 | Layer 1 | Epoch 4  |
+|         10400 |    23100.5586 | Layer 1 | Epoch 4  |
+|         10500 |    23047.4004 | Layer 1 | Epoch 4  |
+|         10600 |    22945.9629 | Layer 1 | Epoch 4  |
+|         10700 |    22761.9863 | Layer 1 | Epoch 4  |
+|         10800 |    22714.5840 | Layer 1 | Epoch 4  |
+|         10900 |    22954.1523 | Layer 1 | Epoch 4  |
+|         11000 |    22682.3633 | Layer 1 | Epoch 4  |
+|         11100 |    22747.4023 | Layer 1 | Epoch 4  |
+|         11200 |    22917.2148 | Layer 1 | Epoch 4  |
+|         11300 |    22542.6914 | Layer 1 | Epoch 4  |
+|         11400 |    22415.4668 | Layer 1 | Epoch 4  |
+|         11500 |    22786.2695 | Layer 1 | Epoch 4  |
+|         11600 |    22848.5977 | Layer 1 | Epoch 4  |
+|         11700 |    22674.3496 | Layer 1 | Epoch 4  |
+|         11800 |    22534.1484 | Layer 1 | Epoch 4  |
+|         11900 |    22545.7109 | Layer 1 | Epoch 4  |
+|         12000 |    22579.3984 | Layer 1 | Epoch 4  |
+|         12100 |    22588.6211 | Layer 1 | Epoch 4  |
+|         12200 |    22329.4199 | Layer 1 | Epoch 4  |
+|         12300 |    22241.8262 | Layer 1 | Epoch 4  |
+|         12400 |    22259.4844 | Layer 1 | Epoch 5  |
+|         12500 |    22158.7031 | Layer 1 | Epoch 5  |
+|         12600 |    22337.3379 | Layer 1 | Epoch 5  |
+|         12700 |    22024.0117 | Layer 1 | Epoch 5  |
+|         12800 |    22327.1660 | Layer 1 | Epoch 5  |
+|         12900 |    22371.0176 | Layer 1 | Epoch 5  |
+|         13000 |    22245.1738 | Layer 1 | Epoch 5  |
+|         13100 |    22333.0078 | Layer 1 | Epoch 5  |
+|         13200 |    22124.0957 | Layer 1 | Epoch 5  |
+|         13300 |    22057.6250 | Layer 1 | Epoch 5  |
+|         13400 |    22035.2227 | Layer 1 | Epoch 5  |
+|         13500 |    22122.5078 | Layer 1 | Epoch 5  |
+|         13600 |    22057.1133 | Layer 1 | Epoch 5  |
+|         13700 |    22072.9473 | Layer 1 | Epoch 5  |
+|         13800 |    21929.0430 | Layer 1 | Epoch 5  |
+|         13900 |    22137.4980 | Layer 1 | Epoch 5  |
+|         14000 |    21745.7227 | Layer 1 | Epoch 5  |
+|         14100 |    21999.6738 | Layer 1 | Epoch 5  |
+|         14200 |    21714.6113 | Layer 1 | Epoch 5  |
+|         14300 |    22059.9902 | Layer 1 | Epoch 5  |
+|         14400 |    21817.6914 | Layer 1 | Epoch 5  |
+|         14500 |    21917.4766 | Layer 1 | Epoch 5  |
+|         14600 |    22017.2695 | Layer 1 | Epoch 5  |
+|         14700 |    21607.3711 | Layer 1 | Epoch 5  |
+|         14800 |    21713.9785 | Layer 1 | Epoch 5  |
+|         14900 |    21553.3379 | Layer 1 | Epoch 5  |
+|         15000 |    21426.8223 | Layer 1 | Epoch 5  |
+|         15100 |    21872.9414 | Layer 1 | Epoch 5  |
+|         15200 |    21252.6680 | Layer 1 | Epoch 5  |
+|         15300 |    21506.2891 | Layer 1 | Epoch 5  |
+|         15400 |    21591.8965 | Layer 1 | Epoch 5  |
+E tensorflow/stream_executor/cuda/cuda_event.cc:49] Error polling for event status: failed to query event: CUDA_ERROR_LAUNCH_FAILED
+F tensorflow/core/common_runtime/gpu/gpu_event_mgr.cc:198] Unexpected Event status: 1

@@ -4,5 +4,6 @@
 *.acergpu940
 *.novalocal
 *.fox2
+*.red-fox
 .DS_Store
 t*.csv

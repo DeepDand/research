@@ -268,10 +268,7 @@ def loss_x_entropy(output, target):
 
 def main_unsupervised():
   with tf.Graph().as_default() as g:
-    config = tf.ConfigProto(
-      device_count = {'GPU': 0}
-    )
-    sess = tf.Session(config=config)
+    sess = tf.Session()
 
     num_hidden = FLAGS.num_hidden_layers
     ae_hidden_shapes = [getattr(FLAGS, "hidden{0}_units".format(j + 1))

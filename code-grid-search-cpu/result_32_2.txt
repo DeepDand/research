@@ -1478,3 +1478,2290 @@ Dataset array size:  (6200, 256, 256, 1)
 |        143600 |    18401.0254 | Layer 1 | Epoch 47  |
 |        143700 |    18428.2773 | Layer 1 | Epoch 47  |
 |        143800 |    18754.0156 | Layer 1 | Epoch 47  |
+|        143900 |    18562.0957 | Layer 1 | Epoch 47  |
+|        144000 |    18141.4883 | Layer 1 | Epoch 47  |
+|        144100 |    18267.8438 | Layer 1 | Epoch 47  |
+|        144200 |    17947.8555 | Layer 1 | Epoch 47  |
+|        144300 |    18582.0059 | Layer 1 | Epoch 47  |
+|        144400 |    18821.6055 | Layer 1 | Epoch 47  |
+|        144500 |    18348.5527 | Layer 1 | Epoch 47  |
+|        144600 |    18666.0352 | Layer 1 | Epoch 47  |
+|        144700 |    18705.9453 | Layer 1 | Epoch 47  |
+|        144800 |    18711.6094 | Layer 1 | Epoch 47  |
+|        144900 |    18081.5430 | Layer 1 | Epoch 47  |
+|        145000 |    18419.4102 | Layer 1 | Epoch 47  |
+|        145100 |    18732.7285 | Layer 1 | Epoch 47  |
+|        145200 |    18499.0332 | Layer 1 | Epoch 47  |
+|        145300 |    18447.7324 | Layer 1 | Epoch 47  |
+|        145400 |    18440.6191 | Layer 1 | Epoch 47  |
+|        145500 |    18541.1738 | Layer 1 | Epoch 47  |
+|        145600 |    18417.3848 | Layer 1 | Epoch 47  |
+|        145700 |    18551.8672 | Layer 1 | Epoch 48  |
+|        145800 |    18798.5469 | Layer 1 | Epoch 48  |
+|        145900 |    18382.2891 | Layer 1 | Epoch 48  |
+|        146000 |    18648.1191 | Layer 1 | Epoch 48  |
+|        146100 |    18368.3574 | Layer 1 | Epoch 48  |
+|        146200 |    18272.6699 | Layer 1 | Epoch 48  |
+|        146300 |    18756.5938 | Layer 1 | Epoch 48  |
+|        146400 |    18286.5195 | Layer 1 | Epoch 48  |
+|        146500 |    18475.8906 | Layer 1 | Epoch 48  |
+|        146600 |    18227.4023 | Layer 1 | Epoch 48  |
+|        146700 |    18571.9746 | Layer 1 | Epoch 48  |
+|        146800 |    18559.1992 | Layer 1 | Epoch 48  |
+|        146900 |    18734.6387 | Layer 1 | Epoch 48  |
+|        147000 |    18125.7168 | Layer 1 | Epoch 48  |
+|        147100 |    18622.2637 | Layer 1 | Epoch 48  |
+|        147200 |    18761.6816 | Layer 1 | Epoch 48  |
+|        147300 |    18386.4941 | Layer 1 | Epoch 48  |
+|        147400 |    17953.9258 | Layer 1 | Epoch 48  |
+|        147500 |    18737.3164 | Layer 1 | Epoch 48  |
+|        147600 |    18413.2402 | Layer 1 | Epoch 48  |
+|        147700 |    18484.5391 | Layer 1 | Epoch 48  |
+|        147800 |    18439.9219 | Layer 1 | Epoch 48  |
+|        147900 |    18860.8945 | Layer 1 | Epoch 48  |
+|        148000 |    18510.4688 | Layer 1 | Epoch 48  |
+|        148100 |    18941.9531 | Layer 1 | Epoch 48  |
+|        148200 |    18281.7266 | Layer 1 | Epoch 48  |
+|        148300 |    18515.9688 | Layer 1 | Epoch 48  |
+|        148400 |    18342.1328 | Layer 1 | Epoch 48  |
+|        148500 |    18228.4082 | Layer 1 | Epoch 48  |
+|        148600 |    19171.5332 | Layer 1 | Epoch 48  |
+|        148700 |    18481.9336 | Layer 1 | Epoch 48  |
+|        148800 |    18555.6367 | Layer 1 | Epoch 49  |
+|        148900 |    18649.2129 | Layer 1 | Epoch 49  |
+|        149000 |    18298.6602 | Layer 1 | Epoch 49  |
+|        149100 |    18395.6836 | Layer 1 | Epoch 49  |
+|        149200 |    18340.6895 | Layer 1 | Epoch 49  |
+|        149300 |    18852.7012 | Layer 1 | Epoch 49  |
+|        149400 |    18008.9863 | Layer 1 | Epoch 49  |
+|        149500 |    18534.4473 | Layer 1 | Epoch 49  |
+|        149600 |    18779.4473 | Layer 1 | Epoch 49  |
+|        149700 |    18199.1133 | Layer 1 | Epoch 49  |
+|        149800 |    18408.6074 | Layer 1 | Epoch 49  |
+|        149900 |    18580.0195 | Layer 1 | Epoch 49  |
+|        150000 |    18266.6934 | Layer 1 | Epoch 49  |
+|        150100 |    18339.5195 | Layer 1 | Epoch 49  |
+|        150200 |    18599.9512 | Layer 1 | Epoch 49  |
+|        150300 |    18489.0059 | Layer 1 | Epoch 49  |
+|        150400 |    18599.6328 | Layer 1 | Epoch 49  |
+|        150500 |    18299.5703 | Layer 1 | Epoch 49  |
+|        150600 |    18467.9512 | Layer 1 | Epoch 49  |
+|        150700 |    18480.2734 | Layer 1 | Epoch 49  |
+|        150800 |    18460.4551 | Layer 1 | Epoch 49  |
+|        150900 |    18515.5566 | Layer 1 | Epoch 49  |
+|        151000 |    18496.1660 | Layer 1 | Epoch 49  |
+|        151100 |    17905.7695 | Layer 1 | Epoch 49  |
+|        151200 |    18230.2051 | Layer 1 | Epoch 49  |
+|        151300 |    18413.6602 | Layer 1 | Epoch 49  |
+|        151400 |    18682.1699 | Layer 1 | Epoch 49  |
+|        151500 |    18264.3418 | Layer 1 | Epoch 49  |
+|        151600 |    18548.1406 | Layer 1 | Epoch 49  |
+|        151700 |    18641.4453 | Layer 1 | Epoch 49  |
+|        151800 |    18656.4414 | Layer 1 | Epoch 49  |
+|        151900 |    18449.1543 | Layer 1 | Epoch 50  |
+|        152000 |    18694.4570 | Layer 1 | Epoch 50  |
+|        152100 |    18411.8867 | Layer 1 | Epoch 50  |
+|        152200 |    18518.2422 | Layer 1 | Epoch 50  |
+|        152300 |    18656.2852 | Layer 1 | Epoch 50  |
+|        152400 |    18596.9570 | Layer 1 | Epoch 50  |
+|        152500 |    18223.6621 | Layer 1 | Epoch 50  |
+|        152600 |    18331.0645 | Layer 1 | Epoch 50  |
+|        152700 |    18311.5508 | Layer 1 | Epoch 50  |
+|        152800 |    18921.5898 | Layer 1 | Epoch 50  |
+|        152900 |    18323.1836 | Layer 1 | Epoch 50  |
+|        153000 |    18419.2109 | Layer 1 | Epoch 50  |
+|        153100 |    18461.7637 | Layer 1 | Epoch 50  |
+|        153200 |    18799.0977 | Layer 1 | Epoch 50  |
+|        153300 |    18371.1074 | Layer 1 | Epoch 50  |
+|        153400 |    18701.9980 | Layer 1 | Epoch 50  |
+|        153500 |    18475.2930 | Layer 1 | Epoch 50  |
+|        153600 |    18357.9102 | Layer 1 | Epoch 50  |
+|        153700 |    18420.9727 | Layer 1 | Epoch 50  |
+|        153800 |    18362.2402 | Layer 1 | Epoch 50  |
+|        153900 |    18408.3926 | Layer 1 | Epoch 50  |
+|        154000 |    18456.6855 | Layer 1 | Epoch 50  |
+|        154100 |    18231.7207 | Layer 1 | Epoch 50  |
+|        154200 |    18236.9473 | Layer 1 | Epoch 50  |
+|        154300 |    18154.9902 | Layer 1 | Epoch 50  |
+|        154400 |    18365.7402 | Layer 1 | Epoch 50  |
+|        154500 |    18401.6055 | Layer 1 | Epoch 50  |
+|        154600 |    18559.0020 | Layer 1 | Epoch 50  |
+|        154700 |    18457.6016 | Layer 1 | Epoch 50  |
+|        154800 |    18313.4766 | Layer 1 | Epoch 50  |
+|        154900 |    18367.1738 | Layer 1 | Epoch 50  |
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |       23.6245 | Layer 2 | Epoch 1  |
+|           100 |       23.5048 | Layer 2 | Epoch 1  |
+|           200 |       23.4398 | Layer 2 | Epoch 1  |
+|           300 |       23.2976 | Layer 2 | Epoch 1  |
+|           400 |       23.3948 | Layer 2 | Epoch 1  |
+|           500 |       23.2629 | Layer 2 | Epoch 1  |
+|           600 |       23.1721 | Layer 2 | Epoch 1  |
+|           700 |       23.2629 | Layer 2 | Epoch 1  |
+|           800 |       23.0486 | Layer 2 | Epoch 1  |
+|           900 |       22.9375 | Layer 2 | Epoch 1  |
+|          1000 |       22.9739 | Layer 2 | Epoch 1  |
+|          1100 |       22.7353 | Layer 2 | Epoch 1  |
+|          1200 |       22.6545 | Layer 2 | Epoch 1  |
+|          1300 |       22.6596 | Layer 2 | Epoch 1  |
+|          1400 |       22.7242 | Layer 2 | Epoch 1  |
+|          1500 |       22.5338 | Layer 2 | Epoch 1  |
+|          1600 |       22.4772 | Layer 2 | Epoch 1  |
+|          1700 |       22.5290 | Layer 2 | Epoch 1  |
+|          1800 |       22.4650 | Layer 2 | Epoch 1  |
+|          1900 |       22.2583 | Layer 2 | Epoch 1  |
+|          2000 |       22.2584 | Layer 2 | Epoch 1  |
+|          2100 |       22.1720 | Layer 2 | Epoch 1  |
+|          2200 |       22.1283 | Layer 2 | Epoch 1  |
+|          2300 |       21.9664 | Layer 2 | Epoch 1  |
+|          2400 |       22.0486 | Layer 2 | Epoch 1  |
+|          2500 |       21.9432 | Layer 2 | Epoch 1  |
+|          2600 |       21.9666 | Layer 2 | Epoch 1  |
+|          2700 |       21.8773 | Layer 2 | Epoch 1  |
+|          2800 |       21.8803 | Layer 2 | Epoch 1  |
+|          2900 |       21.6899 | Layer 2 | Epoch 1  |
+|          3000 |       21.6108 | Layer 2 | Epoch 1  |
+|          3100 |       21.5750 | Layer 2 | Epoch 2  |
+|          3200 |       21.5266 | Layer 2 | Epoch 2  |
+|          3300 |       21.4542 | Layer 2 | Epoch 2  |
+|          3400 |       21.4578 | Layer 2 | Epoch 2  |
+|          3500 |       21.4096 | Layer 2 | Epoch 2  |
+|          3600 |       21.4217 | Layer 2 | Epoch 2  |
+|          3700 |       21.3076 | Layer 2 | Epoch 2  |
+|          3800 |       21.3226 | Layer 2 | Epoch 2  |
+|          3900 |       21.1854 | Layer 2 | Epoch 2  |
+|          4000 |       21.1257 | Layer 2 | Epoch 2  |
+|          4100 |       21.1153 | Layer 2 | Epoch 2  |
+|          4200 |       21.0919 | Layer 2 | Epoch 2  |
+|          4300 |       21.0437 | Layer 2 | Epoch 2  |
+|          4400 |       21.0134 | Layer 2 | Epoch 2  |
+|          4500 |       20.8846 | Layer 2 | Epoch 2  |
+|          4600 |       20.9037 | Layer 2 | Epoch 2  |
+|          4700 |       20.8535 | Layer 2 | Epoch 2  |
+|          4800 |       20.8693 | Layer 2 | Epoch 2  |
+|          4900 |       20.8363 | Layer 2 | Epoch 2  |
+|          5000 |       20.7273 | Layer 2 | Epoch 2  |
+|          5100 |       20.8252 | Layer 2 | Epoch 2  |
+|          5200 |       20.5985 | Layer 2 | Epoch 2  |
+|          5300 |       20.6339 | Layer 2 | Epoch 2  |
+|          5400 |       20.5975 | Layer 2 | Epoch 2  |
+|          5500 |       20.5169 | Layer 2 | Epoch 2  |
+|          5600 |       20.5587 | Layer 2 | Epoch 2  |
+|          5700 |       20.4690 | Layer 2 | Epoch 2  |
+|          5800 |       20.5719 | Layer 2 | Epoch 2  |
+|          5900 |       20.5013 | Layer 2 | Epoch 2  |
+|          6000 |       20.3705 | Layer 2 | Epoch 2  |
+|          6100 |       20.3003 | Layer 2 | Epoch 2  |
+|          6200 |       20.3014 | Layer 2 | Epoch 3  |
+|          6300 |       20.2396 | Layer 2 | Epoch 3  |
+|          6400 |       20.3022 | Layer 2 | Epoch 3  |
+|          6500 |       20.2785 | Layer 2 | Epoch 3  |
+|          6600 |       20.1526 | Layer 2 | Epoch 3  |
+|          6700 |       20.0960 | Layer 2 | Epoch 3  |
+|          6800 |       20.1835 | Layer 2 | Epoch 3  |
+|          6900 |       20.1349 | Layer 2 | Epoch 3  |
+|          7000 |       20.0507 | Layer 2 | Epoch 3  |
+|          7100 |       20.0456 | Layer 2 | Epoch 3  |
+|          7200 |       20.0009 | Layer 2 | Epoch 3  |
+|          7300 |       19.9847 | Layer 2 | Epoch 3  |
+|          7400 |       19.9391 | Layer 2 | Epoch 3  |
+|          7500 |       19.9099 | Layer 2 | Epoch 3  |
+|          7600 |       19.9023 | Layer 2 | Epoch 3  |
+|          7700 |       19.8532 | Layer 2 | Epoch 3  |
+|          7800 |       19.8835 | Layer 2 | Epoch 3  |
+|          7900 |       19.8442 | Layer 2 | Epoch 3  |
+|          8000 |       19.8646 | Layer 2 | Epoch 3  |
+|          8100 |       19.7559 | Layer 2 | Epoch 3  |
+|          8200 |       19.7657 | Layer 2 | Epoch 3  |
+|          8300 |       19.7092 | Layer 2 | Epoch 3  |
+|          8400 |       19.6044 | Layer 2 | Epoch 3  |
+|          8500 |       19.6137 | Layer 2 | Epoch 3  |
+|          8600 |       19.6881 | Layer 2 | Epoch 3  |
+|          8700 |       19.6311 | Layer 2 | Epoch 3  |
+|          8800 |       19.5222 | Layer 2 | Epoch 3  |
+|          8900 |       19.6072 | Layer 2 | Epoch 3  |
+|          9000 |       19.5048 | Layer 2 | Epoch 3  |
+|          9100 |       19.4727 | Layer 2 | Epoch 3  |
+|          9200 |       19.5258 | Layer 2 | Epoch 3  |
+|          9300 |       19.5423 | Layer 2 | Epoch 4  |
+|          9400 |       19.4813 | Layer 2 | Epoch 4  |
+|          9500 |       19.3781 | Layer 2 | Epoch 4  |
+|          9600 |       19.4352 | Layer 2 | Epoch 4  |
+|          9700 |       19.4819 | Layer 2 | Epoch 4  |
+|          9800 |       19.4814 | Layer 2 | Epoch 4  |
+|          9900 |       19.2956 | Layer 2 | Epoch 4  |
+|         10000 |       19.2725 | Layer 2 | Epoch 4  |
+|         10100 |       19.3021 | Layer 2 | Epoch 4  |
+|         10200 |       19.3186 | Layer 2 | Epoch 4  |
+|         10300 |       19.2287 | Layer 2 | Epoch 4  |
+|         10400 |       19.2675 | Layer 2 | Epoch 4  |
+|         10500 |       19.1933 | Layer 2 | Epoch 4  |
+|         10600 |       19.2814 | Layer 2 | Epoch 4  |
+|         10700 |       19.1856 | Layer 2 | Epoch 4  |
+|         10800 |       19.0926 | Layer 2 | Epoch 4  |
+|         10900 |       19.0884 | Layer 2 | Epoch 4  |
+|         11000 |       19.0885 | Layer 2 | Epoch 4  |
+|         11100 |       18.9061 | Layer 2 | Epoch 4  |
+|         11200 |       18.9743 | Layer 2 | Epoch 4  |
+|         11300 |       18.9317 | Layer 2 | Epoch 4  |
+|         11400 |       19.0823 | Layer 2 | Epoch 4  |
+|         11500 |       18.9503 | Layer 2 | Epoch 4  |
+|         11600 |       18.9456 | Layer 2 | Epoch 4  |
+|         11700 |       18.9721 | Layer 2 | Epoch 4  |
+|         11800 |       18.9192 | Layer 2 | Epoch 4  |
+|         11900 |       18.8204 | Layer 2 | Epoch 4  |
+|         12000 |       18.7688 | Layer 2 | Epoch 4  |
+|         12100 |       18.7725 | Layer 2 | Epoch 4  |
+|         12200 |       18.8691 | Layer 2 | Epoch 4  |
+|         12300 |       18.7941 | Layer 2 | Epoch 4  |
+|         12400 |       18.7647 | Layer 2 | Epoch 5  |
+|         12500 |       18.6285 | Layer 2 | Epoch 5  |
+|         12600 |       18.7458 | Layer 2 | Epoch 5  |
+|         12700 |       18.8025 | Layer 2 | Epoch 5  |
+|         12800 |       18.6422 | Layer 2 | Epoch 5  |
+|         12900 |       18.6261 | Layer 2 | Epoch 5  |
+|         13000 |       18.6316 | Layer 2 | Epoch 5  |
+|         13100 |       18.5974 | Layer 2 | Epoch 5  |
+|         13200 |       18.7320 | Layer 2 | Epoch 5  |
+|         13300 |       18.5796 | Layer 2 | Epoch 5  |
+|         13400 |       18.5912 | Layer 2 | Epoch 5  |
+|         13500 |       18.4859 | Layer 2 | Epoch 5  |
+|         13600 |       18.5843 | Layer 2 | Epoch 5  |
+|         13700 |       18.6033 | Layer 2 | Epoch 5  |
+|         13800 |       18.5935 | Layer 2 | Epoch 5  |
+|         13900 |       18.5804 | Layer 2 | Epoch 5  |
+|         14000 |       18.4023 | Layer 2 | Epoch 5  |
+|         14100 |       18.5626 | Layer 2 | Epoch 5  |
+|         14200 |       18.3109 | Layer 2 | Epoch 5  |
+|         14300 |       18.3860 | Layer 2 | Epoch 5  |
+|         14400 |       18.6053 | Layer 2 | Epoch 5  |
+|         14500 |       18.2956 | Layer 2 | Epoch 5  |
+|         14600 |       18.3277 | Layer 2 | Epoch 5  |
+|         14700 |       18.1568 | Layer 2 | Epoch 5  |
+|         14800 |       18.4138 | Layer 2 | Epoch 5  |
+|         14900 |       18.2606 | Layer 2 | Epoch 5  |
+|         15000 |       18.3208 | Layer 2 | Epoch 5  |
+|         15100 |       18.2503 | Layer 2 | Epoch 5  |
+|         15200 |       18.2695 | Layer 2 | Epoch 5  |
+|         15300 |       18.4230 | Layer 2 | Epoch 5  |
+|         15400 |       18.1392 | Layer 2 | Epoch 5  |
+|         15500 |       18.0396 | Layer 2 | Epoch 6  |
+|         15600 |       18.2163 | Layer 2 | Epoch 6  |
+|         15700 |       18.0913 | Layer 2 | Epoch 6  |
+|         15800 |       18.2488 | Layer 2 | Epoch 6  |
+|         15900 |       18.2017 | Layer 2 | Epoch 6  |
+|         16000 |       18.0915 | Layer 2 | Epoch 6  |
+|         16100 |       17.9920 | Layer 2 | Epoch 6  |
+|         16200 |       18.0085 | Layer 2 | Epoch 6  |
+|         16300 |       18.0844 | Layer 2 | Epoch 6  |
+|         16400 |       18.0320 | Layer 2 | Epoch 6  |
+|         16500 |       18.0992 | Layer 2 | Epoch 6  |
+|         16600 |       17.9861 | Layer 2 | Epoch 6  |
+|         16700 |       18.0046 | Layer 2 | Epoch 6  |
+|         16800 |       17.9747 | Layer 2 | Epoch 6  |
+|         16900 |       17.9923 | Layer 2 | Epoch 6  |
+|         17000 |       17.9715 | Layer 2 | Epoch 6  |
+|         17100 |       17.9615 | Layer 2 | Epoch 6  |
+|         17200 |       17.8850 | Layer 2 | Epoch 6  |
+|         17300 |       18.0153 | Layer 2 | Epoch 6  |
+|         17400 |       17.9417 | Layer 2 | Epoch 6  |
+|         17500 |       17.8759 | Layer 2 | Epoch 6  |
+|         17600 |       17.7412 | Layer 2 | Epoch 6  |
+|         17700 |       17.9237 | Layer 2 | Epoch 6  |
+|         17800 |       17.7535 | Layer 2 | Epoch 6  |
+|         17900 |       17.9013 | Layer 2 | Epoch 6  |
+|         18000 |       17.7613 | Layer 2 | Epoch 6  |
+|         18100 |       17.7429 | Layer 2 | Epoch 6  |
+|         18200 |       17.6985 | Layer 2 | Epoch 6  |
+|         18300 |       17.7581 | Layer 2 | Epoch 6  |
+|         18400 |       17.8304 | Layer 2 | Epoch 6  |
+|         18500 |       17.8340 | Layer 2 | Epoch 6  |
+|         18600 |       17.7428 | Layer 2 | Epoch 7  |
+|         18700 |       17.7914 | Layer 2 | Epoch 7  |
+|         18800 |       17.7060 | Layer 2 | Epoch 7  |
+|         18900 |       17.4986 | Layer 2 | Epoch 7  |
+|         19000 |       17.5480 | Layer 2 | Epoch 7  |
+|         19100 |       17.7084 | Layer 2 | Epoch 7  |
+|         19200 |       17.6376 | Layer 2 | Epoch 7  |
+|         19300 |       17.6163 | Layer 2 | Epoch 7  |
+|         19400 |       17.7853 | Layer 2 | Epoch 7  |
+|         19500 |       17.5732 | Layer 2 | Epoch 7  |
+|         19600 |       17.4618 | Layer 2 | Epoch 7  |
+|         19700 |       17.5967 | Layer 2 | Epoch 7  |
+|         19800 |       17.8155 | Layer 2 | Epoch 7  |
+|         19900 |       17.3108 | Layer 2 | Epoch 7  |
+|         20000 |       17.7790 | Layer 2 | Epoch 7  |
+|         20100 |       17.5974 | Layer 2 | Epoch 7  |
+|         20200 |       17.4238 | Layer 2 | Epoch 7  |
+|         20300 |       17.5590 | Layer 2 | Epoch 7  |
+|         20400 |       17.4387 | Layer 2 | Epoch 7  |
+|         20500 |       17.6131 | Layer 2 | Epoch 7  |
+|         20600 |       17.3000 | Layer 2 | Epoch 7  |
+|         20700 |       17.1752 | Layer 2 | Epoch 7  |
+|         20800 |       17.2218 | Layer 2 | Epoch 7  |
+|         20900 |       17.3088 | Layer 2 | Epoch 7  |
+|         21000 |       17.4588 | Layer 2 | Epoch 7  |
+|         21100 |       17.2118 | Layer 2 | Epoch 7  |
+|         21200 |       17.3918 | Layer 2 | Epoch 7  |
+|         21300 |       17.2562 | Layer 2 | Epoch 7  |
+|         21400 |       17.6568 | Layer 2 | Epoch 7  |
+|         21500 |       17.2284 | Layer 2 | Epoch 7  |
+|         21600 |       17.3978 | Layer 2 | Epoch 7  |
+|         21700 |       17.2629 | Layer 2 | Epoch 8  |
+|         21800 |       17.2577 | Layer 2 | Epoch 8  |
+|         21900 |       17.3293 | Layer 2 | Epoch 8  |
+|         22000 |       17.1832 | Layer 2 | Epoch 8  |
+|         22100 |       17.1401 | Layer 2 | Epoch 8  |
+|         22200 |       17.2120 | Layer 2 | Epoch 8  |
+|         22300 |       17.2374 | Layer 2 | Epoch 8  |
+|         22400 |       17.2082 | Layer 2 | Epoch 8  |
+|         22500 |       17.1513 | Layer 2 | Epoch 8  |
+|         22600 |       17.1982 | Layer 2 | Epoch 8  |
+|         22700 |       17.0399 | Layer 2 | Epoch 8  |
+|         22800 |       17.0300 | Layer 2 | Epoch 8  |
+|         22900 |       17.1540 | Layer 2 | Epoch 8  |
+|         23000 |       17.2585 | Layer 2 | Epoch 8  |
+|         23100 |       17.2712 | Layer 2 | Epoch 8  |
+|         23200 |       17.1252 | Layer 2 | Epoch 8  |
+|         23300 |       17.0650 | Layer 2 | Epoch 8  |
+|         23400 |       17.0733 | Layer 2 | Epoch 8  |
+|         23500 |       16.9461 | Layer 2 | Epoch 8  |
+|         23600 |       17.0565 | Layer 2 | Epoch 8  |
+|         23700 |       17.1227 | Layer 2 | Epoch 8  |
+|         23800 |       16.8581 | Layer 2 | Epoch 8  |
+|         23900 |       16.9424 | Layer 2 | Epoch 8  |
+|         24000 |       17.1038 | Layer 2 | Epoch 8  |
+|         24100 |       16.8650 | Layer 2 | Epoch 8  |
+|         24200 |       16.9110 | Layer 2 | Epoch 8  |
+|         24300 |       16.8655 | Layer 2 | Epoch 8  |
+|         24400 |       17.0504 | Layer 2 | Epoch 8  |
+|         24500 |       16.8570 | Layer 2 | Epoch 8  |
+|         24600 |       16.8274 | Layer 2 | Epoch 8  |
+|         24700 |       16.8708 | Layer 2 | Epoch 8  |
+|         24800 |       17.1454 | Layer 2 | Epoch 9  |
+|         24900 |       16.8127 | Layer 2 | Epoch 9  |
+|         25000 |       16.9647 | Layer 2 | Epoch 9  |
+|         25100 |       16.8412 | Layer 2 | Epoch 9  |
+|         25200 |       16.6792 | Layer 2 | Epoch 9  |
+|         25300 |       16.7936 | Layer 2 | Epoch 9  |
+|         25400 |       16.6097 | Layer 2 | Epoch 9  |
+|         25500 |       16.7782 | Layer 2 | Epoch 9  |
+|         25600 |       16.8420 | Layer 2 | Epoch 9  |
+|         25700 |       17.1418 | Layer 2 | Epoch 9  |
+|         25800 |       16.6108 | Layer 2 | Epoch 9  |
+|         25900 |       16.5813 | Layer 2 | Epoch 9  |
+|         26000 |       16.7077 | Layer 2 | Epoch 9  |
+|         26100 |       17.0450 | Layer 2 | Epoch 9  |
+|         26200 |       16.7700 | Layer 2 | Epoch 9  |
+|         26300 |       16.4618 | Layer 2 | Epoch 9  |
+|         26400 |       16.7524 | Layer 2 | Epoch 9  |
+|         26500 |       16.3723 | Layer 2 | Epoch 9  |
+|         26600 |       16.8888 | Layer 2 | Epoch 9  |
+|         26700 |       16.6376 | Layer 2 | Epoch 9  |
+|         26800 |       16.5024 | Layer 2 | Epoch 9  |
+|         26900 |       16.6434 | Layer 2 | Epoch 9  |
+|         27000 |       16.5363 | Layer 2 | Epoch 9  |
+|         27100 |       16.5673 | Layer 2 | Epoch 9  |
+|         27200 |       16.3316 | Layer 2 | Epoch 9  |
+|         27300 |       16.4943 | Layer 2 | Epoch 9  |
+|         27400 |       16.4020 | Layer 2 | Epoch 9  |
+|         27500 |       16.5020 | Layer 2 | Epoch 9  |
+|         27600 |       16.4557 | Layer 2 | Epoch 9  |
+|         27700 |       16.4874 | Layer 2 | Epoch 9  |
+|         27800 |       16.4383 | Layer 2 | Epoch 9  |
+|         27900 |       16.6911 | Layer 2 | Epoch 10  |
+|         28000 |       16.5766 | Layer 2 | Epoch 10  |
+|         28100 |       16.4576 | Layer 2 | Epoch 10  |
+|         28200 |       16.2296 | Layer 2 | Epoch 10  |
+|         28300 |       16.5221 | Layer 2 | Epoch 10  |
+|         28400 |       16.2894 | Layer 2 | Epoch 10  |
+|         28500 |       16.7539 | Layer 2 | Epoch 10  |
+|         28600 |       16.4055 | Layer 2 | Epoch 10  |
+|         28700 |       16.5305 | Layer 2 | Epoch 10  |
+|         28800 |       16.5291 | Layer 2 | Epoch 10  |
+|         28900 |       16.7180 | Layer 2 | Epoch 10  |
+|         29000 |       16.1612 | Layer 2 | Epoch 10  |
+|         29100 |       16.5668 | Layer 2 | Epoch 10  |
+|         29200 |       16.5143 | Layer 2 | Epoch 10  |
+|         29300 |       16.5428 | Layer 2 | Epoch 10  |
+|         29400 |       16.3497 | Layer 2 | Epoch 10  |
+|         29500 |       16.7512 | Layer 2 | Epoch 10  |
+|         29600 |       16.3188 | Layer 2 | Epoch 10  |
+|         29700 |       16.3593 | Layer 2 | Epoch 10  |
+|         29800 |       16.2162 | Layer 2 | Epoch 10  |
+|         29900 |       16.3053 | Layer 2 | Epoch 10  |
+|         30000 |       15.9970 | Layer 2 | Epoch 10  |
+|         30100 |       16.5129 | Layer 2 | Epoch 10  |
+|         30200 |       16.3932 | Layer 2 | Epoch 10  |
+|         30300 |       16.5133 | Layer 2 | Epoch 10  |
+|         30400 |       16.2250 | Layer 2 | Epoch 10  |
+|         30500 |       16.5688 | Layer 2 | Epoch 10  |
+|         30600 |       16.5468 | Layer 2 | Epoch 10  |
+|         30700 |       15.9985 | Layer 2 | Epoch 10  |
+|         30800 |       16.3410 | Layer 2 | Epoch 10  |
+|         30900 |       16.2633 | Layer 2 | Epoch 10  |
+|         31000 |       15.9949 | Layer 2 | Epoch 11  |
+|         31100 |       16.0962 | Layer 2 | Epoch 11  |
+|         31200 |       16.0770 | Layer 2 | Epoch 11  |
+|         31300 |       16.2852 | Layer 2 | Epoch 11  |
+|         31400 |       16.2487 | Layer 2 | Epoch 11  |
+|         31500 |       16.3700 | Layer 2 | Epoch 11  |
+|         31600 |       16.4231 | Layer 2 | Epoch 11  |
+|         31700 |       15.9226 | Layer 2 | Epoch 11  |
+|         31800 |       16.1756 | Layer 2 | Epoch 11  |
+|         31900 |       16.1937 | Layer 2 | Epoch 11  |
+|         32000 |       16.1011 | Layer 2 | Epoch 11  |
+|         32100 |       16.5298 | Layer 2 | Epoch 11  |
+|         32200 |       16.4337 | Layer 2 | Epoch 11  |
+|         32300 |       16.0712 | Layer 2 | Epoch 11  |
+|         32400 |       16.3398 | Layer 2 | Epoch 11  |
+|         32500 |       16.2894 | Layer 2 | Epoch 11  |
+|         32600 |       16.0298 | Layer 2 | Epoch 11  |
+|         32700 |       16.4254 | Layer 2 | Epoch 11  |
+|         32800 |       16.1859 | Layer 2 | Epoch 11  |
+|         32900 |       16.2096 | Layer 2 | Epoch 11  |
+|         33000 |       16.1954 | Layer 2 | Epoch 11  |
+|         33100 |       15.8688 | Layer 2 | Epoch 11  |
+|         33200 |       15.9145 | Layer 2 | Epoch 11  |
+|         33300 |       16.0002 | Layer 2 | Epoch 11  |
+|         33400 |       15.9327 | Layer 2 | Epoch 11  |
+|         33500 |       15.8883 | Layer 2 | Epoch 11  |
+|         33600 |       16.2437 | Layer 2 | Epoch 11  |
+|         33700 |       16.0070 | Layer 2 | Epoch 11  |
+|         33800 |       16.1388 | Layer 2 | Epoch 11  |
+|         33900 |       15.8147 | Layer 2 | Epoch 11  |
+|         34000 |       16.1220 | Layer 2 | Epoch 11  |
+|         34100 |       16.2109 | Layer 2 | Epoch 12  |
+|         34200 |       16.0037 | Layer 2 | Epoch 12  |
+|         34300 |       15.8248 | Layer 2 | Epoch 12  |
+|         34400 |       16.1904 | Layer 2 | Epoch 12  |
+|         34500 |       16.2811 | Layer 2 | Epoch 12  |
+|         34600 |       15.8376 | Layer 2 | Epoch 12  |
+|         34700 |       15.9494 | Layer 2 | Epoch 12  |
+|         34800 |       15.8763 | Layer 2 | Epoch 12  |
+|         34900 |       15.6984 | Layer 2 | Epoch 12  |
+|         35000 |       15.8776 | Layer 2 | Epoch 12  |
+|         35100 |       15.9733 | Layer 2 | Epoch 12  |
+|         35200 |       15.7553 | Layer 2 | Epoch 12  |
+|         35300 |       15.7545 | Layer 2 | Epoch 12  |
+|         35400 |       15.9771 | Layer 2 | Epoch 12  |
+|         35500 |       15.9588 | Layer 2 | Epoch 12  |
+|         35600 |       15.8272 | Layer 2 | Epoch 12  |
+|         35700 |       15.7647 | Layer 2 | Epoch 12  |
+|         35800 |       15.8587 | Layer 2 | Epoch 12  |
+|         35900 |       15.9810 | Layer 2 | Epoch 12  |
+|         36000 |       15.9230 | Layer 2 | Epoch 12  |
+|         36100 |       16.1819 | Layer 2 | Epoch 12  |
+|         36200 |       16.2744 | Layer 2 | Epoch 12  |
+|         36300 |       16.4045 | Layer 2 | Epoch 12  |
+|         36400 |       16.0600 | Layer 2 | Epoch 12  |
+|         36500 |       15.7503 | Layer 2 | Epoch 12  |
+|         36600 |       15.9156 | Layer 2 | Epoch 12  |
+|         36700 |       15.8763 | Layer 2 | Epoch 12  |
+|         36800 |       15.8318 | Layer 2 | Epoch 12  |
+|         36900 |       15.6966 | Layer 2 | Epoch 12  |
+|         37000 |       15.8943 | Layer 2 | Epoch 12  |
+|         37100 |       15.7317 | Layer 2 | Epoch 12  |
+|         37200 |       16.0378 | Layer 2 | Epoch 13  |
+|         37300 |       15.8570 | Layer 2 | Epoch 13  |
+|         37400 |       15.8498 | Layer 2 | Epoch 13  |
+|         37500 |       15.8794 | Layer 2 | Epoch 13  |
+|         37600 |       15.9301 | Layer 2 | Epoch 13  |
+|         37700 |       15.8065 | Layer 2 | Epoch 13  |
+|         37800 |       15.6752 | Layer 2 | Epoch 13  |
+|         37900 |       15.5174 | Layer 2 | Epoch 13  |
+|         38000 |       15.7705 | Layer 2 | Epoch 13  |
+|         38100 |       15.3992 | Layer 2 | Epoch 13  |
+|         38200 |       15.3983 | Layer 2 | Epoch 13  |
+|         38300 |       15.5598 | Layer 2 | Epoch 13  |
+|         38400 |       15.6649 | Layer 2 | Epoch 13  |
+|         38500 |       15.3995 | Layer 2 | Epoch 13  |
+|         38600 |       15.7843 | Layer 2 | Epoch 13  |
+|         38700 |       15.7254 | Layer 2 | Epoch 13  |
+|         38800 |       16.0039 | Layer 2 | Epoch 13  |
+|         38900 |       15.7120 | Layer 2 | Epoch 13  |
+|         39000 |       15.4193 | Layer 2 | Epoch 13  |
+|         39100 |       15.5751 | Layer 2 | Epoch 13  |
+|         39200 |       15.4881 | Layer 2 | Epoch 13  |
+|         39300 |       15.8215 | Layer 2 | Epoch 13  |
+|         39400 |       15.6041 | Layer 2 | Epoch 13  |
+|         39500 |       15.8085 | Layer 2 | Epoch 13  |
+|         39600 |       15.6859 | Layer 2 | Epoch 13  |
+|         39700 |       15.8330 | Layer 2 | Epoch 13  |
+|         39800 |       15.7198 | Layer 2 | Epoch 13  |
+|         39900 |       15.6653 | Layer 2 | Epoch 13  |
+|         40000 |       15.7174 | Layer 2 | Epoch 13  |
+|         40100 |       15.6269 | Layer 2 | Epoch 13  |
+|         40200 |       15.3491 | Layer 2 | Epoch 13  |
+|         40300 |       15.6147 | Layer 2 | Epoch 14  |
+|         40400 |       15.3163 | Layer 2 | Epoch 14  |
+|         40500 |       15.4329 | Layer 2 | Epoch 14  |
+|         40600 |       15.4486 | Layer 2 | Epoch 14  |
+|         40700 |       15.8315 | Layer 2 | Epoch 14  |
+|         40800 |       15.4496 | Layer 2 | Epoch 14  |
+|         40900 |       15.6426 | Layer 2 | Epoch 14  |
+|         41000 |       15.5820 | Layer 2 | Epoch 14  |
+|         41100 |       15.5143 | Layer 2 | Epoch 14  |
+|         41200 |       15.9365 | Layer 2 | Epoch 14  |
+|         41300 |       15.6596 | Layer 2 | Epoch 14  |
+|         41400 |       15.4898 | Layer 2 | Epoch 14  |
+|         41500 |       15.4933 | Layer 2 | Epoch 14  |
+|         41600 |       15.3680 | Layer 2 | Epoch 14  |
+|         41700 |       15.3035 | Layer 2 | Epoch 14  |
+|         41800 |       15.5807 | Layer 2 | Epoch 14  |
+|         41900 |       15.5254 | Layer 2 | Epoch 14  |
+|         42000 |       15.1742 | Layer 2 | Epoch 14  |
+|         42100 |       15.5480 | Layer 2 | Epoch 14  |
+|         42200 |       15.4915 | Layer 2 | Epoch 14  |
+|         42300 |       15.5835 | Layer 2 | Epoch 14  |
+|         42400 |       15.5330 | Layer 2 | Epoch 14  |
+|         42500 |       15.6856 | Layer 2 | Epoch 14  |
+|         42600 |       15.8582 | Layer 2 | Epoch 14  |
+|         42700 |       15.5678 | Layer 2 | Epoch 14  |
+|         42800 |       15.3810 | Layer 2 | Epoch 14  |
+|         42900 |       15.1526 | Layer 2 | Epoch 14  |
+|         43000 |       15.3470 | Layer 2 | Epoch 14  |
+|         43100 |       15.3462 | Layer 2 | Epoch 14  |
+|         43200 |       15.1426 | Layer 2 | Epoch 14  |
+|         43300 |       15.3400 | Layer 2 | Epoch 14  |
+|         43400 |       15.6277 | Layer 2 | Epoch 15  |
+|         43500 |       15.1550 | Layer 2 | Epoch 15  |
+|         43600 |       15.3601 | Layer 2 | Epoch 15  |
+|         43700 |       15.3199 | Layer 2 | Epoch 15  |
+|         43800 |       15.5481 | Layer 2 | Epoch 15  |
+|         43900 |       15.6481 | Layer 2 | Epoch 15  |
+|         44000 |       15.2564 | Layer 2 | Epoch 15  |
+|         44100 |       15.2350 | Layer 2 | Epoch 15  |
+|         44200 |       15.0242 | Layer 2 | Epoch 15  |
+|         44300 |       14.8636 | Layer 2 | Epoch 15  |
+|         44400 |       15.9271 | Layer 2 | Epoch 15  |
+|         44500 |       15.4258 | Layer 2 | Epoch 15  |
+|         44600 |       15.3476 | Layer 2 | Epoch 15  |
+|         44700 |       15.2942 | Layer 2 | Epoch 15  |
+|         44800 |       15.2294 | Layer 2 | Epoch 15  |
+|         44900 |       15.3499 | Layer 2 | Epoch 15  |
+|         45000 |       15.4226 | Layer 2 | Epoch 15  |
+|         45100 |       15.4207 | Layer 2 | Epoch 15  |
+|         45200 |       15.2489 | Layer 2 | Epoch 15  |
+|         45300 |       15.1554 | Layer 2 | Epoch 15  |
+|         45400 |       15.1524 | Layer 2 | Epoch 15  |
+|         45500 |       15.5791 | Layer 2 | Epoch 15  |
+|         45600 |       15.1178 | Layer 2 | Epoch 15  |
+|         45700 |       15.3948 | Layer 2 | Epoch 15  |
+|         45800 |       15.2470 | Layer 2 | Epoch 15  |
+|         45900 |       15.4415 | Layer 2 | Epoch 15  |
+|         46000 |       15.0701 | Layer 2 | Epoch 15  |
+|         46100 |       15.3346 | Layer 2 | Epoch 15  |
+|         46200 |       15.4191 | Layer 2 | Epoch 15  |
+|         46300 |       15.4041 | Layer 2 | Epoch 15  |
+|         46400 |       15.2170 | Layer 2 | Epoch 15  |
+|         46500 |       15.1946 | Layer 2 | Epoch 16  |
+|         46600 |       15.3388 | Layer 2 | Epoch 16  |
+|         46700 |       15.2596 | Layer 2 | Epoch 16  |
+|         46800 |       15.1782 | Layer 2 | Epoch 16  |
+|         46900 |       15.1259 | Layer 2 | Epoch 16  |
+|         47000 |       15.1490 | Layer 2 | Epoch 16  |
+|         47100 |       15.3890 | Layer 2 | Epoch 16  |
+|         47200 |       15.1347 | Layer 2 | Epoch 16  |
+|         47300 |       15.2506 | Layer 2 | Epoch 16  |
+|         47400 |       14.9325 | Layer 2 | Epoch 16  |
+|         47500 |       15.0911 | Layer 2 | Epoch 16  |
+|         47600 |       15.0026 | Layer 2 | Epoch 16  |
+|         47700 |       15.1560 | Layer 2 | Epoch 16  |
+|         47800 |       15.6100 | Layer 2 | Epoch 16  |
+|         47900 |       14.9232 | Layer 2 | Epoch 16  |
+|         48000 |       14.5995 | Layer 2 | Epoch 16  |
+|         48100 |       15.1901 | Layer 2 | Epoch 16  |
+|         48200 |       15.6012 | Layer 2 | Epoch 16  |
+|         48300 |       15.0849 | Layer 2 | Epoch 16  |
+|         48400 |       15.3088 | Layer 2 | Epoch 16  |
+|         48500 |       14.6843 | Layer 2 | Epoch 16  |
+|         48600 |       14.4494 | Layer 2 | Epoch 16  |
+|         48700 |       15.1098 | Layer 2 | Epoch 16  |
+|         48800 |       14.7106 | Layer 2 | Epoch 16  |
+|         48900 |       15.0271 | Layer 2 | Epoch 16  |
+|         49000 |       15.2111 | Layer 2 | Epoch 16  |
+|         49100 |       15.0937 | Layer 2 | Epoch 16  |
+|         49200 |       15.1230 | Layer 2 | Epoch 16  |
+|         49300 |       15.0174 | Layer 2 | Epoch 16  |
+|         49400 |       15.1913 | Layer 2 | Epoch 16  |
+|         49500 |       14.7848 | Layer 2 | Epoch 16  |
+|         49600 |       14.9048 | Layer 2 | Epoch 17  |
+|         49700 |       15.3680 | Layer 2 | Epoch 17  |
+|         49800 |       15.3095 | Layer 2 | Epoch 17  |
+|         49900 |       15.1547 | Layer 2 | Epoch 17  |
+|         50000 |       15.2478 | Layer 2 | Epoch 17  |
+|         50100 |       15.1604 | Layer 2 | Epoch 17  |
+|         50200 |       15.5517 | Layer 2 | Epoch 17  |
+|         50300 |       14.8564 | Layer 2 | Epoch 17  |
+|         50400 |       15.4165 | Layer 2 | Epoch 17  |
+|         50500 |       14.8699 | Layer 2 | Epoch 17  |
+|         50600 |       15.2566 | Layer 2 | Epoch 17  |
+|         50700 |       14.8896 | Layer 2 | Epoch 17  |
+|         50800 |       14.9217 | Layer 2 | Epoch 17  |
+|         50900 |       15.2558 | Layer 2 | Epoch 17  |
+|         51000 |       14.9341 | Layer 2 | Epoch 17  |
+|         51100 |       15.1690 | Layer 2 | Epoch 17  |
+|         51200 |       14.9310 | Layer 2 | Epoch 17  |
+|         51300 |       14.9395 | Layer 2 | Epoch 17  |
+|         51400 |       14.6590 | Layer 2 | Epoch 17  |
+|         51500 |       14.7534 | Layer 2 | Epoch 17  |
+|         51600 |       14.9558 | Layer 2 | Epoch 17  |
+|         51700 |       15.0162 | Layer 2 | Epoch 17  |
+|         51800 |       15.1339 | Layer 2 | Epoch 17  |
+|         51900 |       15.1618 | Layer 2 | Epoch 17  |
+|         52000 |       15.2081 | Layer 2 | Epoch 17  |
+|         52100 |       14.8619 | Layer 2 | Epoch 17  |
+|         52200 |       14.8633 | Layer 2 | Epoch 17  |
+|         52300 |       15.2550 | Layer 2 | Epoch 17  |
+|         52400 |       15.0360 | Layer 2 | Epoch 17  |
+|         52500 |       14.7043 | Layer 2 | Epoch 17  |
+|         52600 |       15.0389 | Layer 2 | Epoch 17  |
+|         52700 |       14.4825 | Layer 2 | Epoch 18  |
+|         52800 |       14.7598 | Layer 2 | Epoch 18  |
+|         52900 |       15.1056 | Layer 2 | Epoch 18  |
+|         53000 |       14.8050 | Layer 2 | Epoch 18  |
+|         53100 |       15.4761 | Layer 2 | Epoch 18  |
+|         53200 |       15.1183 | Layer 2 | Epoch 18  |
+|         53300 |       15.0102 | Layer 2 | Epoch 18  |
+|         53400 |       15.1286 | Layer 2 | Epoch 18  |
+|         53500 |       14.8212 | Layer 2 | Epoch 18  |
+|         53600 |       14.8459 | Layer 2 | Epoch 18  |
+|         53700 |       14.8179 | Layer 2 | Epoch 18  |
+|         53800 |       15.2444 | Layer 2 | Epoch 18  |
+|         53900 |       14.8750 | Layer 2 | Epoch 18  |
+|         54000 |       14.5444 | Layer 2 | Epoch 18  |
+|         54100 |       14.6011 | Layer 2 | Epoch 18  |
+|         54200 |       14.8346 | Layer 2 | Epoch 18  |
+|         54300 |       14.5107 | Layer 2 | Epoch 18  |
+|         54400 |       14.8481 | Layer 2 | Epoch 18  |
+|         54500 |       15.0858 | Layer 2 | Epoch 18  |
+|         54600 |       14.5772 | Layer 2 | Epoch 18  |
+|         54700 |       14.7544 | Layer 2 | Epoch 18  |
+|         54800 |       14.9944 | Layer 2 | Epoch 18  |
+|         54900 |       14.7954 | Layer 2 | Epoch 18  |
+|         55000 |       14.9367 | Layer 2 | Epoch 18  |
+|         55100 |       15.0140 | Layer 2 | Epoch 18  |
+|         55200 |       14.9485 | Layer 2 | Epoch 18  |
+|         55300 |       14.6095 | Layer 2 | Epoch 18  |
+|         55400 |       14.4138 | Layer 2 | Epoch 18  |
+|         55500 |       14.9131 | Layer 2 | Epoch 18  |
+|         55600 |       14.9220 | Layer 2 | Epoch 18  |
+|         55700 |       14.9880 | Layer 2 | Epoch 18  |
+|         55800 |       14.9289 | Layer 2 | Epoch 19  |
+|         55900 |       14.8474 | Layer 2 | Epoch 19  |
+|         56000 |       14.3619 | Layer 2 | Epoch 19  |
+|         56100 |       15.0205 | Layer 2 | Epoch 19  |
+|         56200 |       15.1486 | Layer 2 | Epoch 19  |
+|         56300 |       14.8498 | Layer 2 | Epoch 19  |
+|         56400 |       14.8855 | Layer 2 | Epoch 19  |
+|         56500 |       14.5569 | Layer 2 | Epoch 19  |
+|         56600 |       15.3059 | Layer 2 | Epoch 19  |
+|         56700 |       15.1874 | Layer 2 | Epoch 19  |
+|         56800 |       14.5518 | Layer 2 | Epoch 19  |
+|         56900 |       14.8583 | Layer 2 | Epoch 19  |
+|         57000 |       14.8609 | Layer 2 | Epoch 19  |
+|         57100 |       14.8892 | Layer 2 | Epoch 19  |
+|         57200 |       14.6841 | Layer 2 | Epoch 19  |
+|         57300 |       14.4849 | Layer 2 | Epoch 19  |
+|         57400 |       15.1350 | Layer 2 | Epoch 19  |
+|         57500 |       14.4653 | Layer 2 | Epoch 19  |
+|         57600 |       14.7722 | Layer 2 | Epoch 19  |
+|         57700 |       15.3654 | Layer 2 | Epoch 19  |
+|         57800 |       14.3918 | Layer 2 | Epoch 19  |
+|         57900 |       14.2103 | Layer 2 | Epoch 19  |
+|         58000 |       14.5372 | Layer 2 | Epoch 19  |
+|         58100 |       14.5884 | Layer 2 | Epoch 19  |
+|         58200 |       14.7782 | Layer 2 | Epoch 19  |
+|         58300 |       14.6051 | Layer 2 | Epoch 19  |
+|         58400 |       14.6824 | Layer 2 | Epoch 19  |
+|         58500 |       14.4198 | Layer 2 | Epoch 19  |
+|         58600 |       14.6431 | Layer 2 | Epoch 19  |
+|         58700 |       14.6582 | Layer 2 | Epoch 19  |
+|         58800 |       14.3710 | Layer 2 | Epoch 19  |
+|         58900 |       14.8267 | Layer 2 | Epoch 20  |
+|         59000 |       14.3868 | Layer 2 | Epoch 20  |
+|         59100 |       14.7141 | Layer 2 | Epoch 20  |
+|         59200 |       14.6786 | Layer 2 | Epoch 20  |
+|         59300 |       14.5371 | Layer 2 | Epoch 20  |
+|         59400 |       15.5729 | Layer 2 | Epoch 20  |
+|         59500 |       14.5129 | Layer 2 | Epoch 20  |
+|         59600 |       14.6565 | Layer 2 | Epoch 20  |
+|         59700 |       14.8040 | Layer 2 | Epoch 20  |
+|         59800 |       14.9025 | Layer 2 | Epoch 20  |
+|         59900 |       14.5447 | Layer 2 | Epoch 20  |
+|         60000 |       14.6706 | Layer 2 | Epoch 20  |
+|         60100 |       14.9766 | Layer 2 | Epoch 20  |
+|         60200 |       14.6262 | Layer 2 | Epoch 20  |
+|         60300 |       14.5628 | Layer 2 | Epoch 20  |
+|         60400 |       14.6907 | Layer 2 | Epoch 20  |
+|         60500 |       14.7118 | Layer 2 | Epoch 20  |
+|         60600 |       14.7502 | Layer 2 | Epoch 20  |
+|         60700 |       14.2152 | Layer 2 | Epoch 20  |
+|         60800 |       14.7346 | Layer 2 | Epoch 20  |
+|         60900 |       15.0879 | Layer 2 | Epoch 20  |
+|         61000 |       14.7688 | Layer 2 | Epoch 20  |
+|         61100 |       14.6491 | Layer 2 | Epoch 20  |
+|         61200 |       14.7060 | Layer 2 | Epoch 20  |
+|         61300 |       14.4762 | Layer 2 | Epoch 20  |
+|         61400 |       14.7400 | Layer 2 | Epoch 20  |
+|         61500 |       14.2127 | Layer 2 | Epoch 20  |
+|         61600 |       14.2468 | Layer 2 | Epoch 20  |
+|         61700 |       14.8830 | Layer 2 | Epoch 20  |
+|         61800 |       13.9700 | Layer 2 | Epoch 20  |
+|         61900 |       15.0066 | Layer 2 | Epoch 20  |
+|         62000 |       13.9101 | Layer 2 | Epoch 21  |
+|         62100 |       14.2096 | Layer 2 | Epoch 21  |
+|         62200 |       14.6293 | Layer 2 | Epoch 21  |
+|         62300 |       14.8075 | Layer 2 | Epoch 21  |
+|         62400 |       14.5747 | Layer 2 | Epoch 21  |
+|         62500 |       14.2829 | Layer 2 | Epoch 21  |
+|         62600 |       14.5646 | Layer 2 | Epoch 21  |
+|         62700 |       14.5582 | Layer 2 | Epoch 21  |
+|         62800 |       14.5796 | Layer 2 | Epoch 21  |
+|         62900 |       14.1984 | Layer 2 | Epoch 21  |
+|         63000 |       14.6730 | Layer 2 | Epoch 21  |
+|         63100 |       14.6964 | Layer 2 | Epoch 21  |
+|         63200 |       14.6467 | Layer 2 | Epoch 21  |
+|         63300 |       14.3862 | Layer 2 | Epoch 21  |
+|         63400 |       14.7700 | Layer 2 | Epoch 21  |
+|         63500 |       14.4902 | Layer 2 | Epoch 21  |
+|         63600 |       13.8729 | Layer 2 | Epoch 21  |
+|         63700 |       14.3374 | Layer 2 | Epoch 21  |
+|         63800 |       14.5624 | Layer 2 | Epoch 21  |
+|         63900 |       14.6373 | Layer 2 | Epoch 21  |
+|         64000 |       14.3902 | Layer 2 | Epoch 21  |
+|         64100 |       14.4776 | Layer 2 | Epoch 21  |
+|         64200 |       14.2811 | Layer 2 | Epoch 21  |
+|         64300 |       14.4601 | Layer 2 | Epoch 21  |
+|         64400 |       14.3876 | Layer 2 | Epoch 21  |
+|         64500 |       14.2052 | Layer 2 | Epoch 21  |
+|         64600 |       14.7112 | Layer 2 | Epoch 21  |
+|         64700 |       14.6369 | Layer 2 | Epoch 21  |
+|         64800 |       14.2161 | Layer 2 | Epoch 21  |
+|         64900 |       14.7294 | Layer 2 | Epoch 21  |
+|         65000 |       14.2465 | Layer 2 | Epoch 21  |
+|         65100 |       14.5814 | Layer 2 | Epoch 22  |
+|         65200 |       14.9585 | Layer 2 | Epoch 22  |
+|         65300 |       14.3411 | Layer 2 | Epoch 22  |
+|         65400 |       13.8007 | Layer 2 | Epoch 22  |
+|         65500 |       14.4296 | Layer 2 | Epoch 22  |
+|         65600 |       14.9239 | Layer 2 | Epoch 22  |
+|         65700 |       14.6794 | Layer 2 | Epoch 22  |
+|         65800 |       14.5591 | Layer 2 | Epoch 22  |
+|         65900 |       14.5818 | Layer 2 | Epoch 22  |
+|         66000 |       14.4217 | Layer 2 | Epoch 22  |
+|         66100 |       14.8716 | Layer 2 | Epoch 22  |
+|         66200 |       14.0765 | Layer 2 | Epoch 22  |
+|         66300 |       14.6382 | Layer 2 | Epoch 22  |
+|         66400 |       14.6130 | Layer 2 | Epoch 22  |
+|         66500 |       14.3351 | Layer 2 | Epoch 22  |
+|         66600 |       15.0089 | Layer 2 | Epoch 22  |
+|         66700 |       14.5530 | Layer 2 | Epoch 22  |
+|         66800 |       14.5338 | Layer 2 | Epoch 22  |
+|         66900 |       14.0783 | Layer 2 | Epoch 22  |
+|         67000 |       14.2368 | Layer 2 | Epoch 22  |
+|         67100 |       14.2362 | Layer 2 | Epoch 22  |
+|         67200 |       14.4100 | Layer 2 | Epoch 22  |
+|         67300 |       14.9133 | Layer 2 | Epoch 22  |
+|         67400 |       14.3913 | Layer 2 | Epoch 22  |
+|         67500 |       14.1484 | Layer 2 | Epoch 22  |
+|         67600 |       14.2118 | Layer 2 | Epoch 22  |
+|         67700 |       14.0086 | Layer 2 | Epoch 22  |
+|         67800 |       14.4254 | Layer 2 | Epoch 22  |
+|         67900 |       14.3706 | Layer 2 | Epoch 22  |
+|         68000 |       14.5070 | Layer 2 | Epoch 22  |
+|         68100 |       14.3180 | Layer 2 | Epoch 22  |
+|         68200 |       14.1533 | Layer 2 | Epoch 23  |
+|         68300 |       14.2828 | Layer 2 | Epoch 23  |
+|         68400 |       14.3842 | Layer 2 | Epoch 23  |
+|         68500 |       14.3068 | Layer 2 | Epoch 23  |
+|         68600 |       14.4688 | Layer 2 | Epoch 23  |
+|         68700 |       14.0358 | Layer 2 | Epoch 23  |
+|         68800 |       14.2458 | Layer 2 | Epoch 23  |
+|         68900 |       14.0144 | Layer 2 | Epoch 23  |
+|         69000 |       14.6067 | Layer 2 | Epoch 23  |
+|         69100 |       13.9602 | Layer 2 | Epoch 23  |
+|         69200 |       13.9079 | Layer 2 | Epoch 23  |
+|         69300 |       14.1933 | Layer 2 | Epoch 23  |
+|         69400 |       14.2257 | Layer 2 | Epoch 23  |
+|         69500 |       14.3389 | Layer 2 | Epoch 23  |
+|         69600 |       14.3159 | Layer 2 | Epoch 23  |
+|         69700 |       14.0675 | Layer 2 | Epoch 23  |
+|         69800 |       14.3689 | Layer 2 | Epoch 23  |
+|         69900 |       14.7016 | Layer 2 | Epoch 23  |
+|         70000 |       14.6878 | Layer 2 | Epoch 23  |
+|         70100 |       14.4269 | Layer 2 | Epoch 23  |
+|         70200 |       14.7563 | Layer 2 | Epoch 23  |
+|         70300 |       14.5528 | Layer 2 | Epoch 23  |
+|         70400 |       14.4907 | Layer 2 | Epoch 23  |
+|         70500 |       14.3459 | Layer 2 | Epoch 23  |
+|         70600 |       14.2529 | Layer 2 | Epoch 23  |
+|         70700 |       14.5473 | Layer 2 | Epoch 23  |
+|         70800 |       13.9350 | Layer 2 | Epoch 23  |
+|         70900 |       14.2600 | Layer 2 | Epoch 23  |
+|         71000 |       14.4413 | Layer 2 | Epoch 23  |
+|         71100 |       14.1288 | Layer 2 | Epoch 23  |
+|         71200 |       14.1986 | Layer 2 | Epoch 23  |
+|         71300 |       14.1149 | Layer 2 | Epoch 24  |
+|         71400 |       13.9788 | Layer 2 | Epoch 24  |
+|         71500 |       13.8794 | Layer 2 | Epoch 24  |
+|         71600 |       14.2453 | Layer 2 | Epoch 24  |
+|         71700 |       14.5583 | Layer 2 | Epoch 24  |
+|         71800 |       13.9606 | Layer 2 | Epoch 24  |
+|         71900 |       14.2191 | Layer 2 | Epoch 24  |
+|         72000 |       13.7229 | Layer 2 | Epoch 24  |
+|         72100 |       14.2042 | Layer 2 | Epoch 24  |
+|         72200 |       14.6233 | Layer 2 | Epoch 24  |
+|         72300 |       14.1398 | Layer 2 | Epoch 24  |
+|         72400 |       13.9848 | Layer 2 | Epoch 24  |
+|         72500 |       13.9329 | Layer 2 | Epoch 24  |
+|         72600 |       13.8191 | Layer 2 | Epoch 24  |
+|         72700 |       14.1833 | Layer 2 | Epoch 24  |
+|         72800 |       14.2536 | Layer 2 | Epoch 24  |
+|         72900 |       14.1489 | Layer 2 | Epoch 24  |
+|         73000 |       14.8572 | Layer 2 | Epoch 24  |
+|         73100 |       14.3914 | Layer 2 | Epoch 24  |
+|         73200 |       14.6270 | Layer 2 | Epoch 24  |
+|         73300 |       13.7956 | Layer 2 | Epoch 24  |
+|         73400 |       13.9178 | Layer 2 | Epoch 24  |
+|         73500 |       14.2577 | Layer 2 | Epoch 24  |
+|         73600 |       14.0865 | Layer 2 | Epoch 24  |
+|         73700 |       13.9982 | Layer 2 | Epoch 24  |
+|         73800 |       13.8763 | Layer 2 | Epoch 24  |
+|         73900 |       14.2003 | Layer 2 | Epoch 24  |
+|         74000 |       14.0790 | Layer 2 | Epoch 24  |
+|         74100 |       14.2668 | Layer 2 | Epoch 24  |
+|         74200 |       14.1509 | Layer 2 | Epoch 24  |
+|         74300 |       13.9715 | Layer 2 | Epoch 24  |
+|         74400 |       14.1442 | Layer 2 | Epoch 25  |
+|         74500 |       14.3027 | Layer 2 | Epoch 25  |
+|         74600 |       14.2707 | Layer 2 | Epoch 25  |
+|         74700 |       14.5027 | Layer 2 | Epoch 25  |
+|         74800 |       14.3911 | Layer 2 | Epoch 25  |
+|         74900 |       14.6212 | Layer 2 | Epoch 25  |
+|         75000 |       13.7126 | Layer 2 | Epoch 25  |
+|         75100 |       14.0323 | Layer 2 | Epoch 25  |
+|         75200 |       14.7616 | Layer 2 | Epoch 25  |
+|         75300 |       14.1826 | Layer 2 | Epoch 25  |
+|         75400 |       14.2485 | Layer 2 | Epoch 25  |
+|         75500 |       14.1022 | Layer 2 | Epoch 25  |
+|         75600 |       13.8524 | Layer 2 | Epoch 25  |
+|         75700 |       13.6752 | Layer 2 | Epoch 25  |
+|         75800 |       13.6037 | Layer 2 | Epoch 25  |
+|         75900 |       14.1291 | Layer 2 | Epoch 25  |
+|         76000 |       14.2890 | Layer 2 | Epoch 25  |
+|         76100 |       14.1562 | Layer 2 | Epoch 25  |
+|         76200 |       14.1452 | Layer 2 | Epoch 25  |
+|         76300 |       13.8772 | Layer 2 | Epoch 25  |
+|         76400 |       13.8388 | Layer 2 | Epoch 25  |
+|         76500 |       14.6968 | Layer 2 | Epoch 25  |
+|         76600 |       14.0682 | Layer 2 | Epoch 25  |
+|         76700 |       14.5454 | Layer 2 | Epoch 25  |
+|         76800 |       14.3794 | Layer 2 | Epoch 25  |
+|         76900 |       14.5463 | Layer 2 | Epoch 25  |
+|         77000 |       14.0764 | Layer 2 | Epoch 25  |
+|         77100 |       14.2011 | Layer 2 | Epoch 25  |
+|         77200 |       14.4310 | Layer 2 | Epoch 25  |
+|         77300 |       14.5286 | Layer 2 | Epoch 25  |
+|         77400 |       14.4182 | Layer 2 | Epoch 25  |
+|         77500 |       14.0774 | Layer 2 | Epoch 26  |
+|         77600 |       14.0942 | Layer 2 | Epoch 26  |
+|         77700 |       14.0924 | Layer 2 | Epoch 26  |
+|         77800 |       14.5594 | Layer 2 | Epoch 26  |
+|         77900 |       13.6971 | Layer 2 | Epoch 26  |
+|         78000 |       14.3326 | Layer 2 | Epoch 26  |
+|         78100 |       14.1313 | Layer 2 | Epoch 26  |
+|         78200 |       14.3131 | Layer 2 | Epoch 26  |
+|         78300 |       13.7206 | Layer 2 | Epoch 26  |
+|         78400 |       14.6930 | Layer 2 | Epoch 26  |
+|         78500 |       14.3801 | Layer 2 | Epoch 26  |
+|         78600 |       14.5801 | Layer 2 | Epoch 26  |
+|         78700 |       13.9190 | Layer 2 | Epoch 26  |
+|         78800 |       13.9622 | Layer 2 | Epoch 26  |
+|         78900 |       13.8685 | Layer 2 | Epoch 26  |
+|         79000 |       13.9120 | Layer 2 | Epoch 26  |
+|         79100 |       14.7824 | Layer 2 | Epoch 26  |
+|         79200 |       14.0505 | Layer 2 | Epoch 26  |
+|         79300 |       13.2532 | Layer 2 | Epoch 26  |
+|         79400 |       13.8016 | Layer 2 | Epoch 26  |
+|         79500 |       14.0265 | Layer 2 | Epoch 26  |
+|         79600 |       14.3868 | Layer 2 | Epoch 26  |
+|         79700 |       14.0181 | Layer 2 | Epoch 26  |
+|         79800 |       14.2694 | Layer 2 | Epoch 26  |
+|         79900 |       14.0971 | Layer 2 | Epoch 26  |
+|         80000 |       14.4174 | Layer 2 | Epoch 26  |
+|         80100 |       14.0459 | Layer 2 | Epoch 26  |
+|         80200 |       13.7923 | Layer 2 | Epoch 26  |
+|         80300 |       13.9709 | Layer 2 | Epoch 26  |
+|         80400 |       13.8473 | Layer 2 | Epoch 26  |
+|         80500 |       14.4081 | Layer 2 | Epoch 26  |
+|         80600 |       14.2451 | Layer 2 | Epoch 27  |
+|         80700 |       14.2085 | Layer 2 | Epoch 27  |
+|         80800 |       14.3058 | Layer 2 | Epoch 27  |
+|         80900 |       14.2079 | Layer 2 | Epoch 27  |
+|         81000 |       14.3681 | Layer 2 | Epoch 27  |
+|         81100 |       14.3549 | Layer 2 | Epoch 27  |
+|         81200 |       14.1677 | Layer 2 | Epoch 27  |
+|         81300 |       14.1941 | Layer 2 | Epoch 27  |
+|         81400 |       14.5618 | Layer 2 | Epoch 27  |
+|         81500 |       13.9322 | Layer 2 | Epoch 27  |
+|         81600 |       14.3025 | Layer 2 | Epoch 27  |
+|         81700 |       13.3352 | Layer 2 | Epoch 27  |
+|         81800 |       13.6775 | Layer 2 | Epoch 27  |
+|         81900 |       14.5558 | Layer 2 | Epoch 27  |
+|         82000 |       14.5378 | Layer 2 | Epoch 27  |
+|         82100 |       13.5980 | Layer 2 | Epoch 27  |
+|         82200 |       13.9004 | Layer 2 | Epoch 27  |
+|         82300 |       14.0956 | Layer 2 | Epoch 27  |
+|         82400 |       13.7546 | Layer 2 | Epoch 27  |
+|         82500 |       14.0991 | Layer 2 | Epoch 27  |
+|         82600 |       14.2096 | Layer 2 | Epoch 27  |
+|         82700 |       14.3736 | Layer 2 | Epoch 27  |
+|         82800 |       13.7114 | Layer 2 | Epoch 27  |
+|         82900 |       13.9049 | Layer 2 | Epoch 27  |
+|         83000 |       13.8120 | Layer 2 | Epoch 27  |
+|         83100 |       13.8800 | Layer 2 | Epoch 27  |
+|         83200 |       14.1372 | Layer 2 | Epoch 27  |
+|         83300 |       13.7404 | Layer 2 | Epoch 27  |
+|         83400 |       14.1068 | Layer 2 | Epoch 27  |
+|         83500 |       14.3158 | Layer 2 | Epoch 27  |
+|         83600 |       14.3233 | Layer 2 | Epoch 27  |
+|         83700 |       14.1748 | Layer 2 | Epoch 28  |
+|         83800 |       14.0165 | Layer 2 | Epoch 28  |
+|         83900 |       13.9507 | Layer 2 | Epoch 28  |
+|         84000 |       14.1031 | Layer 2 | Epoch 28  |
+|         84100 |       14.0283 | Layer 2 | Epoch 28  |
+|         84200 |       14.1421 | Layer 2 | Epoch 28  |
+|         84300 |       14.3481 | Layer 2 | Epoch 28  |
+|         84400 |       13.8134 | Layer 2 | Epoch 28  |
+|         84500 |       13.8979 | Layer 2 | Epoch 28  |
+|         84600 |       13.4717 | Layer 2 | Epoch 28  |
+|         84700 |       13.4713 | Layer 2 | Epoch 28  |
+|         84800 |       13.9912 | Layer 2 | Epoch 28  |
+|         84900 |       13.9246 | Layer 2 | Epoch 28  |
+|         85000 |       14.3201 | Layer 2 | Epoch 28  |
+|         85100 |       13.6660 | Layer 2 | Epoch 28  |
+|         85200 |       13.5611 | Layer 2 | Epoch 28  |
+|         85300 |       14.6207 | Layer 2 | Epoch 28  |
+|         85400 |       14.0743 | Layer 2 | Epoch 28  |
+|         85500 |       14.7309 | Layer 2 | Epoch 28  |
+|         85600 |       14.3339 | Layer 2 | Epoch 28  |
+|         85700 |       14.3223 | Layer 2 | Epoch 28  |
+|         85800 |       14.2794 | Layer 2 | Epoch 28  |
+|         85900 |       13.5418 | Layer 2 | Epoch 28  |
+|         86000 |       14.8652 | Layer 2 | Epoch 28  |
+|         86100 |       14.3257 | Layer 2 | Epoch 28  |
+|         86200 |       14.1904 | Layer 2 | Epoch 28  |
+|         86300 |       14.0039 | Layer 2 | Epoch 28  |
+|         86400 |       13.9317 | Layer 2 | Epoch 28  |
+|         86500 |       14.3440 | Layer 2 | Epoch 28  |
+|         86600 |       14.1597 | Layer 2 | Epoch 28  |
+|         86700 |       14.2092 | Layer 2 | Epoch 28  |
+|         86800 |       13.7836 | Layer 2 | Epoch 29  |
+|         86900 |       14.0771 | Layer 2 | Epoch 29  |
+|         87000 |       13.9314 | Layer 2 | Epoch 29  |
+|         87100 |       14.1202 | Layer 2 | Epoch 29  |
+|         87200 |       13.9044 | Layer 2 | Epoch 29  |
+|         87300 |       13.7093 | Layer 2 | Epoch 29  |
+|         87400 |       14.2598 | Layer 2 | Epoch 29  |
+|         87500 |       14.4479 | Layer 2 | Epoch 29  |
+|         87600 |       13.8139 | Layer 2 | Epoch 29  |
+|         87700 |       14.2364 | Layer 2 | Epoch 29  |
+|         87800 |       14.0258 | Layer 2 | Epoch 29  |
+|         87900 |       14.2600 | Layer 2 | Epoch 29  |
+|         88000 |       13.5341 | Layer 2 | Epoch 29  |
+|         88100 |       14.2177 | Layer 2 | Epoch 29  |
+|         88200 |       13.6002 | Layer 2 | Epoch 29  |
+|         88300 |       13.5931 | Layer 2 | Epoch 29  |
+|         88400 |       14.1959 | Layer 2 | Epoch 29  |
+|         88500 |       13.2103 | Layer 2 | Epoch 29  |
+|         88600 |       14.1332 | Layer 2 | Epoch 29  |
+|         88700 |       14.2388 | Layer 2 | Epoch 29  |
+|         88800 |       14.1877 | Layer 2 | Epoch 29  |
+|         88900 |       14.1154 | Layer 2 | Epoch 29  |
+|         89000 |       14.4252 | Layer 2 | Epoch 29  |
+|         89100 |       14.0140 | Layer 2 | Epoch 29  |
+|         89200 |       14.0705 | Layer 2 | Epoch 29  |
+|         89300 |       13.6444 | Layer 2 | Epoch 29  |
+|         89400 |       13.9593 | Layer 2 | Epoch 29  |
+|         89500 |       13.8188 | Layer 2 | Epoch 29  |
+|         89600 |       14.3298 | Layer 2 | Epoch 29  |
+|         89700 |       13.6133 | Layer 2 | Epoch 29  |
+|         89800 |       13.9425 | Layer 2 | Epoch 29  |
+|         89900 |       14.6324 | Layer 2 | Epoch 30  |
+|         90000 |       14.2156 | Layer 2 | Epoch 30  |
+|         90100 |       14.0298 | Layer 2 | Epoch 30  |
+|         90200 |       13.9927 | Layer 2 | Epoch 30  |
+|         90300 |       13.7039 | Layer 2 | Epoch 30  |
+|         90400 |       13.7943 | Layer 2 | Epoch 30  |
+|         90500 |       13.6615 | Layer 2 | Epoch 30  |
+|         90600 |       14.0832 | Layer 2 | Epoch 30  |
+|         90700 |       14.1126 | Layer 2 | Epoch 30  |
+|         90800 |       13.6125 | Layer 2 | Epoch 30  |
+|         90900 |       13.8305 | Layer 2 | Epoch 30  |
+|         91000 |       14.4106 | Layer 2 | Epoch 30  |
+|         91100 |       14.0503 | Layer 2 | Epoch 30  |
+|         91200 |       13.8609 | Layer 2 | Epoch 30  |
+|         91300 |       13.9692 | Layer 2 | Epoch 30  |
+|         91400 |       13.6136 | Layer 2 | Epoch 30  |
+|         91500 |       13.6314 | Layer 2 | Epoch 30  |
+|         91600 |       13.6011 | Layer 2 | Epoch 30  |
+|         91700 |       14.2046 | Layer 2 | Epoch 30  |
+|         91800 |       13.7299 | Layer 2 | Epoch 30  |
+|         91900 |       14.1850 | Layer 2 | Epoch 30  |
+|         92000 |       13.7308 | Layer 2 | Epoch 30  |
+|         92100 |       13.2634 | Layer 2 | Epoch 30  |
+|         92200 |       13.8048 | Layer 2 | Epoch 30  |
+|         92300 |       13.3612 | Layer 2 | Epoch 30  |
+|         92400 |       13.5469 | Layer 2 | Epoch 30  |
+|         92500 |       13.4813 | Layer 2 | Epoch 30  |
+|         92600 |       13.8508 | Layer 2 | Epoch 30  |
+|         92700 |       14.2700 | Layer 2 | Epoch 30  |
+|         92800 |       13.5081 | Layer 2 | Epoch 30  |
+|         92900 |       13.2680 | Layer 2 | Epoch 30  |
+|         93000 |       13.8364 | Layer 2 | Epoch 31  |
+|         93100 |       14.5232 | Layer 2 | Epoch 31  |
+|         93200 |       14.1870 | Layer 2 | Epoch 31  |
+|         93300 |       14.1594 | Layer 2 | Epoch 31  |
+|         93400 |       13.6623 | Layer 2 | Epoch 31  |
+|         93500 |       13.8649 | Layer 2 | Epoch 31  |
+|         93600 |       13.6426 | Layer 2 | Epoch 31  |
+|         93700 |       13.7173 | Layer 2 | Epoch 31  |
+|         93800 |       14.1820 | Layer 2 | Epoch 31  |
+|         93900 |       13.4210 | Layer 2 | Epoch 31  |
+|         94000 |       14.1899 | Layer 2 | Epoch 31  |
+|         94100 |       13.5541 | Layer 2 | Epoch 31  |
+|         94200 |       13.4828 | Layer 2 | Epoch 31  |
+|         94300 |       13.9969 | Layer 2 | Epoch 31  |
+|         94400 |       13.7193 | Layer 2 | Epoch 31  |
+|         94500 |       14.0311 | Layer 2 | Epoch 31  |
+|         94600 |       13.3013 | Layer 2 | Epoch 31  |
+|         94700 |       13.3066 | Layer 2 | Epoch 31  |
+|         94800 |       13.3115 | Layer 2 | Epoch 31  |
+|         94900 |       13.0813 | Layer 2 | Epoch 31  |
+|         95000 |       13.5733 | Layer 2 | Epoch 31  |
+|         95100 |       13.8691 | Layer 2 | Epoch 31  |
+|         95200 |       14.0417 | Layer 2 | Epoch 31  |
+|         95300 |       13.5058 | Layer 2 | Epoch 31  |
+|         95400 |       14.0402 | Layer 2 | Epoch 31  |
+|         95500 |       13.4946 | Layer 2 | Epoch 31  |
+|         95600 |       13.9150 | Layer 2 | Epoch 31  |
+|         95700 |       13.6995 | Layer 2 | Epoch 31  |
+|         95800 |       13.8407 | Layer 2 | Epoch 31  |
+|         95900 |       13.7467 | Layer 2 | Epoch 31  |
+|         96000 |       14.0878 | Layer 2 | Epoch 31  |
+|         96100 |       13.7303 | Layer 2 | Epoch 32  |
+|         96200 |       13.8160 | Layer 2 | Epoch 32  |
+|         96300 |       13.3949 | Layer 2 | Epoch 32  |
+|         96400 |       14.2538 | Layer 2 | Epoch 32  |
+|         96500 |       14.3402 | Layer 2 | Epoch 32  |
+|         96600 |       14.0964 | Layer 2 | Epoch 32  |
+|         96700 |       13.7934 | Layer 2 | Epoch 32  |
+|         96800 |       14.0620 | Layer 2 | Epoch 32  |
+|         96900 |       13.3854 | Layer 2 | Epoch 32  |
+|         97000 |       13.2221 | Layer 2 | Epoch 32  |
+|         97100 |       13.5714 | Layer 2 | Epoch 32  |
+|         97200 |       14.0035 | Layer 2 | Epoch 32  |
+|         97300 |       13.0478 | Layer 2 | Epoch 32  |
+|         97400 |       13.4330 | Layer 2 | Epoch 32  |
+|         97500 |       13.3755 | Layer 2 | Epoch 32  |
+|         97600 |       13.5743 | Layer 2 | Epoch 32  |
+|         97700 |       14.4125 | Layer 2 | Epoch 32  |
+|         97800 |       13.4709 | Layer 2 | Epoch 32  |
+|         97900 |       13.8496 | Layer 2 | Epoch 32  |
+|         98000 |       13.9409 | Layer 2 | Epoch 32  |
+|         98100 |       14.3959 | Layer 2 | Epoch 32  |
+|         98200 |       13.4803 | Layer 2 | Epoch 32  |
+|         98300 |       13.9839 | Layer 2 | Epoch 32  |
+|         98400 |       13.2827 | Layer 2 | Epoch 32  |
+|         98500 |       14.0948 | Layer 2 | Epoch 32  |
+|         98600 |       13.9293 | Layer 2 | Epoch 32  |
+|         98700 |       12.9322 | Layer 2 | Epoch 32  |
+|         98800 |       14.6805 | Layer 2 | Epoch 32  |
+|         98900 |       14.3197 | Layer 2 | Epoch 32  |
+|         99000 |       14.0669 | Layer 2 | Epoch 32  |
+|         99100 |       13.9500 | Layer 2 | Epoch 32  |
+|         99200 |       13.7756 | Layer 2 | Epoch 33  |
+|         99300 |       14.3348 | Layer 2 | Epoch 33  |
+|         99400 |       13.8496 | Layer 2 | Epoch 33  |
+|         99500 |       13.5820 | Layer 2 | Epoch 33  |
+|         99600 |       13.4941 | Layer 2 | Epoch 33  |
+|         99700 |       13.9889 | Layer 2 | Epoch 33  |
+|         99800 |       13.7118 | Layer 2 | Epoch 33  |
+|         99900 |       13.9216 | Layer 2 | Epoch 33  |
+|        100000 |       13.5836 | Layer 2 | Epoch 33  |
+|        100100 |       13.5756 | Layer 2 | Epoch 33  |
+|        100200 |       13.5139 | Layer 2 | Epoch 33  |
+|        100300 |       14.0995 | Layer 2 | Epoch 33  |
+|        100400 |       14.5278 | Layer 2 | Epoch 33  |
+|        100500 |       13.9194 | Layer 2 | Epoch 33  |
+|        100600 |       13.6426 | Layer 2 | Epoch 33  |
+|        100700 |       13.6633 | Layer 2 | Epoch 33  |
+|        100800 |       13.5309 | Layer 2 | Epoch 33  |
+|        100900 |       13.0275 | Layer 2 | Epoch 33  |
+|        101000 |       14.7228 | Layer 2 | Epoch 33  |
+|        101100 |       14.0579 | Layer 2 | Epoch 33  |
+|        101200 |       13.8030 | Layer 2 | Epoch 33  |
+|        101300 |       14.4474 | Layer 2 | Epoch 33  |
+|        101400 |       13.3164 | Layer 2 | Epoch 33  |
+|        101500 |       13.6022 | Layer 2 | Epoch 33  |
+|        101600 |       13.2158 | Layer 2 | Epoch 33  |
+|        101700 |       13.7686 | Layer 2 | Epoch 33  |
+|        101800 |       13.6821 | Layer 2 | Epoch 33  |
+|        101900 |       13.2549 | Layer 2 | Epoch 33  |
+|        102000 |       13.8030 | Layer 2 | Epoch 33  |
+|        102100 |       14.1950 | Layer 2 | Epoch 33  |
+|        102200 |       13.7688 | Layer 2 | Epoch 33  |
+|        102300 |       13.0925 | Layer 2 | Epoch 34  |
+|        102400 |       13.6548 | Layer 2 | Epoch 34  |
+|        102500 |       13.9178 | Layer 2 | Epoch 34  |
+|        102600 |       13.7700 | Layer 2 | Epoch 34  |
+|        102700 |       13.0008 | Layer 2 | Epoch 34  |
+|        102800 |       13.2767 | Layer 2 | Epoch 34  |
+|        102900 |       13.5093 | Layer 2 | Epoch 34  |
+|        103000 |       12.6569 | Layer 2 | Epoch 34  |
+|        103100 |       13.6197 | Layer 2 | Epoch 34  |
+|        103200 |       13.9496 | Layer 2 | Epoch 34  |
+|        103300 |       14.0960 | Layer 2 | Epoch 34  |
+|        103400 |       13.5945 | Layer 2 | Epoch 34  |
+|        103500 |       13.3576 | Layer 2 | Epoch 34  |
+|        103600 |       13.4388 | Layer 2 | Epoch 34  |
+|        103700 |       14.2870 | Layer 2 | Epoch 34  |
+|        103800 |       13.1027 | Layer 2 | Epoch 34  |
+|        103900 |       13.3567 | Layer 2 | Epoch 34  |
+|        104000 |       13.6998 | Layer 2 | Epoch 34  |
+|        104100 |       13.5717 | Layer 2 | Epoch 34  |
+|        104200 |       13.5333 | Layer 2 | Epoch 34  |
+|        104300 |       13.9932 | Layer 2 | Epoch 34  |
+|        104400 |       13.8725 | Layer 2 | Epoch 34  |
+|        104500 |       13.7643 | Layer 2 | Epoch 34  |
+|        104600 |       13.5593 | Layer 2 | Epoch 34  |
+|        104700 |       14.2069 | Layer 2 | Epoch 34  |
+|        104800 |       13.4857 | Layer 2 | Epoch 34  |
+|        104900 |       13.1752 | Layer 2 | Epoch 34  |
+|        105000 |       13.1165 | Layer 2 | Epoch 34  |
+|        105100 |       14.2078 | Layer 2 | Epoch 34  |
+|        105200 |       13.9526 | Layer 2 | Epoch 34  |
+|        105300 |       13.4129 | Layer 2 | Epoch 34  |
+|        105400 |       13.5383 | Layer 2 | Epoch 35  |
+|        105500 |       14.5352 | Layer 2 | Epoch 35  |
+|        105600 |       13.9223 | Layer 2 | Epoch 35  |
+|        105700 |       13.7529 | Layer 2 | Epoch 35  |
+|        105800 |       14.0001 | Layer 2 | Epoch 35  |
+|        105900 |       13.6770 | Layer 2 | Epoch 35  |
+|        106000 |       13.5854 | Layer 2 | Epoch 35  |
+|        106100 |       14.1552 | Layer 2 | Epoch 35  |
+|        106200 |       13.6543 | Layer 2 | Epoch 35  |
+|        106300 |       13.8993 | Layer 2 | Epoch 35  |
+|        106400 |       13.5972 | Layer 2 | Epoch 35  |
+|        106500 |       13.4697 | Layer 2 | Epoch 35  |
+|        106600 |       13.2882 | Layer 2 | Epoch 35  |
+|        106700 |       13.6748 | Layer 2 | Epoch 35  |
+|        106800 |       13.8055 | Layer 2 | Epoch 35  |
+|        106900 |       13.8174 | Layer 2 | Epoch 35  |
+|        107000 |       13.4333 | Layer 2 | Epoch 35  |
+|        107100 |       12.9808 | Layer 2 | Epoch 35  |
+|        107200 |       13.9952 | Layer 2 | Epoch 35  |
+|        107300 |       14.5584 | Layer 2 | Epoch 35  |
+|        107400 |       13.7674 | Layer 2 | Epoch 35  |
+|        107500 |       13.5944 | Layer 2 | Epoch 35  |
+|        107600 |       13.8335 | Layer 2 | Epoch 35  |
+|        107700 |       13.4654 | Layer 2 | Epoch 35  |
+|        107800 |       13.4369 | Layer 2 | Epoch 35  |
+|        107900 |       13.2219 | Layer 2 | Epoch 35  |
+|        108000 |       13.2948 | Layer 2 | Epoch 35  |
+|        108100 |       13.3156 | Layer 2 | Epoch 35  |
+|        108200 |       14.0991 | Layer 2 | Epoch 35  |
+|        108300 |       14.1124 | Layer 2 | Epoch 35  |
+|        108400 |       14.3097 | Layer 2 | Epoch 35  |
+|        108500 |       13.9671 | Layer 2 | Epoch 36  |
+|        108600 |       13.4061 | Layer 2 | Epoch 36  |
+|        108700 |       13.5345 | Layer 2 | Epoch 36  |
+|        108800 |       14.0371 | Layer 2 | Epoch 36  |
+|        108900 |       13.2866 | Layer 2 | Epoch 36  |
+|        109000 |       13.2003 | Layer 2 | Epoch 36  |
+|        109100 |       13.0708 | Layer 2 | Epoch 36  |
+|        109200 |       13.9399 | Layer 2 | Epoch 36  |
+|        109300 |       13.1841 | Layer 2 | Epoch 36  |
+|        109400 |       13.6124 | Layer 2 | Epoch 36  |
+|        109500 |       13.8922 | Layer 2 | Epoch 36  |
+|        109600 |       13.7726 | Layer 2 | Epoch 36  |
+|        109700 |       13.1126 | Layer 2 | Epoch 36  |
+|        109800 |       13.6326 | Layer 2 | Epoch 36  |
+|        109900 |       13.6274 | Layer 2 | Epoch 36  |
+|        110000 |       13.6797 | Layer 2 | Epoch 36  |
+|        110100 |       13.6303 | Layer 2 | Epoch 36  |
+|        110200 |       13.2073 | Layer 2 | Epoch 36  |
+|        110300 |       13.3486 | Layer 2 | Epoch 36  |
+|        110400 |       13.7632 | Layer 2 | Epoch 36  |
+|        110500 |       13.9559 | Layer 2 | Epoch 36  |
+|        110600 |       13.6017 | Layer 2 | Epoch 36  |
+|        110700 |       13.8757 | Layer 2 | Epoch 36  |
+|        110800 |       14.1239 | Layer 2 | Epoch 36  |
+|        110900 |       13.7086 | Layer 2 | Epoch 36  |
+|        111000 |       13.4868 | Layer 2 | Epoch 36  |
+|        111100 |       14.0116 | Layer 2 | Epoch 36  |
+|        111200 |       13.1764 | Layer 2 | Epoch 36  |
+|        111300 |       13.0780 | Layer 2 | Epoch 36  |
+|        111400 |       13.2986 | Layer 2 | Epoch 36  |
+|        111500 |       13.0902 | Layer 2 | Epoch 36  |
+|        111600 |       13.4388 | Layer 2 | Epoch 37  |
+|        111700 |       13.5196 | Layer 2 | Epoch 37  |
+|        111800 |       13.4531 | Layer 2 | Epoch 37  |
+|        111900 |       13.4558 | Layer 2 | Epoch 37  |
+|        112000 |       13.5019 | Layer 2 | Epoch 37  |
+|        112100 |       14.2633 | Layer 2 | Epoch 37  |
+|        112200 |       13.9276 | Layer 2 | Epoch 37  |
+|        112300 |       13.6695 | Layer 2 | Epoch 37  |
+|        112400 |       13.4541 | Layer 2 | Epoch 37  |
+|        112500 |       13.6663 | Layer 2 | Epoch 37  |
+|        112600 |       14.0351 | Layer 2 | Epoch 37  |
+|        112700 |       13.9313 | Layer 2 | Epoch 37  |
+|        112800 |       13.4414 | Layer 2 | Epoch 37  |
+|        112900 |       13.2380 | Layer 2 | Epoch 37  |
+|        113000 |       13.1711 | Layer 2 | Epoch 37  |
+|        113100 |       13.5916 | Layer 2 | Epoch 37  |
+|        113200 |       14.0533 | Layer 2 | Epoch 37  |
+|        113300 |       13.1832 | Layer 2 | Epoch 37  |
+|        113400 |       13.4435 | Layer 2 | Epoch 37  |
+|        113500 |       13.5926 | Layer 2 | Epoch 37  |
+|        113600 |       13.8994 | Layer 2 | Epoch 37  |
+|        113700 |       12.9426 | Layer 2 | Epoch 37  |
+|        113800 |       13.0783 | Layer 2 | Epoch 37  |
+|        113900 |       14.2147 | Layer 2 | Epoch 37  |
+|        114000 |       13.6608 | Layer 2 | Epoch 37  |
+|        114100 |       13.2137 | Layer 2 | Epoch 37  |
+|        114200 |       13.1863 | Layer 2 | Epoch 37  |
+|        114300 |       13.3094 | Layer 2 | Epoch 37  |
+|        114400 |       13.0173 | Layer 2 | Epoch 37  |
+|        114500 |       13.2045 | Layer 2 | Epoch 37  |
+|        114600 |       14.0202 | Layer 2 | Epoch 37  |
+|        114700 |       12.8638 | Layer 2 | Epoch 38  |
+|        114800 |       13.6475 | Layer 2 | Epoch 38  |
+|        114900 |       14.0140 | Layer 2 | Epoch 38  |
+|        115000 |       13.3938 | Layer 2 | Epoch 38  |
+|        115100 |       13.2320 | Layer 2 | Epoch 38  |
+|        115200 |       13.1556 | Layer 2 | Epoch 38  |
+|        115300 |       13.3589 | Layer 2 | Epoch 38  |
+|        115400 |       13.8158 | Layer 2 | Epoch 38  |
+|        115500 |       13.5852 | Layer 2 | Epoch 38  |
+|        115600 |       13.7222 | Layer 2 | Epoch 38  |
+|        115700 |       13.5159 | Layer 2 | Epoch 38  |
+|        115800 |       13.6039 | Layer 2 | Epoch 38  |
+|        115900 |       13.3446 | Layer 2 | Epoch 38  |
+|        116000 |       13.2424 | Layer 2 | Epoch 38  |
+|        116100 |       13.0720 | Layer 2 | Epoch 38  |
+|        116200 |       13.3578 | Layer 2 | Epoch 38  |
+|        116300 |       12.8181 | Layer 2 | Epoch 38  |
+|        116400 |       13.8016 | Layer 2 | Epoch 38  |
+|        116500 |       13.8526 | Layer 2 | Epoch 38  |
+|        116600 |       14.0712 | Layer 2 | Epoch 38  |
+|        116700 |       13.7839 | Layer 2 | Epoch 38  |
+|        116800 |       13.6514 | Layer 2 | Epoch 38  |
+|        116900 |       14.1652 | Layer 2 | Epoch 38  |
+|        117000 |       13.4215 | Layer 2 | Epoch 38  |
+|        117100 |       14.0641 | Layer 2 | Epoch 38  |
+|        117200 |       13.0498 | Layer 2 | Epoch 38  |
+|        117300 |       14.0216 | Layer 2 | Epoch 38  |
+|        117400 |       13.4033 | Layer 2 | Epoch 38  |
+|        117500 |       12.9560 | Layer 2 | Epoch 38  |
+|        117600 |       13.8187 | Layer 2 | Epoch 38  |
+|        117700 |       13.0315 | Layer 2 | Epoch 38  |
+|        117800 |       13.7128 | Layer 2 | Epoch 39  |
+|        117900 |       14.3709 | Layer 2 | Epoch 39  |
+|        118000 |       13.9023 | Layer 2 | Epoch 39  |
+|        118100 |       13.8657 | Layer 2 | Epoch 39  |
+|        118200 |       12.5070 | Layer 2 | Epoch 39  |
+|        118300 |       13.0497 | Layer 2 | Epoch 39  |
+|        118400 |       13.1883 | Layer 2 | Epoch 39  |
+|        118500 |       13.6744 | Layer 2 | Epoch 39  |
+|        118600 |       13.7344 | Layer 2 | Epoch 39  |
+|        118700 |       14.0299 | Layer 2 | Epoch 39  |
+|        118800 |       13.5231 | Layer 2 | Epoch 39  |
+|        118900 |       14.1572 | Layer 2 | Epoch 39  |
+|        119000 |       13.2934 | Layer 2 | Epoch 39  |
+|        119100 |       13.7266 | Layer 2 | Epoch 39  |
+|        119200 |       13.0274 | Layer 2 | Epoch 39  |
+|        119300 |       13.5159 | Layer 2 | Epoch 39  |
+|        119400 |       13.7721 | Layer 2 | Epoch 39  |
+|        119500 |       13.6448 | Layer 2 | Epoch 39  |
+|        119600 |       13.9029 | Layer 2 | Epoch 39  |
+|        119700 |       13.6093 | Layer 2 | Epoch 39  |
+|        119800 |       13.4718 | Layer 2 | Epoch 39  |
+|        119900 |       13.6297 | Layer 2 | Epoch 39  |
+|        120000 |       13.7494 | Layer 2 | Epoch 39  |
+|        120100 |       13.3379 | Layer 2 | Epoch 39  |
+|        120200 |       13.3446 | Layer 2 | Epoch 39  |
+|        120300 |       13.0880 | Layer 2 | Epoch 39  |
+|        120400 |       13.2095 | Layer 2 | Epoch 39  |
+|        120500 |       13.3407 | Layer 2 | Epoch 39  |
+|        120600 |       13.8271 | Layer 2 | Epoch 39  |
+|        120700 |       13.1932 | Layer 2 | Epoch 39  |
+|        120800 |       13.3756 | Layer 2 | Epoch 39  |
+|        120900 |       14.0458 | Layer 2 | Epoch 40  |
+|        121000 |       13.9016 | Layer 2 | Epoch 40  |
+|        121100 |       14.0560 | Layer 2 | Epoch 40  |
+|        121200 |       13.2242 | Layer 2 | Epoch 40  |
+|        121300 |       13.1025 | Layer 2 | Epoch 40  |
+|        121400 |       12.9164 | Layer 2 | Epoch 40  |
+|        121500 |       13.6551 | Layer 2 | Epoch 40  |
+|        121600 |       13.2147 | Layer 2 | Epoch 40  |
+|        121700 |       13.9237 | Layer 2 | Epoch 40  |
+|        121800 |       13.4355 | Layer 2 | Epoch 40  |
+|        121900 |       13.4749 | Layer 2 | Epoch 40  |
+|        122000 |       13.3493 | Layer 2 | Epoch 40  |
+|        122100 |       13.9058 | Layer 2 | Epoch 40  |
+|        122200 |       14.2208 | Layer 2 | Epoch 40  |
+|        122300 |       13.6853 | Layer 2 | Epoch 40  |
+|        122400 |       13.7200 | Layer 2 | Epoch 40  |
+|        122500 |       13.0337 | Layer 2 | Epoch 40  |
+|        122600 |       13.7519 | Layer 2 | Epoch 40  |
+|        122700 |       13.6081 | Layer 2 | Epoch 40  |
+|        122800 |       12.8793 | Layer 2 | Epoch 40  |
+|        122900 |       13.4272 | Layer 2 | Epoch 40  |
+|        123000 |       13.4256 | Layer 2 | Epoch 40  |
+|        123100 |       13.0454 | Layer 2 | Epoch 40  |
+|        123200 |       13.3423 | Layer 2 | Epoch 40  |
+|        123300 |       13.1528 | Layer 2 | Epoch 40  |
+|        123400 |       13.0722 | Layer 2 | Epoch 40  |
+|        123500 |       13.5800 | Layer 2 | Epoch 40  |
+|        123600 |       13.5158 | Layer 2 | Epoch 40  |
+|        123700 |       13.2911 | Layer 2 | Epoch 40  |
+|        123800 |       13.6308 | Layer 2 | Epoch 40  |
+|        123900 |       13.2070 | Layer 2 | Epoch 40  |
+|        124000 |       13.4526 | Layer 2 | Epoch 41  |
+|        124100 |       13.1109 | Layer 2 | Epoch 41  |
+|        124200 |       13.5655 | Layer 2 | Epoch 41  |
+|        124300 |       13.9252 | Layer 2 | Epoch 41  |
+|        124400 |       13.8223 | Layer 2 | Epoch 41  |
+|        124500 |       13.7515 | Layer 2 | Epoch 41  |
+|        124600 |       13.1792 | Layer 2 | Epoch 41  |
+|        124700 |       14.4389 | Layer 2 | Epoch 41  |
+|        124800 |       13.0084 | Layer 2 | Epoch 41  |
+|        124900 |       13.5585 | Layer 2 | Epoch 41  |
+|        125000 |       13.1743 | Layer 2 | Epoch 41  |
+|        125100 |       14.0985 | Layer 2 | Epoch 41  |
+|        125200 |       14.1049 | Layer 2 | Epoch 41  |
+|        125300 |       13.6115 | Layer 2 | Epoch 41  |
+|        125400 |       13.2301 | Layer 2 | Epoch 41  |
+|        125500 |       13.1917 | Layer 2 | Epoch 41  |
+|        125600 |       13.7525 | Layer 2 | Epoch 41  |
+|        125700 |       14.3057 | Layer 2 | Epoch 41  |
+|        125800 |       13.3550 | Layer 2 | Epoch 41  |
+|        125900 |       13.1186 | Layer 2 | Epoch 41  |
+|        126000 |       13.1924 | Layer 2 | Epoch 41  |
+|        126100 |       13.5044 | Layer 2 | Epoch 41  |
+|        126200 |       13.3909 | Layer 2 | Epoch 41  |
+|        126300 |       13.1440 | Layer 2 | Epoch 41  |
+|        126400 |       13.0319 | Layer 2 | Epoch 41  |
+|        126500 |       13.9661 | Layer 2 | Epoch 41  |
+|        126600 |       13.7606 | Layer 2 | Epoch 41  |
+|        126700 |       12.6558 | Layer 2 | Epoch 41  |
+|        126800 |       13.5855 | Layer 2 | Epoch 41  |
+|        126900 |       13.1780 | Layer 2 | Epoch 41  |
+|        127000 |       13.8701 | Layer 2 | Epoch 41  |
+|        127100 |       13.1288 | Layer 2 | Epoch 42  |
+|        127200 |       13.3904 | Layer 2 | Epoch 42  |
+|        127300 |       13.5480 | Layer 2 | Epoch 42  |
+|        127400 |       14.0638 | Layer 2 | Epoch 42  |
+|        127500 |       13.2518 | Layer 2 | Epoch 42  |
+|        127600 |       13.0165 | Layer 2 | Epoch 42  |
+|        127700 |       13.3892 | Layer 2 | Epoch 42  |
+|        127800 |       13.3857 | Layer 2 | Epoch 42  |
+|        127900 |       12.8234 | Layer 2 | Epoch 42  |
+|        128000 |       13.4670 | Layer 2 | Epoch 42  |
+|        128100 |       13.8052 | Layer 2 | Epoch 42  |
+|        128200 |       13.3857 | Layer 2 | Epoch 42  |
+|        128300 |       13.1661 | Layer 2 | Epoch 42  |
+|        128400 |       13.0275 | Layer 2 | Epoch 42  |
+|        128500 |       13.0333 | Layer 2 | Epoch 42  |
+|        128600 |       13.6507 | Layer 2 | Epoch 42  |
+|        128700 |       13.4771 | Layer 2 | Epoch 42  |
+|        128800 |       12.9438 | Layer 2 | Epoch 42  |
+|        128900 |       12.8972 | Layer 2 | Epoch 42  |
+|        129000 |       13.2332 | Layer 2 | Epoch 42  |
+|        129100 |       12.9107 | Layer 2 | Epoch 42  |
+|        129200 |       13.8141 | Layer 2 | Epoch 42  |
+|        129300 |       12.8800 | Layer 2 | Epoch 42  |
+|        129400 |       12.6612 | Layer 2 | Epoch 42  |
+|        129500 |       13.3162 | Layer 2 | Epoch 42  |
+|        129600 |       13.7983 | Layer 2 | Epoch 42  |
+|        129700 |       13.1748 | Layer 2 | Epoch 42  |
+|        129800 |       13.7455 | Layer 2 | Epoch 42  |
+|        129900 |       12.8239 | Layer 2 | Epoch 42  |
+|        130000 |       12.7455 | Layer 2 | Epoch 42  |
+|        130100 |       13.0395 | Layer 2 | Epoch 42  |
+|        130200 |       13.4000 | Layer 2 | Epoch 43  |
+|        130300 |       12.8008 | Layer 2 | Epoch 43  |
+|        130400 |       13.5053 | Layer 2 | Epoch 43  |
+|        130500 |       13.2274 | Layer 2 | Epoch 43  |
+|        130600 |       13.7157 | Layer 2 | Epoch 43  |
+|        130700 |       13.6408 | Layer 2 | Epoch 43  |
+|        130800 |       13.6248 | Layer 2 | Epoch 43  |
+|        130900 |       13.5294 | Layer 2 | Epoch 43  |
+|        131000 |       13.7536 | Layer 2 | Epoch 43  |
+|        131100 |       13.5183 | Layer 2 | Epoch 43  |
+|        131200 |       13.0953 | Layer 2 | Epoch 43  |
+|        131300 |       12.7970 | Layer 2 | Epoch 43  |
+|        131400 |       13.3675 | Layer 2 | Epoch 43  |
+|        131500 |       13.6236 | Layer 2 | Epoch 43  |
+|        131600 |       13.3009 | Layer 2 | Epoch 43  |
+|        131700 |       14.1488 | Layer 2 | Epoch 43  |
+|        131800 |       13.3035 | Layer 2 | Epoch 43  |
+|        131900 |       13.1708 | Layer 2 | Epoch 43  |
+|        132000 |       13.5367 | Layer 2 | Epoch 43  |
+|        132100 |       13.3969 | Layer 2 | Epoch 43  |
+|        132200 |       13.3950 | Layer 2 | Epoch 43  |
+|        132300 |       13.1311 | Layer 2 | Epoch 43  |
+|        132400 |       12.9168 | Layer 2 | Epoch 43  |
+|        132500 |       12.9049 | Layer 2 | Epoch 43  |
+|        132600 |       13.7743 | Layer 2 | Epoch 43  |
+|        132700 |       13.3049 | Layer 2 | Epoch 43  |
+|        132800 |       13.6494 | Layer 2 | Epoch 43  |
+|        132900 |       13.2624 | Layer 2 | Epoch 43  |
+|        133000 |       13.2640 | Layer 2 | Epoch 43  |
+|        133100 |       13.4833 | Layer 2 | Epoch 43  |
+|        133200 |       13.3436 | Layer 2 | Epoch 43  |
+|        133300 |       13.6735 | Layer 2 | Epoch 44  |
+|        133400 |       13.8430 | Layer 2 | Epoch 44  |
+|        133500 |       13.2612 | Layer 2 | Epoch 44  |
+|        133600 |       12.7965 | Layer 2 | Epoch 44  |
+|        133700 |       13.1636 | Layer 2 | Epoch 44  |
+|        133800 |       13.5920 | Layer 2 | Epoch 44  |
+|        133900 |       13.3178 | Layer 2 | Epoch 44  |
+|        134000 |       13.3770 | Layer 2 | Epoch 44  |
+|        134100 |       13.5173 | Layer 2 | Epoch 44  |
+|        134200 |       13.1893 | Layer 2 | Epoch 44  |
+|        134300 |       14.4092 | Layer 2 | Epoch 44  |
+|        134400 |       14.0416 | Layer 2 | Epoch 44  |
+|        134500 |       14.1169 | Layer 2 | Epoch 44  |
+|        134600 |       12.7647 | Layer 2 | Epoch 44  |
+|        134700 |       12.7095 | Layer 2 | Epoch 44  |
+|        134800 |       13.0920 | Layer 2 | Epoch 44  |
+|        134900 |       13.3744 | Layer 2 | Epoch 44  |
+|        135000 |       13.3213 | Layer 2 | Epoch 44  |
+|        135100 |       12.7674 | Layer 2 | Epoch 44  |
+|        135200 |       12.6359 | Layer 2 | Epoch 44  |
+|        135300 |       13.7100 | Layer 2 | Epoch 44  |
+|        135400 |       13.7281 | Layer 2 | Epoch 44  |
+|        135500 |       13.2656 | Layer 2 | Epoch 44  |
+|        135600 |       14.2495 | Layer 2 | Epoch 44  |
+|        135700 |       13.9875 | Layer 2 | Epoch 44  |
+|        135800 |       13.5939 | Layer 2 | Epoch 44  |
+|        135900 |       12.9375 | Layer 2 | Epoch 44  |
+|        136000 |       13.7500 | Layer 2 | Epoch 44  |
+|        136100 |       13.5984 | Layer 2 | Epoch 44  |
+|        136200 |       13.5832 | Layer 2 | Epoch 44  |
+|        136300 |       12.9260 | Layer 2 | Epoch 44  |
+|        136400 |       13.2557 | Layer 2 | Epoch 45  |
+|        136500 |       13.0319 | Layer 2 | Epoch 45  |
+|        136600 |       13.5018 | Layer 2 | Epoch 45  |
+|        136700 |       12.9024 | Layer 2 | Epoch 45  |
+|        136800 |       12.9576 | Layer 2 | Epoch 45  |
+|        136900 |       13.8790 | Layer 2 | Epoch 45  |
+|        137000 |       13.4911 | Layer 2 | Epoch 45  |
+|        137100 |       13.7221 | Layer 2 | Epoch 45  |
+|        137200 |       13.6049 | Layer 2 | Epoch 45  |
+|        137300 |       12.8823 | Layer 2 | Epoch 45  |
+|        137400 |       12.5603 | Layer 2 | Epoch 45  |
+|        137500 |       13.7639 | Layer 2 | Epoch 45  |
+|        137600 |       13.1954 | Layer 2 | Epoch 45  |
+|        137700 |       13.2671 | Layer 2 | Epoch 45  |
+|        137800 |       13.0664 | Layer 2 | Epoch 45  |
+|        137900 |       13.1040 | Layer 2 | Epoch 45  |
+|        138000 |       13.3974 | Layer 2 | Epoch 45  |
+|        138100 |       13.1545 | Layer 2 | Epoch 45  |
+|        138200 |       13.2328 | Layer 2 | Epoch 45  |
+|        138300 |       13.2166 | Layer 2 | Epoch 45  |
+|        138400 |       13.5114 | Layer 2 | Epoch 45  |
+|        138500 |       13.6110 | Layer 2 | Epoch 45  |
+|        138600 |       13.1542 | Layer 2 | Epoch 45  |
+|        138700 |       13.2738 | Layer 2 | Epoch 45  |
+|        138800 |       13.0830 | Layer 2 | Epoch 45  |
+|        138900 |       13.1298 | Layer 2 | Epoch 45  |
+|        139000 |       13.4641 | Layer 2 | Epoch 45  |
+|        139100 |       13.1373 | Layer 2 | Epoch 45  |
+|        139200 |       13.3525 | Layer 2 | Epoch 45  |
+|        139300 |       13.1333 | Layer 2 | Epoch 45  |
+|        139400 |       13.2560 | Layer 2 | Epoch 45  |
+|        139500 |       12.9308 | Layer 2 | Epoch 46  |
+|        139600 |       13.2685 | Layer 2 | Epoch 46  |
+|        139700 |       13.8116 | Layer 2 | Epoch 46  |
+|        139800 |       13.3409 | Layer 2 | Epoch 46  |
+|        139900 |       13.4644 | Layer 2 | Epoch 46  |
+|        140000 |       12.6191 | Layer 2 | Epoch 46  |
+|        140100 |       13.8003 | Layer 2 | Epoch 46  |
+|        140200 |       14.0861 | Layer 2 | Epoch 46  |
+|        140300 |       13.7821 | Layer 2 | Epoch 46  |
+|        140400 |       13.2136 | Layer 2 | Epoch 46  |
+|        140500 |       12.7995 | Layer 2 | Epoch 46  |
+|        140600 |       12.7646 | Layer 2 | Epoch 46  |
+|        140700 |       12.6252 | Layer 2 | Epoch 46  |
+|        140800 |       12.9937 | Layer 2 | Epoch 46  |
+|        140900 |       13.0350 | Layer 2 | Epoch 46  |
+|        141000 |       12.7524 | Layer 2 | Epoch 46  |
+|        141100 |       12.8795 | Layer 2 | Epoch 46  |
+|        141200 |       13.6798 | Layer 2 | Epoch 46  |
+|        141300 |       13.7617 | Layer 2 | Epoch 46  |
+|        141400 |       13.1032 | Layer 2 | Epoch 46  |
+|        141500 |       12.9701 | Layer 2 | Epoch 46  |
+|        141600 |       13.0439 | Layer 2 | Epoch 46  |
+|        141700 |       14.1778 | Layer 2 | Epoch 46  |
+|        141800 |       13.4921 | Layer 2 | Epoch 46  |
+|        141900 |       14.1429 | Layer 2 | Epoch 46  |
+|        142000 |       13.1815 | Layer 2 | Epoch 46  |
+|        142100 |       12.5865 | Layer 2 | Epoch 46  |
+|        142200 |       12.8148 | Layer 2 | Epoch 46  |
+|        142300 |       13.0456 | Layer 2 | Epoch 46  |
+|        142400 |       13.6589 | Layer 2 | Epoch 46  |
+|        142500 |       13.2650 | Layer 2 | Epoch 46  |
+|        142600 |       12.7451 | Layer 2 | Epoch 47  |
+|        142700 |       13.0805 | Layer 2 | Epoch 47  |
+|        142800 |       13.5759 | Layer 2 | Epoch 47  |
+|        142900 |       13.2254 | Layer 2 | Epoch 47  |
+|        143000 |       13.6270 | Layer 2 | Epoch 47  |
+|        143100 |       12.7776 | Layer 2 | Epoch 47  |
+|        143200 |       12.6137 | Layer 2 | Epoch 47  |
+|        143300 |       12.8054 | Layer 2 | Epoch 47  |
+|        143400 |       13.1364 | Layer 2 | Epoch 47  |
+|        143500 |       12.5522 | Layer 2 | Epoch 47  |
+|        143600 |       12.5906 | Layer 2 | Epoch 47  |
+|        143700 |       12.7019 | Layer 2 | Epoch 47  |
+|        143800 |       13.4727 | Layer 2 | Epoch 47  |
+|        143900 |       12.7641 | Layer 2 | Epoch 47  |
+|        144000 |       13.1563 | Layer 2 | Epoch 47  |
+|        144100 |       13.1345 | Layer 2 | Epoch 47  |
+|        144200 |       13.8287 | Layer 2 | Epoch 47  |
+|        144300 |       13.2891 | Layer 2 | Epoch 47  |
+|        144400 |       13.5337 | Layer 2 | Epoch 47  |
+|        144500 |       13.3854 | Layer 2 | Epoch 47  |
+|        144600 |       12.6911 | Layer 2 | Epoch 47  |
+|        144700 |       12.9832 | Layer 2 | Epoch 47  |
+|        144800 |       12.9655 | Layer 2 | Epoch 47  |
+|        144900 |       12.8909 | Layer 2 | Epoch 47  |
+|        145000 |       13.5276 | Layer 2 | Epoch 47  |
+|        145100 |       13.3233 | Layer 2 | Epoch 47  |
+|        145200 |       12.8959 | Layer 2 | Epoch 47  |
+|        145300 |       13.0041 | Layer 2 | Epoch 47  |
+|        145400 |       13.9241 | Layer 2 | Epoch 47  |
+|        145500 |       13.7427 | Layer 2 | Epoch 47  |
+|        145600 |       13.4172 | Layer 2 | Epoch 47  |
+|        145700 |       12.9065 | Layer 2 | Epoch 48  |
+|        145800 |       13.0371 | Layer 2 | Epoch 48  |
+|        145900 |       13.2052 | Layer 2 | Epoch 48  |
+|        146000 |       13.0183 | Layer 2 | Epoch 48  |
+|        146100 |       13.5335 | Layer 2 | Epoch 48  |
+|        146200 |       12.8414 | Layer 2 | Epoch 48  |
+|        146300 |       13.3045 | Layer 2 | Epoch 48  |
+|        146400 |       13.0053 | Layer 2 | Epoch 48  |
+|        146500 |       13.8354 | Layer 2 | Epoch 48  |
+|        146600 |       12.6206 | Layer 2 | Epoch 48  |
+|        146700 |       13.9702 | Layer 2 | Epoch 48  |
+|        146800 |       12.6216 | Layer 2 | Epoch 48  |
+|        146900 |       13.0747 | Layer 2 | Epoch 48  |
+|        147000 |       12.3598 | Layer 2 | Epoch 48  |
+|        147100 |       13.2136 | Layer 2 | Epoch 48  |
+|        147200 |       12.3310 | Layer 2 | Epoch 48  |
+|        147300 |       12.8930 | Layer 2 | Epoch 48  |
+|        147400 |       13.8404 | Layer 2 | Epoch 48  |
+|        147500 |       12.6598 | Layer 2 | Epoch 48  |
+|        147600 |       13.3699 | Layer 2 | Epoch 48  |
+|        147700 |       12.8712 | Layer 2 | Epoch 48  |
+|        147800 |       13.9178 | Layer 2 | Epoch 48  |
+|        147900 |       13.6456 | Layer 2 | Epoch 48  |
+|        148000 |       12.6156 | Layer 2 | Epoch 48  |
+|        148100 |       13.4742 | Layer 2 | Epoch 48  |
+|        148200 |       13.0747 | Layer 2 | Epoch 48  |
+|        148300 |       13.1155 | Layer 2 | Epoch 48  |
+|        148400 |       13.1378 | Layer 2 | Epoch 48  |
+|        148500 |       13.1158 | Layer 2 | Epoch 48  |
+|        148600 |       13.9024 | Layer 2 | Epoch 48  |
+|        148700 |       13.5326 | Layer 2 | Epoch 48  |
+|        148800 |       12.9157 | Layer 2 | Epoch 49  |
+|        148900 |       13.3576 | Layer 2 | Epoch 49  |
+|        149000 |       13.1136 | Layer 2 | Epoch 49  |
+|        149100 |       13.8426 | Layer 2 | Epoch 49  |
+|        149200 |       12.5786 | Layer 2 | Epoch 49  |
+|        149300 |       12.9858 | Layer 2 | Epoch 49  |
+|        149400 |       13.9580 | Layer 2 | Epoch 49  |
+|        149500 |       13.3846 | Layer 2 | Epoch 49  |
+|        149600 |       13.6446 | Layer 2 | Epoch 49  |
+|        149700 |       12.7224 | Layer 2 | Epoch 49  |
+|        149800 |       13.0473 | Layer 2 | Epoch 49  |
+|        149900 |       13.2365 | Layer 2 | Epoch 49  |
+|        150000 |       13.2458 | Layer 2 | Epoch 49  |
+|        150100 |       12.6908 | Layer 2 | Epoch 49  |
+|        150200 |       12.7222 | Layer 2 | Epoch 49  |
+|        150300 |       13.8835 | Layer 2 | Epoch 49  |
+|        150400 |       13.1057 | Layer 2 | Epoch 49  |
+|        150500 |       13.9447 | Layer 2 | Epoch 49  |
+|        150600 |       12.7588 | Layer 2 | Epoch 49  |
+|        150700 |       13.8116 | Layer 2 | Epoch 49  |
+|        150800 |       12.8391 | Layer 2 | Epoch 49  |
+|        150900 |       13.1161 | Layer 2 | Epoch 49  |
+|        151000 |       12.9878 | Layer 2 | Epoch 49  |
+|        151100 |       12.8628 | Layer 2 | Epoch 49  |
+|        151200 |       13.6151 | Layer 2 | Epoch 49  |
+|        151300 |       14.5200 | Layer 2 | Epoch 49  |
+|        151400 |       13.9090 | Layer 2 | Epoch 49  |
+|        151500 |       12.1089 | Layer 2 | Epoch 49  |
+|        151600 |       13.4040 | Layer 2 | Epoch 49  |
+|        151700 |       13.3557 | Layer 2 | Epoch 49  |
+|        151800 |       12.9115 | Layer 2 | Epoch 49  |
+|        151900 |       13.5017 | Layer 2 | Epoch 50  |
+|        152000 |       13.7928 | Layer 2 | Epoch 50  |
+|        152100 |       12.7320 | Layer 2 | Epoch 50  |
+|        152200 |       12.9052 | Layer 2 | Epoch 50  |
+|        152300 |       12.9718 | Layer 2 | Epoch 50  |
+|        152400 |       13.0163 | Layer 2 | Epoch 50  |
+|        152500 |       13.8206 | Layer 2 | Epoch 50  |
+|        152600 |       13.0540 | Layer 2 | Epoch 50  |
+|        152700 |       14.1021 | Layer 2 | Epoch 50  |
+|        152800 |       12.3145 | Layer 2 | Epoch 50  |
+|        152900 |       13.1449 | Layer 2 | Epoch 50  |
+|        153000 |       13.0050 | Layer 2 | Epoch 50  |
+|        153100 |       12.8458 | Layer 2 | Epoch 50  |
+|        153200 |       13.2986 | Layer 2 | Epoch 50  |
+|        153300 |       13.5621 | Layer 2 | Epoch 50  |
+|        153400 |       13.1365 | Layer 2 | Epoch 50  |
+|        153500 |       13.0387 | Layer 2 | Epoch 50  |
+|        153600 |       12.7765 | Layer 2 | Epoch 50  |
+|        153700 |       13.7899 | Layer 2 | Epoch 50  |
+|        153800 |       13.0221 | Layer 2 | Epoch 50  |
+|        153900 |       13.1093 | Layer 2 | Epoch 50  |
+|        154000 |       13.5421 | Layer 2 | Epoch 50  |
+|        154100 |       12.4540 | Layer 2 | Epoch 50  |
+|        154200 |       13.1394 | Layer 2 | Epoch 50  |
+|        154300 |       13.2149 | Layer 2 | Epoch 50  |
+|        154400 |       13.3046 | Layer 2 | Epoch 50  |
+|        154500 |       13.2657 | Layer 2 | Epoch 50  |
+|        154600 |       13.2826 | Layer 2 | Epoch 50  |
+|        154700 |       13.4151 | Layer 2 | Epoch 50  |
+|        154800 |       13.0154 | Layer 2 | Epoch 50  |
+|        154900 |       13.0859 | Layer 2 | Epoch 50  |
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Extracting labels from data in  ../dataset/*.jpeg ['S01']
+(3100, 256, 256, 1)
+(3100,)
+(1550, 256, 256, 1)
+(1550,)
+(1550, 256, 256, 1)
+(1550,)
+Tensor("ExpandDims_1:0", shape=(250, 1), dtype=int32)
+Tensor("Size:0", shape=(), dtype=int32)
+31
+Step 0: loss = 3.42 (0.168 sec)
+Step 100: loss = 3.41 (0.122 sec)
+Step 200: loss = 3.41 (0.063 sec)
+Step 300: loss = 3.41 (1.773 sec)
+Step 400: loss = 3.40 (0.065 sec)
+Step 500: loss = 3.40 (0.080 sec)
+Step 600: loss = 3.40 (1.082 sec)
+Step 700: loss = 3.40 (0.073 sec)
+Step 800: loss = 3.38 (0.082 sec)
+Step 900: loss = 3.38 (1.019 sec)
+  Num examples: 3000  Num correct: 86  Error @ 1: 0.9713
+  Num examples: 1500  Num correct: 46  Error @ 1: 0.9693
+  Num examples: 1500  Num correct: 44  Error @ 1: 0.9707
+Step 1000: loss = 3.40 (0.085 sec)
+Step 1100: loss = 3.38 (0.063 sec)
+Step 1200: loss = 3.37 (0.964 sec)
+Step 1300: loss = 3.36 (0.084 sec)
+Step 1400: loss = 3.36 (0.080 sec)
+Step 1500: loss = 3.37 (1.764 sec)
+Step 1600: loss = 3.36 (0.072 sec)
+Step 1700: loss = 3.36 (0.075 sec)
+Step 1800: loss = 3.36 (1.577 sec)
+Step 1900: loss = 3.35 (0.063 sec)
+  Num examples: 3000  Num correct: 144  Error @ 1: 0.9520
+  Num examples: 1500  Num correct: 66  Error @ 1: 0.9560
+  Num examples: 1500  Num correct: 61  Error @ 1: 0.9593
+Step 2000: loss = 3.35 (0.103 sec)
+Step 2100: loss = 3.35 (1.362 sec)
+Step 2200: loss = 3.34 (0.073 sec)
+Step 2300: loss = 3.34 (0.075 sec)
+Step 2400: loss = 3.33 (0.988 sec)
+Step 2500: loss = 3.34 (0.072 sec)
+Step 2600: loss = 3.33 (0.080 sec)
+Step 2700: loss = 3.31 (0.585 sec)
+Step 2800: loss = 3.32 (0.075 sec)
+Step 2900: loss = 3.32 (0.062 sec)
+  Num examples: 3000  Num correct: 181  Error @ 1: 0.9397
+  Num examples: 1500  Num correct: 79  Error @ 1: 0.9473
+  Num examples: 1500  Num correct: 76  Error @ 1: 0.9493
+Step 3000: loss = 3.32 (1.919 sec)
+Step 3100: loss = 3.31 (0.067 sec)
+Step 3200: loss = 3.31 (0.072 sec)
+Step 3300: loss = 3.32 (1.520 sec)
+Step 3400: loss = 3.31 (0.074 sec)
+Step 3500: loss = 3.30 (0.064 sec)
+Step 3600: loss = 3.30 (1.657 sec)
+Step 3700: loss = 3.31 (0.071 sec)
+Step 3800: loss = 3.31 (0.081 sec)
+Step 3900: loss = 3.29 (0.859 sec)
+  Num examples: 3000  Num correct: 199  Error @ 1: 0.9337
+  Num examples: 1500  Num correct: 92  Error @ 1: 0.9387
+  Num examples: 1500  Num correct: 89  Error @ 1: 0.9407
+Step 4000: loss = 3.29 (0.131 sec)
+Step 4100: loss = 3.28 (0.072 sec)
+Step 4200: loss = 3.28 (1.344 sec)
+Step 4300: loss = 3.28 (0.075 sec)
+Step 4400: loss = 3.27 (0.068 sec)
+Step 4500: loss = 3.28 (1.528 sec)
+Step 4600: loss = 3.27 (0.064 sec)
+Step 4700: loss = 3.27 (0.066 sec)
+Step 4800: loss = 3.27 (1.320 sec)
+Step 4900: loss = 3.27 (0.074 sec)
+  Num examples: 3000  Num correct: 224  Error @ 1: 0.9253
+  Num examples: 1500  Num correct: 99  Error @ 1: 0.9340
+  Num examples: 1500  Num correct: 92  Error @ 1: 0.9387
+Step 5000: loss = 3.25 (0.242 sec)
+Step 5100: loss = 3.25 (1.607 sec)
+Step 5200: loss = 3.25 (0.068 sec)
+Step 5300: loss = 3.24 (0.081 sec)
+Step 5400: loss = 3.25 (0.928 sec)
+Step 5500: loss = 3.25 (0.128 sec)
+Step 5600: loss = 3.24 (0.068 sec)
+Step 5700: loss = 3.24 (0.664 sec)
+Step 5800: loss = 3.24 (0.065 sec)
+Step 5900: loss = 3.23 (0.079 sec)
+  Num examples: 3000  Num correct: 268  Error @ 1: 0.9107
+  Num examples: 1500  Num correct: 120  Error @ 1: 0.9200
+  Num examples: 1500  Num correct: 110  Error @ 1: 0.9267
+Step 6000: loss = 3.23 (1.637 sec)
+Step 6100: loss = 3.23 (0.064 sec)
+Step 6200: loss = 3.22 (0.065 sec)
+Step 6300: loss = 3.22 (0.802 sec)
+Step 6400: loss = 3.22 (0.073 sec)
+Step 6500: loss = 3.22 (0.084 sec)
+Step 6600: loss = 3.21 (1.454 sec)
+Step 6700: loss = 3.21 (0.072 sec)
+Step 6800: loss = 3.21 (0.060 sec)
+Step 6900: loss = 3.20 (0.948 sec)
+  Num examples: 3000  Num correct: 408  Error @ 1: 0.8640
+  Num examples: 1500  Num correct: 181  Error @ 1: 0.8793
+  Num examples: 1500  Num correct: 160  Error @ 1: 0.8933
+Step 7000: loss = 3.21 (0.105 sec)
+Step 7100: loss = 3.20 (0.072 sec)
+Step 7200: loss = 3.21 (1.539 sec)
+Step 7300: loss = 3.20 (0.070 sec)
+Step 7400: loss = 3.19 (0.067 sec)
+Step 7500: loss = 3.20 (1.438 sec)
+Step 7600: loss = 3.19 (0.064 sec)
+Step 7700: loss = 3.19 (0.070 sec)
+Step 7800: loss = 3.18 (1.592 sec)
+Step 7900: loss = 3.19 (0.067 sec)
+  Num examples: 3000  Num correct: 363  Error @ 1: 0.8790
+  Num examples: 1500  Num correct: 159  Error @ 1: 0.8940
+  Num examples: 1500  Num correct: 145  Error @ 1: 0.9033
+Step 8000: loss = 3.19 (0.089 sec)
+Step 8100: loss = 3.18 (1.605 sec)
+Step 8200: loss = 3.18 (0.067 sec)
+Step 8300: loss = 3.18 (0.079 sec)
+Step 8400: loss = 3.17 (0.411 sec)
+Step 8500: loss = 3.17 (0.074 sec)
+Step 8600: loss = 3.18 (0.064 sec)
+Step 8700: loss = 3.17 (0.413 sec)
+Step 8800: loss = 3.16 (0.068 sec)
+Step 8900: loss = 3.17 (0.074 sec)
+  Num examples: 3000  Num correct: 370  Error @ 1: 0.8767
+  Num examples: 1500  Num correct: 158  Error @ 1: 0.8947
+  Num examples: 1500  Num correct: 148  Error @ 1: 0.9013
+Step 9000: loss = 3.16 (1.673 sec)
+Step 9100: loss = 3.16 (0.075 sec)
+Step 9200: loss = 3.16 (0.212 sec)
+Step 9300: loss = 3.15 (1.152 sec)
+Step 9400: loss = 3.15 (0.070 sec)
+Step 9500: loss = 3.16 (0.076 sec)
+Step 9600: loss = 3.15 (1.501 sec)
+Step 9700: loss = 3.16 (0.061 sec)
+Step 9800: loss = 3.15 (0.069 sec)
+Step 9900: loss = 3.14 (1.168 sec)
+  Num examples: 3000  Num correct: 370  Error @ 1: 0.8767
+  Num examples: 1500  Num correct: 161  Error @ 1: 0.8927
+  Num examples: 1500  Num correct: 141  Error @ 1: 0.9060
+Step 10000: loss = 3.14 (0.094 sec)
+Step 10100: loss = 3.14 (0.066 sec)
+Step 10200: loss = 3.14 (1.547 sec)
+Step 10300: loss = 3.14 (0.062 sec)
+Step 10400: loss = 3.14 (0.074 sec)
+Step 10500: loss = 3.13 (1.289 sec)
+Step 10600: loss = 3.14 (0.070 sec)
+Step 10700: loss = 3.12 (0.073 sec)
+Step 10800: loss = 3.13 (1.697 sec)
+Step 10900: loss = 3.13 (0.085 sec)
+  Num examples: 3000  Num correct: 394  Error @ 1: 0.8687
+  Num examples: 1500  Num correct: 160  Error @ 1: 0.8933
+  Num examples: 1500  Num correct: 144  Error @ 1: 0.9040
+Step 11000: loss = 3.12 (0.092 sec)
+Step 11100: loss = 3.14 (1.397 sec)
+Step 11200: loss = 3.13 (0.067 sec)
+Step 11300: loss = 3.12 (0.079 sec)
+Step 11400: loss = 3.12 (1.221 sec)
+Step 11500: loss = 3.11 (0.080 sec)
+Step 11600: loss = 3.12 (0.069 sec)
+Step 11700: loss = 3.13 (1.192 sec)
+Step 11800: loss = 3.12 (0.067 sec)
+Step 11900: loss = 3.11 (0.067 sec)
+  Num examples: 3000  Num correct: 374  Error @ 1: 0.8753
+  Num examples: 1500  Num correct: 161  Error @ 1: 0.8927
+  Num examples: 1500  Num correct: 144  Error @ 1: 0.9040
+Step 12000: loss = 3.11 (1.776 sec)
+Step 12100: loss = 3.11 (0.077 sec)
+Step 12200: loss = 3.10 (0.065 sec)
+Step 12300: loss = 3.11 (1.238 sec)
+Step 12400: loss = 3.10 (0.065 sec)
+Step 12500: loss = 3.10 (0.071 sec)
+Step 12600: loss = 3.11 (1.436 sec)
+Step 12700: loss = 3.11 (0.075 sec)
+Step 12800: loss = 3.09 (0.071 sec)
+Step 12900: loss = 3.10 (0.701 sec)
+  Num examples: 3000  Num correct: 356  Error @ 1: 0.8813
+  Num examples: 1500  Num correct: 169  Error @ 1: 0.8873
+  Num examples: 1500  Num correct: 149  Error @ 1: 0.9007
+Step 13000: loss = 3.10 (0.101 sec)
+Step 13100: loss = 3.10 (0.067 sec)
+Step 13200: loss = 3.10 (1.173 sec)
+Step 13300: loss = 3.10 (0.061 sec)
+Step 13400: loss = 3.10 (0.074 sec)
+Step 13500: loss = 3.09 (1.461 sec)
+Step 13600: loss = 3.09 (0.086 sec)
+Step 13700: loss = 3.09 (0.071 sec)
+Step 13800: loss = 3.09 (1.570 sec)
+Step 13900: loss = 3.08 (0.067 sec)
+  Num examples: 3000  Num correct: 404  Error @ 1: 0.8653
+  Num examples: 1500  Num correct: 169  Error @ 1: 0.8873
+  Num examples: 1500  Num correct: 153  Error @ 1: 0.8980
+Step 14000: loss = 3.08 (0.088 sec)
+Step 14100: loss = 3.08 (0.552 sec)
+Step 14200: loss = 3.09 (0.079 sec)
+Step 14300: loss = 3.08 (0.066 sec)
+Step 14400: loss = 3.08 (1.436 sec)
+Step 14500: loss = 3.08 (0.064 sec)
+Step 14600: loss = 3.08 (0.062 sec)
+Step 14700: loss = 3.08 (1.602 sec)
+Step 14800: loss = 3.07 (0.069 sec)
+Step 14900: loss = 3.08 (0.064 sec)
+  Num examples: 3000  Num correct: 391  Error @ 1: 0.8697
+  Num examples: 1500  Num correct: 171  Error @ 1: 0.8860
+  Num examples: 1500  Num correct: 157  Error @ 1: 0.8953
+Step 15000: loss = 3.07 (1.877 sec)
+Step 15100: loss = 3.07 (0.061 sec)
+Step 15200: loss = 3.09 (0.062 sec)
+Step 15300: loss = 3.08 (1.548 sec)
+Step 15400: loss = 3.07 (0.156 sec)
+Step 15500: loss = 3.07 (0.075 sec)
+Step 15600: loss = 3.08 (1.224 sec)
+Step 15700: loss = 3.08 (0.063 sec)
+Step 15800: loss = 3.07 (0.066 sec)
+Step 15900: loss = 3.07 (1.031 sec)
+  Num examples: 3000  Num correct: 386  Error @ 1: 0.8713
+  Num examples: 1500  Num correct: 172  Error @ 1: 0.8853
+  Num examples: 1500  Num correct: 154  Error @ 1: 0.8973
+Step 16000: loss = 3.07 (0.248 sec)
+Step 16100: loss = 3.06 (0.074 sec)
+Step 16200: loss = 3.07 (1.457 sec)
+Step 16300: loss = 3.05 (0.068 sec)
+Step 16400: loss = 3.06 (0.075 sec)
+Step 16500: loss = 3.06 (1.642 sec)
+Step 16600: loss = 3.07 (0.071 sec)
+Step 16700: loss = 3.06 (0.075 sec)
+Step 16800: loss = 3.05 (0.599 sec)
+Step 16900: loss = 3.05 (0.063 sec)
+  Num examples: 3000  Num correct: 416  Error @ 1: 0.8613
+  Num examples: 1500  Num correct: 175  Error @ 1: 0.8833
+  Num examples: 1500  Num correct: 156  Error @ 1: 0.8960
+Step 17000: loss = 3.05 (0.091 sec)
+Step 17100: loss = 3.05 (1.597 sec)
+Step 17200: loss = 3.05 (0.077 sec)
+Step 17300: loss = 3.05 (0.095 sec)
+Step 17400: loss = 3.05 (1.313 sec)
+Step 17500: loss = 3.04 (0.065 sec)
+Step 17600: loss = 3.05 (0.065 sec)
+Step 17700: loss = 3.05 (0.463 sec)
+Step 17800: loss = 3.04 (0.073 sec)
+Step 17900: loss = 3.05 (0.074 sec)
+  Num examples: 3000  Num correct: 403  Error @ 1: 0.8657
+  Num examples: 1500  Num correct: 175  Error @ 1: 0.8833
+  Num examples: 1500  Num correct: 154  Error @ 1: 0.8973
+Step 18000: loss = 3.05 (1.867 sec)
+Step 18100: loss = 3.04 (0.063 sec)
+Step 18200: loss = 3.04 (0.068 sec)
+Step 18300: loss = 3.05 (1.579 sec)
+Step 18400: loss = 3.04 (0.073 sec)
+Step 18500: loss = 3.05 (0.079 sec)
+Step 18600: loss = 3.04 (1.061 sec)
+Step 18700: loss = 3.04 (0.070 sec)
+Step 18800: loss = 3.05 (0.075 sec)
+Step 18900: loss = 3.05 (1.599 sec)
+  Num examples: 3000  Num correct: 405  Error @ 1: 0.8650
+  Num examples: 1500  Num correct: 176  Error @ 1: 0.8827
+  Num examples: 1500  Num correct: 155  Error @ 1: 0.8967
+Step 19000: loss = 3.03 (0.109 sec)
+Step 19100: loss = 3.04 (0.064 sec)
+Step 19200: loss = 3.04 (1.432 sec)
+Step 19300: loss = 3.04 (0.069 sec)
+Step 19400: loss = 3.04 (0.080 sec)
+Step 19500: loss = 3.03 (1.391 sec)
+Step 19600: loss = 3.03 (0.080 sec)
+Step 19700: loss = 3.02 (0.075 sec)
+Step 19800: loss = 3.03 (1.667 sec)
+Step 19900: loss = 3.03 (0.068 sec)
+  Num examples: 3000  Num correct: 388  Error @ 1: 0.8707
+  Num examples: 1500  Num correct: 173  Error @ 1: 0.8847
+  Num examples: 1500  Num correct: 163  Error @ 1: 0.8913
+Step 20000: loss = 3.04 (0.225 sec)
+Step 20100: loss = 3.03 (1.421 sec)
+Step 20200: loss = 3.03 (0.064 sec)
+Step 20300: loss = 3.02 (0.088 sec)
+Step 20400: loss = 3.03 (0.734 sec)
+Step 20500: loss = 3.03 (0.063 sec)
+Step 20600: loss = 3.03 (0.074 sec)
+Step 20700: loss = 3.03 (1.334 sec)
+Step 20800: loss = 3.02 (0.066 sec)
+Step 20900: loss = 3.03 (0.065 sec)
+  Num examples: 3000  Num correct: 398  Error @ 1: 0.8673
+  Num examples: 1500  Num correct: 175  Error @ 1: 0.8833
+  Num examples: 1500  Num correct: 165  Error @ 1: 0.8900
+Step 21000: loss = 3.04 (1.890 sec)
+Step 21100: loss = 3.03 (0.069 sec)
+Step 21200: loss = 3.03 (0.059 sec)
+Step 21300: loss = 3.02 (1.089 sec)
+Step 21400: loss = 3.03 (0.070 sec)
+Step 21500: loss = 3.02 (0.087 sec)
+Step 21600: loss = 3.03 (0.950 sec)
+Step 21700: loss = 3.02 (0.071 sec)
+Step 21800: loss = 3.02 (0.064 sec)
+Step 21900: loss = 3.01 (1.224 sec)
+  Num examples: 3000  Num correct: 399  Error @ 1: 0.8670
+  Num examples: 1500  Num correct: 182  Error @ 1: 0.8787
+  Num examples: 1500  Num correct: 163  Error @ 1: 0.8913
+Step 22000: loss = 3.01 (0.092 sec)
+Step 22100: loss = 3.02 (0.069 sec)
+Step 22200: loss = 3.01 (0.778 sec)
+Step 22300: loss = 3.01 (0.075 sec)
+Step 22400: loss = 3.02 (0.064 sec)
+Step 22500: loss = 3.01 (1.011 sec)
+Step 22600: loss = 3.01 (0.074 sec)
+Step 22700: loss = 3.02 (0.061 sec)
+Step 22800: loss = 3.02 (0.856 sec)
+Step 22900: loss = 3.02 (0.078 sec)
+  Num examples: 3000  Num correct: 380  Error @ 1: 0.8733
+  Num examples: 1500  Num correct: 181  Error @ 1: 0.8793
+  Num examples: 1500  Num correct: 169  Error @ 1: 0.8873
+Step 23000: loss = 3.01 (0.107 sec)
+Step 23100: loss = 3.01 (1.569 sec)
+Step 23200: loss = 3.01 (0.088 sec)
+Step 23300: loss = 3.01 (0.092 sec)
+Step 23400: loss = 3.01 (1.520 sec)
+Step 23500: loss = 3.01 (0.070 sec)
+Step 23600: loss = 3.01 (0.070 sec)
+Step 23700: loss = 3.00 (1.436 sec)
+Step 23800: loss = 3.01 (0.079 sec)
+Step 23900: loss = 3.00 (0.065 sec)
+  Num examples: 3000  Num correct: 415  Error @ 1: 0.8617
+  Num examples: 1500  Num correct: 185  Error @ 1: 0.8767
+  Num examples: 1500  Num correct: 172  Error @ 1: 0.8853
+Step 24000: loss = 3.01 (2.005 sec)
+Step 24100: loss = 3.00 (0.144 sec)
+Step 24200: loss = 3.00 (0.064 sec)
+Step 24300: loss = 3.01 (1.224 sec)
+Step 24400: loss = 3.00 (0.073 sec)
+Step 24500: loss = 3.00 (0.067 sec)
+Step 24600: loss = 3.00 (1.374 sec)
+Step 24700: loss = 3.00 (0.071 sec)
+Step 24800: loss = 3.00 (0.118 sec)
+Step 24900: loss = 3.00 (1.319 sec)
+  Num examples: 3000  Num correct: 425  Error @ 1: 0.8583
+  Num examples: 1500  Num correct: 182  Error @ 1: 0.8787
+  Num examples: 1500  Num correct: 173  Error @ 1: 0.8847
+Step 25000: loss = 3.00 (0.104 sec)
+Step 25100: loss = 3.00 (0.063 sec)
+Step 25200: loss = 3.00 (1.078 sec)
+Step 25300: loss = 2.99 (0.073 sec)
+Step 25400: loss = 3.00 (0.069 sec)
+Step 25500: loss = 3.00 (1.755 sec)
+Step 25600: loss = 2.99 (0.064 sec)
+Step 25700: loss = 3.00 (0.081 sec)
+Step 25800: loss = 3.00 (1.450 sec)
+Step 25900: loss = 3.00 (0.080 sec)
+  Num examples: 3000  Num correct: 433  Error @ 1: 0.8557
+  Num examples: 1500  Num correct: 184  Error @ 1: 0.8773
+  Num examples: 1500  Num correct: 175  Error @ 1: 0.8833
+Step 26000: loss = 2.99 (0.101 sec)
+Step 26100: loss = 2.99 (0.882 sec)
+Step 26200: loss = 3.00 (0.079 sec)
+Step 26300: loss = 3.00 (0.077 sec)
+Step 26400: loss = 2.99 (1.532 sec)
+Step 26500: loss = 3.00 (0.075 sec)
+Step 26600: loss = 3.00 (0.077 sec)
+Step 26700: loss = 2.98 (1.309 sec)
+Step 26800: loss = 2.99 (0.076 sec)
+Step 26900: loss = 3.00 (0.060 sec)
+  Num examples: 3000  Num correct: 461  Error @ 1: 0.8463
+  Num examples: 1500  Num correct: 188  Error @ 1: 0.8747
+  Num examples: 1500  Num correct: 193  Error @ 1: 0.8713
+Step 27000: loss = 2.99 (1.708 sec)
+Step 27100: loss = 2.98 (0.066 sec)
+Step 27200: loss = 2.99 (0.077 sec)
+Step 27300: loss = 2.99 (0.797 sec)
+Step 27400: loss = 2.99 (0.220 sec)
+Step 27500: loss = 2.99 (0.077 sec)
+Step 27600: loss = 3.00 (1.086 sec)
+Step 27700: loss = 2.99 (0.073 sec)
+Step 27800: loss = 2.99 (0.076 sec)
+Step 27900: loss = 2.99 (1.127 sec)
+  Num examples: 3000  Num correct: 460  Error @ 1: 0.8467
+  Num examples: 1500  Num correct: 193  Error @ 1: 0.8713
+  Num examples: 1500  Num correct: 196  Error @ 1: 0.8693
+Step 28000: loss = 2.99 (0.111 sec)
+Step 28100: loss = 2.99 (0.082 sec)
+Step 28200: loss = 2.98 (0.937 sec)
+Step 28300: loss = 2.98 (0.077 sec)
+Step 28400: loss = 2.99 (0.067 sec)
+Step 28500: loss = 2.99 (1.573 sec)
+Step 28600: loss = 2.98 (0.071 sec)
+Step 28700: loss = 2.98 (0.224 sec)
+Step 28800: loss = 2.97 (1.427 sec)
+Step 28900: loss = 2.98 (0.068 sec)
+  Num examples: 3000  Num correct: 380  Error @ 1: 0.8733
+  Num examples: 1500  Num correct: 161  Error @ 1: 0.8927
+  Num examples: 1500  Num correct: 158  Error @ 1: 0.8947
+Step 29000: loss = 2.98 (0.109 sec)
+Step 29100: loss = 2.98 (1.701 sec)
+Step 29200: loss = 2.99 (0.070 sec)
+Step 29300: loss = 2.98 (0.071 sec)
+Step 29400: loss = 2.98 (1.295 sec)
+Step 29500: loss = 2.98 (0.066 sec)
+Step 29600: loss = 2.99 (0.064 sec)
+Step 29700: loss = 2.97 (1.372 sec)
+Step 29800: loss = 2.98 (0.070 sec)
+Step 29900: loss = 2.98 (0.071 sec)
+  Num examples: 3000  Num correct: 383  Error @ 1: 0.8723
+  Num examples: 1500  Num correct: 160  Error @ 1: 0.8933
+  Num examples: 1500  Num correct: 149  Error @ 1: 0.9007
+Step 30000: loss = 2.98 (1.682 sec)
+Step 30100: loss = 2.99 (0.076 sec)
+Step 30200: loss = 2.98 (0.073 sec)
+Step 30300: loss = 2.98 (0.700 sec)
+Step 30400: loss = 2.98 (0.062 sec)
+Step 30500: loss = 2.98 (0.072 sec)
+Step 30600: loss = 2.98 (0.578 sec)
+Step 30700: loss = 2.98 (0.071 sec)
+Step 30800: loss = 2.98 (0.066 sec)
+Step 30900: loss = 2.97 (0.978 sec)
+  Num examples: 3000  Num correct: 379  Error @ 1: 0.8737
+  Num examples: 1500  Num correct: 164  Error @ 1: 0.8907
+  Num examples: 1500  Num correct: 145  Error @ 1: 0.9033
+Step 31000: loss = 2.96 (0.087 sec)
+Step 31100: loss = 2.98 (0.074 sec)
+Step 31200: loss = 2.97 (0.703 sec)
+Step 31300: loss = 2.97 (0.206 sec)
+Step 31400: loss = 2.97 (0.065 sec)
+Step 31500: loss = 2.97 (1.116 sec)
+Step 31600: loss = 2.97 (0.075 sec)
+Step 31700: loss = 2.98 (0.068 sec)
+Step 31800: loss = 2.97 (1.306 sec)
+Step 31900: loss = 2.97 (0.072 sec)
+  Num examples: 3000  Num correct: 391  Error @ 1: 0.8697
+  Num examples: 1500  Num correct: 157  Error @ 1: 0.8953
+  Num examples: 1500  Num correct: 145  Error @ 1: 0.9033
+Step 32000: loss = 2.97 (0.093 sec)
+Step 32100: loss = 2.98 (1.061 sec)
+Step 32200: loss = 2.97 (0.069 sec)
+Step 32300: loss = 2.97 (0.061 sec)
+Step 32400: loss = 2.97 (0.761 sec)
+Step 32500: loss = 2.97 (0.073 sec)
+Step 32600: loss = 2.97 (0.070 sec)
+Step 32700: loss = 2.97 (1.431 sec)
+Step 32800: loss = 2.97 (0.066 sec)
+Step 32900: loss = 2.96 (0.072 sec)
+  Num examples: 3000  Num correct: 369  Error @ 1: 0.8770
+  Num examples: 1500  Num correct: 160  Error @ 1: 0.8933
+  Num examples: 1500  Num correct: 144  Error @ 1: 0.9040
+Step 33000: loss = 2.97 (1.826 sec)
+Step 33100: loss = 2.97 (0.064 sec)
+Step 33200: loss = 2.97 (0.074 sec)
+Step 33300: loss = 2.96 (1.337 sec)
+Step 33400: loss = 2.96 (0.071 sec)
+Step 33500: loss = 2.97 (0.067 sec)
+Step 33600: loss = 2.96 (1.487 sec)
+Step 33700: loss = 2.96 (0.075 sec)
+Step 33800: loss = 2.97 (0.107 sec)
+Step 33900: loss = 2.97 (1.162 sec)
+  Num examples: 3000  Num correct: 391  Error @ 1: 0.8697
+  Num examples: 1500  Num correct: 157  Error @ 1: 0.8953
+  Num examples: 1500  Num correct: 143  Error @ 1: 0.9047
+Step 34000: loss = 2.96 (0.140 sec)
+Step 34100: loss = 2.96 (0.064 sec)
+Step 34200: loss = 2.96 (1.689 sec)
+Step 34300: loss = 2.96 (0.076 sec)
+Step 34400: loss = 2.96 (0.083 sec)
+Step 34500: loss = 2.96 (1.538 sec)
+Step 34600: loss = 2.97 (0.068 sec)
+Step 34700: loss = 2.96 (0.072 sec)
+Step 34800: loss = 2.96 (1.628 sec)
+Step 34900: loss = 2.96 (0.065 sec)
+  Num examples: 3000  Num correct: 350  Error @ 1: 0.8833
+  Num examples: 1500  Num correct: 154  Error @ 1: 0.8973
+  Num examples: 1500  Num correct: 141  Error @ 1: 0.9060
+Step 35000: loss = 2.96 (0.112 sec)
+Step 35100: loss = 2.97 (1.664 sec)
+Step 35200: loss = 2.96 (0.067 sec)
+Step 35300: loss = 2.97 (0.067 sec)
+Step 35400: loss = 2.96 (1.647 sec)
+Step 35500: loss = 2.96 (0.071 sec)
+Step 35600: loss = 2.96 (0.064 sec)
+Step 35700: loss = 2.96 (1.577 sec)
+Step 35800: loss = 2.95 (0.070 sec)
+Step 35900: loss = 2.96 (0.069 sec)
+  Num examples: 3000  Num correct: 356  Error @ 1: 0.8813
+  Num examples: 1500  Num correct: 148  Error @ 1: 0.9013
+  Num examples: 1500  Num correct: 136  Error @ 1: 0.9093
+Step 36000: loss = 2.96 (1.857 sec)
+Step 36100: loss = 2.97 (0.072 sec)
+Step 36200: loss = 2.96 (0.068 sec)
+Step 36300: loss = 2.96 (1.083 sec)
+Step 36400: loss = 2.96 (0.071 sec)
+Step 36500: loss = 2.96 (0.074 sec)
+Step 36600: loss = 2.96 (0.787 sec)
+Step 36700: loss = 2.95 (0.068 sec)
+Step 36800: loss = 2.96 (0.072 sec)
+Step 36900: loss = 2.95 (1.860 sec)
+  Num examples: 3000  Num correct: 349  Error @ 1: 0.8837
+  Num examples: 1500  Num correct: 150  Error @ 1: 0.9000
+  Num examples: 1500  Num correct: 139  Error @ 1: 0.9073
+Step 37000: loss = 2.96 (0.106 sec)
+Step 37100: loss = 2.96 (0.075 sec)
+Step 37200: loss = 2.96 (1.032 sec)
+Step 37300: loss = 2.96 (0.063 sec)
+Step 37400: loss = 2.96 (0.061 sec)
+Step 37500: loss = 2.95 (1.435 sec)
+Step 37600: loss = 2.96 (0.064 sec)
+Step 37700: loss = 2.95 (0.068 sec)
+Step 37800: loss = 2.95 (1.075 sec)
+Step 37900: loss = 2.95 (0.081 sec)
+  Num examples: 3000  Num correct: 345  Error @ 1: 0.8850
+  Num examples: 1500  Num correct: 148  Error @ 1: 0.9013
+  Num examples: 1500  Num correct: 135  Error @ 1: 0.9100
+Step 38000: loss = 2.95 (0.091 sec)
+Step 38100: loss = 2.95 (1.235 sec)
+Step 38200: loss = 2.96 (0.073 sec)
+Step 38300: loss = 2.95 (0.063 sec)
+Step 38400: loss = 2.96 (1.638 sec)
+Step 38500: loss = 2.95 (0.073 sec)
+Step 38600: loss = 2.94 (0.074 sec)
+Step 38700: loss = 2.95 (1.007 sec)
+Step 38800: loss = 2.95 (0.064 sec)
+Step 38900: loss = 2.95 (0.065 sec)
+  Num examples: 3000  Num correct: 328  Error @ 1: 0.8907
+  Num examples: 1500  Num correct: 150  Error @ 1: 0.9000
+  Num examples: 1500  Num correct: 135  Error @ 1: 0.9100
+Step 39000: loss = 2.95 (1.929 sec)
+Step 39100: loss = 2.95 (0.066 sec)
+Step 39200: loss = 2.95 (0.070 sec)
+Step 39300: loss = 2.95 (1.554 sec)
+Step 39400: loss = 2.95 (0.069 sec)
+Step 39500: loss = 2.95 (0.069 sec)
+Step 39600: loss = 2.95 (1.409 sec)
+Step 39700: loss = 2.95 (0.070 sec)
+Step 39800: loss = 2.95 (0.070 sec)
+Step 39900: loss = 2.95 (1.581 sec)
+  Num examples: 3000  Num correct: 329  Error @ 1: 0.8903
+  Num examples: 1500  Num correct: 146  Error @ 1: 0.9027
+  Num examples: 1500  Num correct: 137  Error @ 1: 0.9087
+Step 40000: loss = 2.95 (0.098 sec)
+Step 40100: loss = 2.95 (0.068 sec)
+Step 40200: loss = 2.95 (1.576 sec)
+Step 40300: loss = 2.95 (0.121 sec)
+Step 40400: loss = 2.95 (0.067 sec)
+Step 40500: loss = 2.94 (1.244 sec)
+Step 40600: loss = 2.96 (0.066 sec)
+Step 40700: loss = 2.95 (0.067 sec)
+Step 40800: loss = 2.95 (1.675 sec)
+Step 40900: loss = 2.94 (0.066 sec)
+  Num examples: 3000  Num correct: 323  Error @ 1: 0.8923
+  Num examples: 1500  Num correct: 143  Error @ 1: 0.9047
+  Num examples: 1500  Num correct: 128  Error @ 1: 0.9147
+Step 41000: loss = 2.94 (0.102 sec)
+Step 41100: loss = 2.95 (1.665 sec)
+Step 41200: loss = 2.95 (0.160 sec)
+Step 41300: loss = 2.94 (0.075 sec)
+Step 41400: loss = 2.95 (1.530 sec)
+Step 41500: loss = 2.95 (0.065 sec)
+Step 41600: loss = 2.94 (0.084 sec)
+Step 41700: loss = 2.94 (1.638 sec)
+Step 41800: loss = 2.94 (0.077 sec)
+Step 41900: loss = 2.94 (0.070 sec)
+  Num examples: 3000  Num correct: 311  Error @ 1: 0.8963
+  Num examples: 1500  Num correct: 144  Error @ 1: 0.9040
+  Num examples: 1500  Num correct: 130  Error @ 1: 0.9133
+Step 42000: loss = 2.94 (1.532 sec)
+Step 42100: loss = 2.94 (0.080 sec)
+Step 42200: loss = 2.94 (0.069 sec)
+Step 42300: loss = 2.94 (1.059 sec)
+Step 42400: loss = 2.94 (0.074 sec)
+Step 42500: loss = 2.95 (0.078 sec)
+Step 42600: loss = 2.94 (1.348 sec)
+Step 42700: loss = 2.94 (0.080 sec)
+Step 42800: loss = 2.94 (0.070 sec)
+Step 42900: loss = 2.95 (1.122 sec)
+  Num examples: 3000  Num correct: 317  Error @ 1: 0.8943
+  Num examples: 1500  Num correct: 144  Error @ 1: 0.9040
+  Num examples: 1500  Num correct: 136  Error @ 1: 0.9093
+Step 43000: loss = 2.94 (0.108 sec)
+Step 43100: loss = 2.95 (0.074 sec)
+Step 43200: loss = 2.95 (1.516 sec)
+Step 43300: loss = 2.94 (0.067 sec)
+Step 43400: loss = 2.95 (0.071 sec)
+Step 43500: loss = 2.94 (1.048 sec)
+Step 43600: loss = 2.95 (0.068 sec)
+Step 43700: loss = 2.94 (0.081 sec)
+Step 43800: loss = 2.94 (0.895 sec)
+Step 43900: loss = 2.93 (0.075 sec)
+  Num examples: 3000  Num correct: 291  Error @ 1: 0.9030
+  Num examples: 1500  Num correct: 141  Error @ 1: 0.9060
+  Num examples: 1500  Num correct: 133  Error @ 1: 0.9113
+Step 44000: loss = 2.93 (0.097 sec)
+Step 44100: loss = 2.94 (1.649 sec)
+Step 44200: loss = 2.94 (0.066 sec)
+Step 44300: loss = 2.94 (0.066 sec)
+Step 44400: loss = 2.93 (1.324 sec)
+Step 44500: loss = 2.94 (0.062 sec)
+Step 44600: loss = 2.94 (0.062 sec)
+Step 44700: loss = 2.94 (1.457 sec)
+Step 44800: loss = 2.95 (0.075 sec)
+Step 44900: loss = 2.93 (0.077 sec)
+  Num examples: 3000  Num correct: 309  Error @ 1: 0.8970
+  Num examples: 1500  Num correct: 145  Error @ 1: 0.9033
+  Num examples: 1500  Num correct: 133  Error @ 1: 0.9113
+Step 45000: loss = 2.94 (1.867 sec)
+Step 45100: loss = 2.94 (0.076 sec)
+Step 45200: loss = 2.94 (0.065 sec)
+Step 45300: loss = 2.93 (1.571 sec)
+Step 45400: loss = 2.94 (0.067 sec)
+Step 45500: loss = 2.94 (0.081 sec)
+Step 45600: loss = 2.94 (1.218 sec)
+Step 45700: loss = 2.93 (0.069 sec)
+Step 45800: loss = 2.94 (0.066 sec)
+Step 45900: loss = 2.94 (0.664 sec)
+  Num examples: 3000  Num correct: 309  Error @ 1: 0.8970
+  Num examples: 1500  Num correct: 140  Error @ 1: 0.9067
+  Num examples: 1500  Num correct: 131  Error @ 1: 0.9127
+Step 46000: loss = 2.93 (0.112 sec)
+Step 46100: loss = 2.94 (0.078 sec)
+Step 46200: loss = 2.93 (0.898 sec)
+Step 46300: loss = 2.93 (0.075 sec)
+Step 46400: loss = 2.94 (0.072 sec)
+  Num examples: 3000  Num correct: 308  Error @ 1: 0.8973
+  Num examples: 1500  Num correct: 142  Error @ 1: 0.9053
+  Num examples: 1500  Num correct: 129  Error @ 1: 0.9140

@@ -2556,3 +2556,1201 @@ Dataset array size:  (6200, 256, 256, 1)
 |         97000 |      327.9437 | Layer 2 | Epoch 32  |
 |         97100 |      329.5746 | Layer 2 | Epoch 32  |
 |         97200 |      326.7984 | Layer 2 | Epoch 32  |
+|         97300 |      329.3313 | Layer 2 | Epoch 32  |
+|         97400 |      327.7234 | Layer 2 | Epoch 32  |
+|         97500 |      329.6384 | Layer 2 | Epoch 32  |
+|         97600 |      322.1619 | Layer 2 | Epoch 32  |
+|         97700 |      330.2153 | Layer 2 | Epoch 32  |
+|         97800 |      325.2997 | Layer 2 | Epoch 32  |
+|         97900 |      324.1243 | Layer 2 | Epoch 32  |
+|         98000 |      328.6380 | Layer 2 | Epoch 32  |
+|         98100 |      324.9970 | Layer 2 | Epoch 32  |
+|         98200 |      326.8039 | Layer 2 | Epoch 32  |
+|         98300 |      327.8336 | Layer 2 | Epoch 32  |
+|         98400 |      323.3253 | Layer 2 | Epoch 32  |
+|         98500 |      325.3535 | Layer 2 | Epoch 32  |
+|         98600 |      327.0222 | Layer 2 | Epoch 32  |
+|         98700 |      324.6241 | Layer 2 | Epoch 32  |
+|         98800 |      327.3214 | Layer 2 | Epoch 32  |
+|         98900 |      325.7115 | Layer 2 | Epoch 32  |
+|         99000 |      323.9945 | Layer 2 | Epoch 32  |
+|         99100 |      326.9138 | Layer 2 | Epoch 32  |
+|         99200 |      328.9890 | Layer 2 | Epoch 33  |
+|         99300 |      325.8089 | Layer 2 | Epoch 33  |
+|         99400 |      326.4303 | Layer 2 | Epoch 33  |
+|         99500 |      327.0630 | Layer 2 | Epoch 33  |
+|         99600 |      325.8403 | Layer 2 | Epoch 33  |
+|         99700 |      326.4935 | Layer 2 | Epoch 33  |
+|         99800 |      324.6016 | Layer 2 | Epoch 33  |
+|         99900 |      330.5057 | Layer 2 | Epoch 33  |
+|        100000 |      324.7250 | Layer 2 | Epoch 33  |
+|        100100 |      325.6211 | Layer 2 | Epoch 33  |
+|        100200 |      327.1376 | Layer 2 | Epoch 33  |
+|        100300 |      329.4725 | Layer 2 | Epoch 33  |
+|        100400 |      321.6581 | Layer 2 | Epoch 33  |
+|        100500 |      328.0634 | Layer 2 | Epoch 33  |
+|        100600 |      324.8938 | Layer 2 | Epoch 33  |
+|        100700 |      323.2120 | Layer 2 | Epoch 33  |
+|        100800 |      328.5687 | Layer 2 | Epoch 33  |
+|        100900 |      327.7169 | Layer 2 | Epoch 33  |
+|        101000 |      324.1895 | Layer 2 | Epoch 33  |
+|        101100 |      327.8836 | Layer 2 | Epoch 33  |
+|        101200 |      324.1542 | Layer 2 | Epoch 33  |
+|        101300 |      326.1815 | Layer 2 | Epoch 33  |
+|        101400 |      326.1659 | Layer 2 | Epoch 33  |
+|        101500 |      326.2956 | Layer 2 | Epoch 33  |
+|        101600 |      324.1581 | Layer 2 | Epoch 33  |
+|        101700 |      324.5829 | Layer 2 | Epoch 33  |
+|        101800 |      323.7402 | Layer 2 | Epoch 33  |
+|        101900 |      324.5573 | Layer 2 | Epoch 33  |
+|        102000 |      326.0777 | Layer 2 | Epoch 33  |
+|        102100 |      327.3311 | Layer 2 | Epoch 33  |
+|        102200 |      325.9033 | Layer 2 | Epoch 33  |
+|        102300 |      326.3693 | Layer 2 | Epoch 34  |
+|        102400 |      326.2586 | Layer 2 | Epoch 34  |
+|        102500 |      323.7200 | Layer 2 | Epoch 34  |
+|        102600 |      325.5365 | Layer 2 | Epoch 34  |
+|        102700 |      324.2363 | Layer 2 | Epoch 34  |
+|        102800 |      330.3071 | Layer 2 | Epoch 34  |
+|        102900 |      325.1038 | Layer 2 | Epoch 34  |
+|        103000 |      328.3825 | Layer 2 | Epoch 34  |
+|        103100 |      325.0026 | Layer 2 | Epoch 34  |
+|        103200 |      325.5352 | Layer 2 | Epoch 34  |
+|        103300 |      326.8206 | Layer 2 | Epoch 34  |
+|        103400 |      329.0321 | Layer 2 | Epoch 34  |
+|        103500 |      324.3413 | Layer 2 | Epoch 34  |
+|        103600 |      327.1433 | Layer 2 | Epoch 34  |
+|        103700 |      327.5670 | Layer 2 | Epoch 34  |
+|        103800 |      326.2068 | Layer 2 | Epoch 34  |
+|        103900 |      325.9462 | Layer 2 | Epoch 34  |
+|        104000 |      327.8802 | Layer 2 | Epoch 34  |
+|        104100 |      325.7898 | Layer 2 | Epoch 34  |
+|        104200 |      326.6053 | Layer 2 | Epoch 34  |
+|        104300 |      323.9038 | Layer 2 | Epoch 34  |
+|        104400 |      326.9791 | Layer 2 | Epoch 34  |
+|        104500 |      322.6761 | Layer 2 | Epoch 34  |
+|        104600 |      322.4573 | Layer 2 | Epoch 34  |
+|        104700 |      325.2919 | Layer 2 | Epoch 34  |
+|        104800 |      323.3101 | Layer 2 | Epoch 34  |
+|        104900 |      325.8294 | Layer 2 | Epoch 34  |
+|        105000 |      326.5787 | Layer 2 | Epoch 34  |
+|        105100 |      325.7295 | Layer 2 | Epoch 34  |
+|        105200 |      327.6221 | Layer 2 | Epoch 34  |
+|        105300 |      323.8303 | Layer 2 | Epoch 34  |
+|        105400 |      324.7503 | Layer 2 | Epoch 35  |
+|        105500 |      327.0487 | Layer 2 | Epoch 35  |
+|        105600 |      326.0328 | Layer 2 | Epoch 35  |
+|        105700 |      327.0858 | Layer 2 | Epoch 35  |
+|        105800 |      322.7554 | Layer 2 | Epoch 35  |
+|        105900 |      326.7482 | Layer 2 | Epoch 35  |
+|        106000 |      325.6635 | Layer 2 | Epoch 35  |
+|        106100 |      324.1295 | Layer 2 | Epoch 35  |
+|        106200 |      325.4163 | Layer 2 | Epoch 35  |
+|        106300 |      326.2923 | Layer 2 | Epoch 35  |
+|        106400 |      325.9551 | Layer 2 | Epoch 35  |
+|        106500 |      322.2019 | Layer 2 | Epoch 35  |
+|        106600 |      325.2223 | Layer 2 | Epoch 35  |
+|        106700 |      330.6206 | Layer 2 | Epoch 35  |
+|        106800 |      324.0438 | Layer 2 | Epoch 35  |
+|        106900 |      322.0685 | Layer 2 | Epoch 35  |
+|        107000 |      326.4650 | Layer 2 | Epoch 35  |
+|        107100 |      325.8760 | Layer 2 | Epoch 35  |
+|        107200 |      320.9377 | Layer 2 | Epoch 35  |
+|        107300 |      324.9568 | Layer 2 | Epoch 35  |
+|        107400 |      321.7403 | Layer 2 | Epoch 35  |
+|        107500 |      325.1734 | Layer 2 | Epoch 35  |
+|        107600 |      327.7745 | Layer 2 | Epoch 35  |
+|        107700 |      325.4427 | Layer 2 | Epoch 35  |
+|        107800 |      329.3798 | Layer 2 | Epoch 35  |
+|        107900 |      325.1680 | Layer 2 | Epoch 35  |
+|        108000 |      324.5840 | Layer 2 | Epoch 35  |
+|        108100 |      322.5336 | Layer 2 | Epoch 35  |
+|        108200 |      324.0753 | Layer 2 | Epoch 35  |
+|        108300 |      327.1359 | Layer 2 | Epoch 35  |
+|        108400 |      325.3240 | Layer 2 | Epoch 35  |
+|        108500 |      324.4974 | Layer 2 | Epoch 36  |
+|        108600 |      323.8653 | Layer 2 | Epoch 36  |
+|        108700 |      326.1780 | Layer 2 | Epoch 36  |
+|        108800 |      325.2584 | Layer 2 | Epoch 36  |
+|        108900 |      328.0411 | Layer 2 | Epoch 36  |
+|        109000 |      321.7048 | Layer 2 | Epoch 36  |
+|        109100 |      324.8740 | Layer 2 | Epoch 36  |
+|        109200 |      325.3883 | Layer 2 | Epoch 36  |
+|        109300 |      327.7479 | Layer 2 | Epoch 36  |
+|        109400 |      326.3410 | Layer 2 | Epoch 36  |
+|        109500 |      323.9589 | Layer 2 | Epoch 36  |
+|        109600 |      328.4222 | Layer 2 | Epoch 36  |
+|        109700 |      325.5995 | Layer 2 | Epoch 36  |
+|        109800 |      326.8176 | Layer 2 | Epoch 36  |
+|        109900 |      322.9651 | Layer 2 | Epoch 36  |
+|        110000 |      326.1960 | Layer 2 | Epoch 36  |
+|        110100 |      325.6201 | Layer 2 | Epoch 36  |
+|        110200 |      328.6835 | Layer 2 | Epoch 36  |
+|        110300 |      327.8848 | Layer 2 | Epoch 36  |
+|        110400 |      324.0857 | Layer 2 | Epoch 36  |
+|        110500 |      319.7971 | Layer 2 | Epoch 36  |
+|        110600 |      321.9020 | Layer 2 | Epoch 36  |
+|        110700 |      324.8056 | Layer 2 | Epoch 36  |
+|        110800 |      324.7571 | Layer 2 | Epoch 36  |
+|        110900 |      321.7415 | Layer 2 | Epoch 36  |
+|        111000 |      325.6708 | Layer 2 | Epoch 36  |
+|        111100 |      325.1140 | Layer 2 | Epoch 36  |
+|        111200 |      322.8513 | Layer 2 | Epoch 36  |
+|        111300 |      324.7117 | Layer 2 | Epoch 36  |
+|        111400 |      324.7426 | Layer 2 | Epoch 36  |
+|        111500 |      329.1288 | Layer 2 | Epoch 36  |
+|        111600 |      324.5500 | Layer 2 | Epoch 37  |
+|        111700 |      322.7244 | Layer 2 | Epoch 37  |
+|        111800 |      326.4126 | Layer 2 | Epoch 37  |
+|        111900 |      324.6811 | Layer 2 | Epoch 37  |
+|        112000 |      324.5228 | Layer 2 | Epoch 37  |
+|        112100 |      324.0762 | Layer 2 | Epoch 37  |
+|        112200 |      324.1522 | Layer 2 | Epoch 37  |
+|        112300 |      324.3025 | Layer 2 | Epoch 37  |
+|        112400 |      324.9406 | Layer 2 | Epoch 37  |
+|        112500 |      325.0737 | Layer 2 | Epoch 37  |
+|        112600 |      325.0760 | Layer 2 | Epoch 37  |
+|        112700 |      323.4312 | Layer 2 | Epoch 37  |
+|        112800 |      327.1345 | Layer 2 | Epoch 37  |
+|        112900 |      324.5687 | Layer 2 | Epoch 37  |
+|        113000 |      324.5363 | Layer 2 | Epoch 37  |
+|        113100 |      320.6093 | Layer 2 | Epoch 37  |
+|        113200 |      327.4476 | Layer 2 | Epoch 37  |
+|        113300 |      324.8542 | Layer 2 | Epoch 37  |
+|        113400 |      322.7507 | Layer 2 | Epoch 37  |
+|        113500 |      327.5331 | Layer 2 | Epoch 37  |
+|        113600 |      324.7809 | Layer 2 | Epoch 37  |
+|        113700 |      324.2805 | Layer 2 | Epoch 37  |
+|        113800 |      325.7673 | Layer 2 | Epoch 37  |
+|        113900 |      325.3780 | Layer 2 | Epoch 37  |
+|        114000 |      323.6842 | Layer 2 | Epoch 37  |
+|        114100 |      321.4721 | Layer 2 | Epoch 37  |
+|        114200 |      326.9861 | Layer 2 | Epoch 37  |
+|        114300 |      324.9200 | Layer 2 | Epoch 37  |
+|        114400 |      324.8163 | Layer 2 | Epoch 37  |
+|        114500 |      324.1472 | Layer 2 | Epoch 37  |
+|        114600 |      326.1951 | Layer 2 | Epoch 37  |
+|        114700 |      322.3352 | Layer 2 | Epoch 38  |
+|        114800 |      321.9935 | Layer 2 | Epoch 38  |
+|        114900 |      322.2525 | Layer 2 | Epoch 38  |
+|        115000 |      325.7078 | Layer 2 | Epoch 38  |
+|        115100 |      322.9329 | Layer 2 | Epoch 38  |
+|        115200 |      326.1195 | Layer 2 | Epoch 38  |
+|        115300 |      321.5416 | Layer 2 | Epoch 38  |
+|        115400 |      323.0830 | Layer 2 | Epoch 38  |
+|        115500 |      322.4498 | Layer 2 | Epoch 38  |
+|        115600 |      324.8184 | Layer 2 | Epoch 38  |
+|        115700 |      321.4740 | Layer 2 | Epoch 38  |
+|        115800 |      322.3956 | Layer 2 | Epoch 38  |
+|        115900 |      322.5552 | Layer 2 | Epoch 38  |
+|        116000 |      325.0739 | Layer 2 | Epoch 38  |
+|        116100 |      323.6524 | Layer 2 | Epoch 38  |
+|        116200 |      322.7081 | Layer 2 | Epoch 38  |
+|        116300 |      325.3041 | Layer 2 | Epoch 38  |
+|        116400 |      327.1801 | Layer 2 | Epoch 38  |
+|        116500 |      324.7520 | Layer 2 | Epoch 38  |
+|        116600 |      325.1679 | Layer 2 | Epoch 38  |
+|        116700 |      324.7335 | Layer 2 | Epoch 38  |
+|        116800 |      325.7600 | Layer 2 | Epoch 38  |
+|        116900 |      325.2240 | Layer 2 | Epoch 38  |
+|        117000 |      324.8650 | Layer 2 | Epoch 38  |
+|        117100 |      325.6768 | Layer 2 | Epoch 38  |
+|        117200 |      323.0610 | Layer 2 | Epoch 38  |
+|        117300 |      321.0365 | Layer 2 | Epoch 38  |
+|        117400 |      323.0620 | Layer 2 | Epoch 38  |
+|        117500 |      323.8260 | Layer 2 | Epoch 38  |
+|        117600 |      324.9199 | Layer 2 | Epoch 38  |
+|        117700 |      325.6030 | Layer 2 | Epoch 38  |
+|        117800 |      324.4454 | Layer 2 | Epoch 39  |
+|        117900 |      325.0117 | Layer 2 | Epoch 39  |
+|        118000 |      320.0448 | Layer 2 | Epoch 39  |
+|        118100 |      322.9449 | Layer 2 | Epoch 39  |
+|        118200 |      324.6228 | Layer 2 | Epoch 39  |
+|        118300 |      321.0515 | Layer 2 | Epoch 39  |
+|        118400 |      321.6431 | Layer 2 | Epoch 39  |
+|        118500 |      322.4536 | Layer 2 | Epoch 39  |
+|        118600 |      326.6261 | Layer 2 | Epoch 39  |
+|        118700 |      325.2509 | Layer 2 | Epoch 39  |
+|        118800 |      323.2447 | Layer 2 | Epoch 39  |
+|        118900 |      324.8215 | Layer 2 | Epoch 39  |
+|        119000 |      324.3624 | Layer 2 | Epoch 39  |
+|        119100 |      324.7882 | Layer 2 | Epoch 39  |
+|        119200 |      322.7827 | Layer 2 | Epoch 39  |
+|        119300 |      323.9317 | Layer 2 | Epoch 39  |
+|        119400 |      322.7679 | Layer 2 | Epoch 39  |
+|        119500 |      323.7771 | Layer 2 | Epoch 39  |
+|        119600 |      326.0777 | Layer 2 | Epoch 39  |
+|        119700 |      325.7434 | Layer 2 | Epoch 39  |
+|        119800 |      325.5028 | Layer 2 | Epoch 39  |
+|        119900 |      327.4594 | Layer 2 | Epoch 39  |
+|        120000 |      325.0992 | Layer 2 | Epoch 39  |
+|        120100 |      324.7366 | Layer 2 | Epoch 39  |
+|        120200 |      324.5894 | Layer 2 | Epoch 39  |
+|        120300 |      323.0248 | Layer 2 | Epoch 39  |
+|        120400 |      322.3175 | Layer 2 | Epoch 39  |
+|        120500 |      324.5432 | Layer 2 | Epoch 39  |
+|        120600 |      323.4787 | Layer 2 | Epoch 39  |
+|        120700 |      323.0800 | Layer 2 | Epoch 39  |
+|        120800 |      325.0111 | Layer 2 | Epoch 39  |
+|        120900 |      323.3683 | Layer 2 | Epoch 40  |
+|        121000 |      322.2721 | Layer 2 | Epoch 40  |
+|        121100 |      326.5192 | Layer 2 | Epoch 40  |
+|        121200 |      323.8495 | Layer 2 | Epoch 40  |
+|        121300 |      322.9802 | Layer 2 | Epoch 40  |
+|        121400 |      323.0459 | Layer 2 | Epoch 40  |
+|        121500 |      324.0451 | Layer 2 | Epoch 40  |
+|        121600 |      320.8430 | Layer 2 | Epoch 40  |
+|        121700 |      323.7823 | Layer 2 | Epoch 40  |
+|        121800 |      323.1598 | Layer 2 | Epoch 40  |
+|        121900 |      323.1924 | Layer 2 | Epoch 40  |
+|        122000 |      325.4401 | Layer 2 | Epoch 40  |
+|        122100 |      327.5584 | Layer 2 | Epoch 40  |
+|        122200 |      323.2469 | Layer 2 | Epoch 40  |
+|        122300 |      321.2493 | Layer 2 | Epoch 40  |
+|        122400 |      324.8869 | Layer 2 | Epoch 40  |
+|        122500 |      320.0034 | Layer 2 | Epoch 40  |
+|        122600 |      320.0680 | Layer 2 | Epoch 40  |
+|        122700 |      323.8407 | Layer 2 | Epoch 40  |
+|        122800 |      321.9364 | Layer 2 | Epoch 40  |
+|        122900 |      323.3760 | Layer 2 | Epoch 40  |
+|        123000 |      324.8963 | Layer 2 | Epoch 40  |
+|        123100 |      323.8051 | Layer 2 | Epoch 40  |
+|        123200 |      322.1545 | Layer 2 | Epoch 40  |
+|        123300 |      323.9023 | Layer 2 | Epoch 40  |
+|        123400 |      324.6857 | Layer 2 | Epoch 40  |
+|        123500 |      324.8622 | Layer 2 | Epoch 40  |
+|        123600 |      323.6785 | Layer 2 | Epoch 40  |
+|        123700 |      324.0267 | Layer 2 | Epoch 40  |
+|        123800 |      325.7582 | Layer 2 | Epoch 40  |
+|        123900 |      320.2820 | Layer 2 | Epoch 40  |
+|        124000 |      324.0973 | Layer 2 | Epoch 41  |
+|        124100 |      321.8459 | Layer 2 | Epoch 41  |
+|        124200 |      324.3023 | Layer 2 | Epoch 41  |
+|        124300 |      317.9235 | Layer 2 | Epoch 41  |
+|        124400 |      325.6619 | Layer 2 | Epoch 41  |
+|        124500 |      321.4546 | Layer 2 | Epoch 41  |
+|        124600 |      325.8751 | Layer 2 | Epoch 41  |
+|        124700 |      321.6995 | Layer 2 | Epoch 41  |
+|        124800 |      321.9597 | Layer 2 | Epoch 41  |
+|        124900 |      327.0438 | Layer 2 | Epoch 41  |
+|        125000 |      323.4633 | Layer 2 | Epoch 41  |
+|        125100 |      323.5237 | Layer 2 | Epoch 41  |
+|        125200 |      323.1873 | Layer 2 | Epoch 41  |
+|        125300 |      322.9833 | Layer 2 | Epoch 41  |
+|        125400 |      326.0680 | Layer 2 | Epoch 41  |
+|        125500 |      326.9600 | Layer 2 | Epoch 41  |
+|        125600 |      322.1906 | Layer 2 | Epoch 41  |
+|        125700 |      325.4706 | Layer 2 | Epoch 41  |
+|        125800 |      324.5251 | Layer 2 | Epoch 41  |
+|        125900 |      324.4359 | Layer 2 | Epoch 41  |
+|        126000 |      325.3707 | Layer 2 | Epoch 41  |
+|        126100 |      324.8446 | Layer 2 | Epoch 41  |
+|        126200 |      324.9786 | Layer 2 | Epoch 41  |
+|        126300 |      323.0246 | Layer 2 | Epoch 41  |
+|        126400 |      326.6940 | Layer 2 | Epoch 41  |
+|        126500 |      325.2506 | Layer 2 | Epoch 41  |
+|        126600 |      325.1541 | Layer 2 | Epoch 41  |
+|        126700 |      324.7397 | Layer 2 | Epoch 41  |
+|        126800 |      324.5171 | Layer 2 | Epoch 41  |
+|        126900 |      325.6211 | Layer 2 | Epoch 41  |
+|        127000 |      325.6819 | Layer 2 | Epoch 41  |
+|        127100 |      324.7197 | Layer 2 | Epoch 42  |
+|        127200 |      324.4588 | Layer 2 | Epoch 42  |
+|        127300 |      323.6520 | Layer 2 | Epoch 42  |
+|        127400 |      319.3063 | Layer 2 | Epoch 42  |
+|        127500 |      324.9303 | Layer 2 | Epoch 42  |
+|        127600 |      322.1046 | Layer 2 | Epoch 42  |
+|        127700 |      322.6469 | Layer 2 | Epoch 42  |
+|        127800 |      323.4138 | Layer 2 | Epoch 42  |
+|        127900 |      320.5531 | Layer 2 | Epoch 42  |
+|        128000 |      324.3617 | Layer 2 | Epoch 42  |
+|        128100 |      321.6168 | Layer 2 | Epoch 42  |
+|        128200 |      324.1327 | Layer 2 | Epoch 42  |
+|        128300 |      322.3079 | Layer 2 | Epoch 42  |
+|        128400 |      324.4309 | Layer 2 | Epoch 42  |
+|        128500 |      326.2141 | Layer 2 | Epoch 42  |
+|        128600 |      324.1823 | Layer 2 | Epoch 42  |
+|        128700 |      322.1400 | Layer 2 | Epoch 42  |
+|        128800 |      325.3291 | Layer 2 | Epoch 42  |
+|        128900 |      324.3786 | Layer 2 | Epoch 42  |
+|        129000 |      321.6074 | Layer 2 | Epoch 42  |
+|        129100 |      322.4273 | Layer 2 | Epoch 42  |
+|        129200 |      321.6744 | Layer 2 | Epoch 42  |
+|        129300 |      322.0425 | Layer 2 | Epoch 42  |
+|        129400 |      325.1986 | Layer 2 | Epoch 42  |
+|        129500 |      325.0550 | Layer 2 | Epoch 42  |
+|        129600 |      321.1662 | Layer 2 | Epoch 42  |
+|        129700 |      324.6260 | Layer 2 | Epoch 42  |
+|        129800 |      321.4023 | Layer 2 | Epoch 42  |
+|        129900 |      323.5307 | Layer 2 | Epoch 42  |
+|        130000 |      324.6111 | Layer 2 | Epoch 42  |
+|        130100 |      326.3604 | Layer 2 | Epoch 42  |
+|        130200 |      324.0108 | Layer 2 | Epoch 43  |
+|        130300 |      322.0933 | Layer 2 | Epoch 43  |
+|        130400 |      323.0146 | Layer 2 | Epoch 43  |
+|        130500 |      323.3121 | Layer 2 | Epoch 43  |
+|        130600 |      322.3468 | Layer 2 | Epoch 43  |
+|        130700 |      323.2668 | Layer 2 | Epoch 43  |
+|        130800 |      325.3017 | Layer 2 | Epoch 43  |
+|        130900 |      324.5847 | Layer 2 | Epoch 43  |
+|        131000 |      322.9274 | Layer 2 | Epoch 43  |
+|        131100 |      318.4699 | Layer 2 | Epoch 43  |
+|        131200 |      321.9115 | Layer 2 | Epoch 43  |
+|        131300 |      322.2401 | Layer 2 | Epoch 43  |
+|        131400 |      320.5757 | Layer 2 | Epoch 43  |
+|        131500 |      322.1855 | Layer 2 | Epoch 43  |
+|        131600 |      322.6591 | Layer 2 | Epoch 43  |
+|        131700 |      325.2939 | Layer 2 | Epoch 43  |
+|        131800 |      323.8923 | Layer 2 | Epoch 43  |
+|        131900 |      318.7231 | Layer 2 | Epoch 43  |
+|        132000 |      320.5895 | Layer 2 | Epoch 43  |
+|        132100 |      321.6059 | Layer 2 | Epoch 43  |
+|        132200 |      323.2440 | Layer 2 | Epoch 43  |
+|        132300 |      322.9609 | Layer 2 | Epoch 43  |
+|        132400 |      324.9022 | Layer 2 | Epoch 43  |
+|        132500 |      324.0876 | Layer 2 | Epoch 43  |
+|        132600 |      321.0341 | Layer 2 | Epoch 43  |
+|        132700 |      320.2329 | Layer 2 | Epoch 43  |
+|        132800 |      318.2715 | Layer 2 | Epoch 43  |
+|        132900 |      323.5488 | Layer 2 | Epoch 43  |
+|        133000 |      322.1552 | Layer 2 | Epoch 43  |
+|        133100 |      321.3182 | Layer 2 | Epoch 43  |
+|        133200 |      319.9579 | Layer 2 | Epoch 43  |
+|        133300 |      323.3594 | Layer 2 | Epoch 44  |
+|        133400 |      320.9147 | Layer 2 | Epoch 44  |
+|        133500 |      322.0194 | Layer 2 | Epoch 44  |
+|        133600 |      323.6856 | Layer 2 | Epoch 44  |
+|        133700 |      323.9588 | Layer 2 | Epoch 44  |
+|        133800 |      323.5727 | Layer 2 | Epoch 44  |
+|        133900 |      324.2859 | Layer 2 | Epoch 44  |
+|        134000 |      321.4605 | Layer 2 | Epoch 44  |
+|        134100 |      322.3888 | Layer 2 | Epoch 44  |
+|        134200 |      325.1414 | Layer 2 | Epoch 44  |
+|        134300 |      325.3144 | Layer 2 | Epoch 44  |
+|        134400 |      323.6939 | Layer 2 | Epoch 44  |
+|        134500 |      322.6840 | Layer 2 | Epoch 44  |
+|        134600 |      321.2819 | Layer 2 | Epoch 44  |
+|        134700 |      320.5066 | Layer 2 | Epoch 44  |
+|        134800 |      319.4859 | Layer 2 | Epoch 44  |
+|        134900 |      322.0896 | Layer 2 | Epoch 44  |
+|        135000 |      321.6985 | Layer 2 | Epoch 44  |
+|        135100 |      323.4745 | Layer 2 | Epoch 44  |
+|        135200 |      322.3379 | Layer 2 | Epoch 44  |
+|        135300 |      324.1649 | Layer 2 | Epoch 44  |
+|        135400 |      322.1580 | Layer 2 | Epoch 44  |
+|        135500 |      325.2034 | Layer 2 | Epoch 44  |
+|        135600 |      321.2393 | Layer 2 | Epoch 44  |
+|        135700 |      319.1710 | Layer 2 | Epoch 44  |
+|        135800 |      320.8173 | Layer 2 | Epoch 44  |
+|        135900 |      321.1298 | Layer 2 | Epoch 44  |
+|        136000 |      322.4022 | Layer 2 | Epoch 44  |
+|        136100 |      321.7892 | Layer 2 | Epoch 44  |
+|        136200 |      321.0751 | Layer 2 | Epoch 44  |
+|        136300 |      321.8508 | Layer 2 | Epoch 44  |
+|        136400 |      324.8928 | Layer 2 | Epoch 45  |
+|        136500 |      321.2746 | Layer 2 | Epoch 45  |
+|        136600 |      322.8468 | Layer 2 | Epoch 45  |
+|        136700 |      323.3656 | Layer 2 | Epoch 45  |
+|        136800 |      325.2149 | Layer 2 | Epoch 45  |
+|        136900 |      324.4462 | Layer 2 | Epoch 45  |
+|        137000 |      319.9126 | Layer 2 | Epoch 45  |
+|        137100 |      321.9245 | Layer 2 | Epoch 45  |
+|        137200 |      323.0663 | Layer 2 | Epoch 45  |
+|        137300 |      319.8420 | Layer 2 | Epoch 45  |
+|        137400 |      318.8737 | Layer 2 | Epoch 45  |
+|        137500 |      321.2202 | Layer 2 | Epoch 45  |
+|        137600 |      320.9748 | Layer 2 | Epoch 45  |
+|        137700 |      322.7997 | Layer 2 | Epoch 45  |
+|        137800 |      322.5140 | Layer 2 | Epoch 45  |
+|        137900 |      320.1178 | Layer 2 | Epoch 45  |
+|        138000 |      323.1463 | Layer 2 | Epoch 45  |
+|        138100 |      323.5353 | Layer 2 | Epoch 45  |
+|        138200 |      320.7894 | Layer 2 | Epoch 45  |
+|        138300 |      318.1745 | Layer 2 | Epoch 45  |
+|        138400 |      320.8398 | Layer 2 | Epoch 45  |
+|        138500 |      320.0185 | Layer 2 | Epoch 45  |
+|        138600 |      323.4176 | Layer 2 | Epoch 45  |
+|        138700 |      323.0766 | Layer 2 | Epoch 45  |
+|        138800 |      323.9100 | Layer 2 | Epoch 45  |
+|        138900 |      323.8187 | Layer 2 | Epoch 45  |
+|        139000 |      322.4309 | Layer 2 | Epoch 45  |
+|        139100 |      321.2882 | Layer 2 | Epoch 45  |
+|        139200 |      320.6846 | Layer 2 | Epoch 45  |
+|        139300 |      318.2377 | Layer 2 | Epoch 45  |
+|        139400 |      322.5006 | Layer 2 | Epoch 45  |
+|        139500 |      320.9570 | Layer 2 | Epoch 46  |
+|        139600 |      319.5632 | Layer 2 | Epoch 46  |
+|        139700 |      321.6531 | Layer 2 | Epoch 46  |
+|        139800 |      324.1397 | Layer 2 | Epoch 46  |
+|        139900 |      321.9525 | Layer 2 | Epoch 46  |
+|        140000 |      321.1317 | Layer 2 | Epoch 46  |
+|        140100 |      323.0926 | Layer 2 | Epoch 46  |
+|        140200 |      325.3579 | Layer 2 | Epoch 46  |
+|        140300 |      320.5574 | Layer 2 | Epoch 46  |
+|        140400 |      320.6475 | Layer 2 | Epoch 46  |
+|        140500 |      320.4345 | Layer 2 | Epoch 46  |
+|        140600 |      316.8808 | Layer 2 | Epoch 46  |
+|        140700 |      318.0327 | Layer 2 | Epoch 46  |
+|        140800 |      321.8114 | Layer 2 | Epoch 46  |
+|        140900 |      320.7745 | Layer 2 | Epoch 46  |
+|        141000 |      321.6259 | Layer 2 | Epoch 46  |
+|        141100 |      319.4960 | Layer 2 | Epoch 46  |
+|        141200 |      321.0241 | Layer 2 | Epoch 46  |
+|        141300 |      322.7549 | Layer 2 | Epoch 46  |
+|        141400 |      322.7450 | Layer 2 | Epoch 46  |
+|        141500 |      321.5975 | Layer 2 | Epoch 46  |
+|        141600 |      323.9259 | Layer 2 | Epoch 46  |
+|        141700 |      324.3485 | Layer 2 | Epoch 46  |
+|        141800 |      322.4476 | Layer 2 | Epoch 46  |
+|        141900 |      325.4477 | Layer 2 | Epoch 46  |
+|        142000 |      321.1700 | Layer 2 | Epoch 46  |
+|        142100 |      324.5806 | Layer 2 | Epoch 46  |
+|        142200 |      323.6083 | Layer 2 | Epoch 46  |
+|        142300 |      320.1093 | Layer 2 | Epoch 46  |
+|        142400 |      321.0067 | Layer 2 | Epoch 46  |
+|        142500 |      323.5363 | Layer 2 | Epoch 46  |
+|        142600 |      320.6573 | Layer 2 | Epoch 47  |
+|        142700 |      324.0846 | Layer 2 | Epoch 47  |
+|        142800 |      322.2076 | Layer 2 | Epoch 47  |
+|        142900 |      322.4675 | Layer 2 | Epoch 47  |
+|        143000 |      320.7623 | Layer 2 | Epoch 47  |
+|        143100 |      323.6671 | Layer 2 | Epoch 47  |
+|        143200 |      321.7595 | Layer 2 | Epoch 47  |
+|        143300 |      321.0866 | Layer 2 | Epoch 47  |
+|        143400 |      323.5201 | Layer 2 | Epoch 47  |
+|        143500 |      319.9811 | Layer 2 | Epoch 47  |
+|        143600 |      319.7348 | Layer 2 | Epoch 47  |
+|        143700 |      321.8294 | Layer 2 | Epoch 47  |
+|        143800 |      323.9796 | Layer 2 | Epoch 47  |
+|        143900 |      320.7432 | Layer 2 | Epoch 47  |
+|        144000 |      319.6444 | Layer 2 | Epoch 47  |
+|        144100 |      319.8542 | Layer 2 | Epoch 47  |
+|        144200 |      321.4113 | Layer 2 | Epoch 47  |
+|        144300 |      321.4865 | Layer 2 | Epoch 47  |
+|        144400 |      320.1376 | Layer 2 | Epoch 47  |
+|        144500 |      323.7830 | Layer 2 | Epoch 47  |
+|        144600 |      320.0498 | Layer 2 | Epoch 47  |
+|        144700 |      322.3426 | Layer 2 | Epoch 47  |
+|        144800 |      322.9734 | Layer 2 | Epoch 47  |
+|        144900 |      318.6299 | Layer 2 | Epoch 47  |
+|        145000 |      323.2894 | Layer 2 | Epoch 47  |
+|        145100 |      322.2225 | Layer 2 | Epoch 47  |
+|        145200 |      322.8110 | Layer 2 | Epoch 47  |
+|        145300 |      319.0026 | Layer 2 | Epoch 47  |
+|        145400 |      320.7785 | Layer 2 | Epoch 47  |
+|        145500 |      321.2812 | Layer 2 | Epoch 47  |
+|        145600 |      320.5804 | Layer 2 | Epoch 47  |
+|        145700 |      322.1949 | Layer 2 | Epoch 48  |
+|        145800 |      324.6079 | Layer 2 | Epoch 48  |
+|        145900 |      320.1227 | Layer 2 | Epoch 48  |
+|        146000 |      322.1284 | Layer 2 | Epoch 48  |
+|        146100 |      319.4755 | Layer 2 | Epoch 48  |
+|        146200 |      320.9478 | Layer 2 | Epoch 48  |
+|        146300 |      320.2169 | Layer 2 | Epoch 48  |
+|        146400 |      321.4211 | Layer 2 | Epoch 48  |
+|        146500 |      320.3105 | Layer 2 | Epoch 48  |
+|        146600 |      322.2641 | Layer 2 | Epoch 48  |
+|        146700 |      324.2732 | Layer 2 | Epoch 48  |
+|        146800 |      323.2496 | Layer 2 | Epoch 48  |
+|        146900 |      322.0191 | Layer 2 | Epoch 48  |
+|        147000 |      323.1804 | Layer 2 | Epoch 48  |
+|        147100 |      318.0228 | Layer 2 | Epoch 48  |
+|        147200 |      320.9730 | Layer 2 | Epoch 48  |
+|        147300 |      322.4683 | Layer 2 | Epoch 48  |
+|        147400 |      320.5363 | Layer 2 | Epoch 48  |
+|        147500 |      319.1782 | Layer 2 | Epoch 48  |
+|        147600 |      319.7188 | Layer 2 | Epoch 48  |
+|        147700 |      319.9579 | Layer 2 | Epoch 48  |
+|        147800 |      320.0597 | Layer 2 | Epoch 48  |
+|        147900 |      322.4071 | Layer 2 | Epoch 48  |
+|        148000 |      320.9647 | Layer 2 | Epoch 48  |
+|        148100 |      317.7203 | Layer 2 | Epoch 48  |
+|        148200 |      321.1281 | Layer 2 | Epoch 48  |
+|        148300 |      319.1355 | Layer 2 | Epoch 48  |
+|        148400 |      321.8897 | Layer 2 | Epoch 48  |
+|        148500 |      321.4440 | Layer 2 | Epoch 48  |
+|        148600 |      318.6509 | Layer 2 | Epoch 48  |
+|        148700 |      322.7388 | Layer 2 | Epoch 48  |
+|        148800 |      321.5850 | Layer 2 | Epoch 49  |
+|        148900 |      320.0900 | Layer 2 | Epoch 49  |
+|        149000 |      319.3895 | Layer 2 | Epoch 49  |
+|        149100 |      319.9130 | Layer 2 | Epoch 49  |
+|        149200 |      322.9129 | Layer 2 | Epoch 49  |
+|        149300 |      321.3256 | Layer 2 | Epoch 49  |
+|        149400 |      323.6744 | Layer 2 | Epoch 49  |
+|        149500 |      321.0497 | Layer 2 | Epoch 49  |
+|        149600 |      321.4195 | Layer 2 | Epoch 49  |
+|        149700 |      318.2228 | Layer 2 | Epoch 49  |
+|        149800 |      322.3797 | Layer 2 | Epoch 49  |
+|        149900 |      319.8742 | Layer 2 | Epoch 49  |
+|        150000 |      320.0878 | Layer 2 | Epoch 49  |
+|        150100 |      322.0889 | Layer 2 | Epoch 49  |
+|        150200 |      320.0779 | Layer 2 | Epoch 49  |
+|        150300 |      316.4531 | Layer 2 | Epoch 49  |
+|        150400 |      318.4144 | Layer 2 | Epoch 49  |
+|        150500 |      320.5762 | Layer 2 | Epoch 49  |
+|        150600 |      320.6338 | Layer 2 | Epoch 49  |
+|        150700 |      319.9585 | Layer 2 | Epoch 49  |
+|        150800 |      319.2016 | Layer 2 | Epoch 49  |
+|        150900 |      320.4045 | Layer 2 | Epoch 49  |
+|        151000 |      321.1816 | Layer 2 | Epoch 49  |
+|        151100 |      320.7885 | Layer 2 | Epoch 49  |
+|        151200 |      320.1473 | Layer 2 | Epoch 49  |
+|        151300 |      321.6638 | Layer 2 | Epoch 49  |
+|        151400 |      323.5556 | Layer 2 | Epoch 49  |
+|        151500 |      323.6581 | Layer 2 | Epoch 49  |
+|        151600 |      321.3680 | Layer 2 | Epoch 49  |
+|        151700 |      324.3496 | Layer 2 | Epoch 49  |
+|        151800 |      317.2692 | Layer 2 | Epoch 49  |
+|        151900 |      320.5066 | Layer 2 | Epoch 50  |
+|        152000 |      321.5648 | Layer 2 | Epoch 50  |
+|        152100 |      321.0759 | Layer 2 | Epoch 50  |
+|        152200 |      318.8863 | Layer 2 | Epoch 50  |
+|        152300 |      319.3578 | Layer 2 | Epoch 50  |
+|        152400 |      318.6958 | Layer 2 | Epoch 50  |
+|        152500 |      318.8403 | Layer 2 | Epoch 50  |
+|        152600 |      322.5775 | Layer 2 | Epoch 50  |
+|        152700 |      321.6477 | Layer 2 | Epoch 50  |
+|        152800 |      320.3768 | Layer 2 | Epoch 50  |
+|        152900 |      322.2213 | Layer 2 | Epoch 50  |
+|        153000 |      319.8481 | Layer 2 | Epoch 50  |
+|        153100 |      321.7092 | Layer 2 | Epoch 50  |
+|        153200 |      318.4201 | Layer 2 | Epoch 50  |
+|        153300 |      318.8340 | Layer 2 | Epoch 50  |
+|        153400 |      320.0908 | Layer 2 | Epoch 50  |
+|        153500 |      319.8263 | Layer 2 | Epoch 50  |
+|        153600 |      318.7595 | Layer 2 | Epoch 50  |
+|        153700 |      317.8080 | Layer 2 | Epoch 50  |
+|        153800 |      317.5229 | Layer 2 | Epoch 50  |
+|        153900 |      315.3323 | Layer 2 | Epoch 50  |
+|        154000 |      317.8996 | Layer 2 | Epoch 50  |
+|        154100 |      317.7091 | Layer 2 | Epoch 50  |
+|        154200 |      318.9512 | Layer 2 | Epoch 50  |
+|        154300 |      319.3128 | Layer 2 | Epoch 50  |
+|        154400 |      322.1495 | Layer 2 | Epoch 50  |
+|        154500 |      321.2777 | Layer 2 | Epoch 50  |
+|        154600 |      320.8007 | Layer 2 | Epoch 50  |
+|        154700 |      319.1845 | Layer 2 | Epoch 50  |
+|        154800 |      321.6892 | Layer 2 | Epoch 50  |
+|        154900 |      322.0046 | Layer 2 | Epoch 50  |
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Extracting labels from data in  ../dataset/*.jpeg ['S01']
+(3100, 256, 256, 1)
+(3100,)
+(1550, 256, 256, 1)
+(1550,)
+(1550, 256, 256, 1)
+(1550,)
+Tensor("ExpandDims_1:0", shape=(250, 1), dtype=int32)
+Tensor("Size:0", shape=(), dtype=int32)
+31
+Step 0: loss = 3.46 (0.225 sec)
+Step 100: loss = 3.45 (0.065 sec)
+Step 200: loss = 3.46 (0.194 sec)
+Step 300: loss = 3.43 (1.563 sec)
+Step 400: loss = 3.43 (0.049 sec)
+Step 500: loss = 3.43 (0.049 sec)
+Step 600: loss = 3.43 (1.572 sec)
+Step 700: loss = 3.41 (0.048 sec)
+Step 800: loss = 3.40 (0.042 sec)
+Step 900: loss = 3.39 (1.494 sec)
+  Num examples: 3000  Num correct: 196  Error @ 1: 0.9347
+  Num examples: 1500  Num correct: 99  Error @ 1: 0.9340
+  Num examples: 1500  Num correct: 105  Error @ 1: 0.9300
+Step 1000: loss = 3.41 (0.162 sec)
+Step 1100: loss = 3.39 (0.048 sec)
+Step 1200: loss = 3.39 (1.472 sec)
+Step 1300: loss = 3.38 (0.075 sec)
+Step 1400: loss = 3.37 (0.186 sec)
+Step 1500: loss = 3.38 (1.150 sec)
+Step 1600: loss = 3.37 (0.051 sec)
+Step 1700: loss = 3.36 (0.044 sec)
+Step 1800: loss = 3.37 (1.637 sec)
+Step 1900: loss = 3.36 (0.045 sec)
+  Num examples: 3000  Num correct: 167  Error @ 1: 0.9443
+  Num examples: 1500  Num correct: 72  Error @ 1: 0.9520
+  Num examples: 1500  Num correct: 76  Error @ 1: 0.9493
+Step 2000: loss = 3.35 (0.084 sec)
+Step 2100: loss = 3.34 (1.970 sec)
+Step 2200: loss = 3.34 (0.176 sec)
+Step 2300: loss = 3.34 (0.050 sec)
+Step 2400: loss = 3.34 (1.001 sec)
+Step 2500: loss = 3.32 (0.050 sec)
+Step 2600: loss = 3.33 (0.146 sec)
+Step 2700: loss = 3.32 (1.483 sec)
+Step 2800: loss = 3.32 (0.047 sec)
+Step 2900: loss = 3.30 (0.083 sec)
+  Num examples: 3000  Num correct: 184  Error @ 1: 0.9387
+  Num examples: 1500  Num correct: 82  Error @ 1: 0.9453
+  Num examples: 1500  Num correct: 87  Error @ 1: 0.9420
+Step 3000: loss = 3.31 (1.917 sec)
+Step 3100: loss = 3.32 (0.097 sec)
+Step 3200: loss = 3.30 (0.179 sec)
+Step 3300: loss = 3.30 (0.791 sec)
+Step 3400: loss = 3.30 (0.044 sec)
+Step 3500: loss = 3.29 (0.045 sec)
+Step 3600: loss = 3.29 (1.240 sec)
+Step 3700: loss = 3.29 (0.194 sec)
+Step 3800: loss = 3.28 (0.055 sec)
+Step 3900: loss = 3.27 (1.591 sec)
+  Num examples: 3000  Num correct: 205  Error @ 1: 0.9317
+  Num examples: 1500  Num correct: 84  Error @ 1: 0.9440
+  Num examples: 1500  Num correct: 95  Error @ 1: 0.9367
+Step 4000: loss = 3.27 (0.149 sec)
+Step 4100: loss = 3.28 (0.043 sec)
+Step 4200: loss = 3.28 (1.452 sec)
+Step 4300: loss = 3.27 (0.047 sec)
+Step 4400: loss = 3.26 (0.067 sec)
+Step 4500: loss = 3.25 (1.507 sec)
+Step 4600: loss = 3.26 (0.043 sec)
+Step 4700: loss = 3.25 (0.046 sec)
+Step 4800: loss = 3.26 (1.578 sec)
+Step 4900: loss = 3.26 (0.107 sec)
+  Num examples: 3000  Num correct: 199  Error @ 1: 0.9337
+  Num examples: 1500  Num correct: 86  Error @ 1: 0.9427
+  Num examples: 1500  Num correct: 100  Error @ 1: 0.9333
+Step 5000: loss = 3.24 (0.077 sec)
+Step 5100: loss = 3.24 (1.376 sec)
+Step 5200: loss = 3.23 (0.158 sec)
+Step 5300: loss = 3.24 (0.047 sec)
+Step 5400: loss = 3.23 (1.273 sec)
+Step 5500: loss = 3.23 (0.067 sec)
+Step 5600: loss = 3.24 (0.050 sec)
+Step 5700: loss = 3.22 (1.868 sec)
+Step 5800: loss = 3.22 (0.045 sec)
+Step 5900: loss = 3.23 (0.048 sec)
+  Num examples: 3000  Num correct: 207  Error @ 1: 0.9310
+  Num examples: 1500  Num correct: 86  Error @ 1: 0.9427
+  Num examples: 1500  Num correct: 106  Error @ 1: 0.9293
+Step 6000: loss = 3.21 (1.819 sec)
+Step 6100: loss = 3.22 (0.180 sec)
+Step 6200: loss = 3.23 (0.047 sec)
+Step 6300: loss = 3.22 (1.006 sec)
+Step 6400: loss = 3.19 (0.207 sec)
+Step 6500: loss = 3.21 (0.051 sec)
+Step 6600: loss = 3.21 (1.173 sec)
+Step 6700: loss = 3.21 (0.054 sec)
+Step 6800: loss = 3.21 (0.047 sec)
+Step 6900: loss = 3.21 (1.847 sec)
+  Num examples: 3000  Num correct: 204  Error @ 1: 0.9320
+  Num examples: 1500  Num correct: 92  Error @ 1: 0.9387
+  Num examples: 1500  Num correct: 105  Error @ 1: 0.9300
+Step 7000: loss = 3.19 (0.092 sec)
+Step 7100: loss = 3.20 (0.046 sec)
+Step 7200: loss = 3.19 (1.711 sec)
+Step 7300: loss = 3.19 (0.172 sec)
+Step 7400: loss = 3.19 (0.047 sec)
+Step 7500: loss = 3.19 (1.548 sec)
+Step 7600: loss = 3.20 (0.196 sec)
+Step 7700: loss = 3.18 (0.043 sec)
+Step 7800: loss = 3.18 (1.504 sec)
+Step 7900: loss = 3.18 (0.168 sec)
+  Num examples: 3000  Num correct: 265  Error @ 1: 0.9117
+  Num examples: 1500  Num correct: 116  Error @ 1: 0.9227
+  Num examples: 1500  Num correct: 131  Error @ 1: 0.9127
+Step 8000: loss = 3.18 (0.126 sec)
+Step 8100: loss = 3.18 (1.419 sec)
+Step 8200: loss = 3.17 (0.197 sec)
+Step 8300: loss = 3.17 (0.147 sec)
+Step 8400: loss = 3.18 (1.798 sec)
+Step 8500: loss = 3.16 (0.048 sec)
+Step 8600: loss = 3.16 (0.049 sec)
+Step 8700: loss = 3.16 (1.656 sec)
+Step 8800: loss = 3.16 (0.183 sec)
+Step 8900: loss = 3.16 (0.050 sec)
+  Num examples: 3000  Num correct: 289  Error @ 1: 0.9037
+  Num examples: 1500  Num correct: 128  Error @ 1: 0.9147
+  Num examples: 1500  Num correct: 148  Error @ 1: 0.9013
+Step 9000: loss = 3.16 (1.927 sec)
+Step 9100: loss = 3.16 (0.175 sec)
+Step 9200: loss = 3.15 (0.184 sec)
+Step 9300: loss = 3.16 (1.667 sec)
+Step 9400: loss = 3.16 (0.135 sec)
+Step 9500: loss = 3.16 (0.074 sec)
+Step 9600: loss = 3.13 (0.845 sec)
+Step 9700: loss = 3.16 (0.099 sec)
+Step 9800: loss = 3.15 (0.043 sec)
+Step 9900: loss = 3.15 (1.216 sec)
+  Num examples: 3000  Num correct: 295  Error @ 1: 0.9017
+  Num examples: 1500  Num correct: 128  Error @ 1: 0.9147
+  Num examples: 1500  Num correct: 135  Error @ 1: 0.9100
+Step 10000: loss = 3.14 (0.095 sec)
+Step 10100: loss = 3.15 (0.049 sec)
+Step 10200: loss = 3.14 (1.635 sec)
+Step 10300: loss = 3.14 (0.139 sec)
+Step 10400: loss = 3.14 (0.163 sec)
+Step 10500: loss = 3.14 (1.509 sec)
+Step 10600: loss = 3.13 (0.086 sec)
+Step 10700: loss = 3.13 (0.048 sec)
+Step 10800: loss = 3.14 (1.790 sec)
+Step 10900: loss = 3.13 (0.047 sec)
+  Num examples: 3000  Num correct: 302  Error @ 1: 0.8993
+  Num examples: 1500  Num correct: 127  Error @ 1: 0.9153
+  Num examples: 1500  Num correct: 135  Error @ 1: 0.9100
+Step 11000: loss = 3.14 (0.245 sec)
+Step 11100: loss = 3.13 (1.881 sec)
+Step 11200: loss = 3.14 (0.156 sec)
+Step 11300: loss = 3.12 (0.041 sec)
+Step 11400: loss = 3.13 (1.746 sec)
+Step 11500: loss = 3.12 (0.043 sec)
+Step 11600: loss = 3.11 (0.148 sec)
+Step 11700: loss = 3.11 (1.593 sec)
+Step 11800: loss = 3.13 (0.200 sec)
+Step 11900: loss = 3.12 (0.056 sec)
+  Num examples: 3000  Num correct: 291  Error @ 1: 0.9030
+  Num examples: 1500  Num correct: 132  Error @ 1: 0.9120
+  Num examples: 1500  Num correct: 135  Error @ 1: 0.9100
+Step 12000: loss = 3.12 (1.933 sec)
+Step 12100: loss = 3.12 (0.041 sec)
+Step 12200: loss = 3.11 (0.075 sec)
+Step 12300: loss = 3.11 (1.785 sec)
+Step 12400: loss = 3.12 (0.184 sec)
+Step 12500: loss = 3.11 (0.048 sec)
+Step 12600: loss = 3.11 (1.985 sec)
+Step 12700: loss = 3.11 (0.050 sec)
+Step 12800: loss = 3.11 (0.045 sec)
+Step 12900: loss = 3.10 (1.437 sec)
+  Num examples: 3000  Num correct: 292  Error @ 1: 0.9027
+  Num examples: 1500  Num correct: 126  Error @ 1: 0.9160
+  Num examples: 1500  Num correct: 136  Error @ 1: 0.9093
+Step 13000: loss = 3.11 (0.111 sec)
+Step 13100: loss = 3.11 (0.044 sec)
+Step 13200: loss = 3.11 (1.591 sec)
+Step 13300: loss = 3.11 (0.049 sec)
+Step 13400: loss = 3.10 (0.048 sec)
+Step 13500: loss = 3.10 (1.808 sec)
+Step 13600: loss = 3.09 (0.205 sec)
+Step 13700: loss = 3.10 (0.048 sec)
+Step 13800: loss = 3.09 (1.864 sec)
+Step 13900: loss = 3.10 (0.055 sec)
+  Num examples: 3000  Num correct: 301  Error @ 1: 0.8997
+  Num examples: 1500  Num correct: 131  Error @ 1: 0.9127
+  Num examples: 1500  Num correct: 137  Error @ 1: 0.9087
+Step 14000: loss = 3.09 (0.101 sec)
+Step 14100: loss = 3.09 (1.715 sec)
+Step 14200: loss = 3.09 (0.084 sec)
+Step 14300: loss = 3.09 (0.048 sec)
+Step 14400: loss = 3.09 (1.162 sec)
+Step 14500: loss = 3.10 (0.049 sec)
+Step 14600: loss = 3.09 (0.090 sec)
+Step 14700: loss = 3.08 (1.412 sec)
+Step 14800: loss = 3.08 (0.063 sec)
+Step 14900: loss = 3.08 (0.050 sec)
+  Num examples: 3000  Num correct: 298  Error @ 1: 0.9007
+  Num examples: 1500  Num correct: 130  Error @ 1: 0.9133
+  Num examples: 1500  Num correct: 135  Error @ 1: 0.9100
+Step 15000: loss = 3.10 (1.990 sec)
+Step 15100: loss = 3.09 (0.048 sec)
+Step 15200: loss = 3.08 (0.182 sec)
+Step 15300: loss = 3.09 (1.598 sec)
+Step 15400: loss = 3.08 (0.183 sec)
+Step 15500: loss = 3.08 (0.147 sec)
+Step 15600: loss = 3.09 (1.852 sec)
+Step 15700: loss = 3.08 (0.155 sec)
+Step 15800: loss = 3.09 (0.195 sec)
+Step 15900: loss = 3.07 (2.035 sec)
+  Num examples: 3000  Num correct: 293  Error @ 1: 0.9023
+  Num examples: 1500  Num correct: 131  Error @ 1: 0.9127
+  Num examples: 1500  Num correct: 138  Error @ 1: 0.9080
+Step 16000: loss = 3.08 (0.115 sec)
+Step 16100: loss = 3.08 (0.058 sec)
+Step 16200: loss = 3.08 (1.897 sec)
+Step 16300: loss = 3.08 (0.057 sec)
+Step 16400: loss = 3.07 (0.045 sec)
+Step 16500: loss = 3.08 (1.968 sec)
+Step 16600: loss = 3.08 (0.097 sec)
+Step 16700: loss = 3.08 (0.155 sec)
+Step 16800: loss = 3.08 (1.452 sec)
+Step 16900: loss = 3.09 (0.147 sec)
+  Num examples: 3000  Num correct: 284  Error @ 1: 0.9053
+  Num examples: 1500  Num correct: 123  Error @ 1: 0.9180
+  Num examples: 1500  Num correct: 136  Error @ 1: 0.9093
+Step 17000: loss = 3.07 (0.093 sec)
+Step 17100: loss = 3.08 (1.501 sec)
+Step 17200: loss = 3.08 (0.185 sec)
+Step 17300: loss = 3.07 (0.193 sec)
+Step 17400: loss = 3.07 (1.728 sec)
+Step 17500: loss = 3.07 (0.050 sec)
+Step 17600: loss = 3.06 (0.044 sec)
+Step 17700: loss = 3.07 (1.374 sec)
+Step 17800: loss = 3.08 (0.052 sec)
+Step 17900: loss = 3.08 (0.184 sec)
+  Num examples: 3000  Num correct: 303  Error @ 1: 0.8990
+  Num examples: 1500  Num correct: 121  Error @ 1: 0.9193
+  Num examples: 1500  Num correct: 135  Error @ 1: 0.9100
+Step 18000: loss = 3.07 (2.112 sec)
+Step 18100: loss = 3.06 (0.049 sec)
+Step 18200: loss = 3.06 (0.184 sec)
+Step 18300: loss = 3.06 (1.607 sec)
+Step 18400: loss = 3.07 (0.045 sec)
+Step 18500: loss = 3.06 (0.182 sec)
+Step 18600: loss = 3.07 (1.621 sec)
+Step 18700: loss = 3.06 (0.162 sec)
+Step 18800: loss = 3.05 (0.073 sec)
+Step 18900: loss = 3.06 (0.840 sec)
+  Num examples: 3000  Num correct: 298  Error @ 1: 0.9007
+  Num examples: 1500  Num correct: 119  Error @ 1: 0.9207
+  Num examples: 1500  Num correct: 138  Error @ 1: 0.9080
+Step 19000: loss = 3.06 (0.081 sec)
+Step 19100: loss = 3.06 (0.180 sec)
+Step 19200: loss = 3.06 (1.325 sec)
+Step 19300: loss = 3.06 (0.086 sec)
+Step 19400: loss = 3.05 (0.046 sec)
+Step 19500: loss = 3.05 (0.634 sec)
+Step 19600: loss = 3.05 (0.192 sec)
+Step 19700: loss = 3.05 (0.187 sec)
+Step 19800: loss = 3.05 (1.691 sec)
+Step 19900: loss = 3.06 (0.103 sec)
+  Num examples: 3000  Num correct: 289  Error @ 1: 0.9037
+  Num examples: 1500  Num correct: 125  Error @ 1: 0.9167
+  Num examples: 1500  Num correct: 139  Error @ 1: 0.9073
+Step 20000: loss = 3.05 (0.091 sec)
+Step 20100: loss = 3.05 (1.930 sec)
+Step 20200: loss = 3.04 (0.050 sec)
+Step 20300: loss = 3.05 (0.134 sec)
+Step 20400: loss = 3.05 (1.511 sec)
+Step 20500: loss = 3.06 (0.050 sec)
+Step 20600: loss = 3.06 (0.047 sec)
+Step 20700: loss = 3.06 (1.303 sec)
+Step 20800: loss = 3.05 (0.054 sec)
+Step 20900: loss = 3.05 (0.166 sec)
+  Num examples: 3000  Num correct: 397  Error @ 1: 0.8677
+  Num examples: 1500  Num correct: 179  Error @ 1: 0.8807
+  Num examples: 1500  Num correct: 173  Error @ 1: 0.8847
+Step 21000: loss = 3.05 (1.813 sec)
+Step 21100: loss = 3.05 (0.176 sec)
+Step 21200: loss = 3.04 (0.046 sec)
+Step 21300: loss = 3.05 (1.816 sec)
+Step 21400: loss = 3.05 (0.080 sec)
+Step 21500: loss = 3.05 (0.047 sec)
+Step 21600: loss = 3.04 (1.695 sec)
+Step 21700: loss = 3.04 (0.191 sec)
+Step 21800: loss = 3.05 (0.050 sec)
+Step 21900: loss = 3.05 (1.395 sec)
+  Num examples: 3000  Num correct: 385  Error @ 1: 0.8717
+  Num examples: 1500  Num correct: 178  Error @ 1: 0.8813
+  Num examples: 1500  Num correct: 172  Error @ 1: 0.8853
+Step 22000: loss = 3.05 (0.085 sec)
+Step 22100: loss = 3.05 (0.160 sec)
+Step 22200: loss = 3.03 (2.027 sec)
+Step 22300: loss = 3.05 (0.181 sec)
+Step 22400: loss = 3.04 (0.051 sec)
+Step 22500: loss = 3.04 (1.492 sec)
+Step 22600: loss = 3.03 (0.056 sec)
+Step 22700: loss = 3.04 (0.045 sec)
+Step 22800: loss = 3.04 (1.294 sec)
+Step 22900: loss = 3.04 (0.070 sec)
+  Num examples: 3000  Num correct: 400  Error @ 1: 0.8667
+  Num examples: 1500  Num correct: 173  Error @ 1: 0.8847
+  Num examples: 1500  Num correct: 184  Error @ 1: 0.8773
+Step 23000: loss = 3.04 (0.259 sec)
+Step 23100: loss = 3.05 (1.437 sec)
+Step 23200: loss = 3.04 (0.070 sec)
+Step 23300: loss = 3.04 (0.049 sec)
+Step 23400: loss = 3.04 (1.446 sec)
+Step 23500: loss = 3.04 (0.046 sec)
+Step 23600: loss = 3.05 (0.181 sec)
+Step 23700: loss = 3.04 (1.675 sec)
+Step 23800: loss = 3.05 (0.181 sec)
+Step 23900: loss = 3.04 (0.062 sec)
+  Num examples: 3000  Num correct: 403  Error @ 1: 0.8657
+  Num examples: 1500  Num correct: 176  Error @ 1: 0.8827
+  Num examples: 1500  Num correct: 184  Error @ 1: 0.8773
+Step 24000: loss = 3.04 (1.951 sec)
+Step 24100: loss = 3.03 (0.110 sec)
+Step 24200: loss = 3.04 (0.049 sec)
+Step 24300: loss = 3.04 (1.348 sec)
+Step 24400: loss = 3.03 (0.173 sec)
+Step 24500: loss = 3.04 (0.046 sec)
+Step 24600: loss = 3.06 (1.419 sec)
+Step 24700: loss = 3.03 (0.050 sec)
+Step 24800: loss = 3.03 (0.047 sec)
+Step 24900: loss = 3.03 (1.115 sec)
+  Num examples: 3000  Num correct: 412  Error @ 1: 0.8627
+  Num examples: 1500  Num correct: 174  Error @ 1: 0.8840
+  Num examples: 1500  Num correct: 183  Error @ 1: 0.8780
+Step 25000: loss = 3.05 (0.090 sec)
+Step 25100: loss = 3.02 (0.085 sec)
+Step 25200: loss = 3.04 (2.046 sec)
+Step 25300: loss = 3.04 (0.212 sec)
+Step 25400: loss = 3.03 (0.186 sec)
+Step 25500: loss = 3.03 (1.824 sec)
+Step 25600: loss = 3.03 (0.043 sec)
+Step 25700: loss = 3.03 (0.194 sec)
+Step 25800: loss = 3.02 (1.828 sec)
+Step 25900: loss = 3.03 (0.183 sec)
+  Num examples: 3000  Num correct: 412  Error @ 1: 0.8627
+  Num examples: 1500  Num correct: 172  Error @ 1: 0.8853
+  Num examples: 1500  Num correct: 181  Error @ 1: 0.8793
+Step 26000: loss = 3.03 (0.184 sec)
+Step 26100: loss = 3.02 (1.718 sec)
+Step 26200: loss = 3.02 (0.138 sec)
+Step 26300: loss = 3.02 (0.179 sec)
+Step 26400: loss = 3.02 (1.320 sec)
+Step 26500: loss = 3.03 (0.181 sec)
+Step 26600: loss = 3.04 (0.053 sec)
+Step 26700: loss = 3.04 (1.752 sec)
+Step 26800: loss = 3.03 (0.051 sec)
+Step 26900: loss = 3.03 (0.046 sec)
+  Num examples: 3000  Num correct: 402  Error @ 1: 0.8660
+  Num examples: 1500  Num correct: 178  Error @ 1: 0.8813
+  Num examples: 1500  Num correct: 186  Error @ 1: 0.8760
+Step 27000: loss = 3.01 (1.703 sec)
+Step 27100: loss = 3.02 (0.174 sec)
+Step 27200: loss = 3.03 (0.128 sec)
+Step 27300: loss = 3.02 (1.477 sec)
+Step 27400: loss = 3.02 (0.189 sec)
+Step 27500: loss = 3.03 (0.050 sec)
+Step 27600: loss = 3.03 (0.434 sec)
+Step 27700: loss = 3.02 (0.165 sec)
+Step 27800: loss = 3.01 (0.044 sec)
+Step 27900: loss = 3.02 (1.577 sec)
+  Num examples: 3000  Num correct: 386  Error @ 1: 0.8713
+  Num examples: 1500  Num correct: 179  Error @ 1: 0.8807
+  Num examples: 1500  Num correct: 183  Error @ 1: 0.8780
+Step 28000: loss = 3.03 (0.061 sec)
+Step 28100: loss = 3.03 (0.047 sec)
+Step 28200: loss = 3.03 (1.395 sec)
+Step 28300: loss = 3.03 (0.184 sec)
+Step 28400: loss = 3.04 (0.047 sec)
+Step 28500: loss = 3.01 (1.068 sec)
+Step 28600: loss = 3.03 (0.049 sec)
+Step 28700: loss = 3.02 (0.052 sec)
+Step 28800: loss = 3.02 (0.957 sec)
+Step 28900: loss = 3.01 (0.043 sec)
+  Num examples: 3000  Num correct: 411  Error @ 1: 0.8630
+  Num examples: 1500  Num correct: 175  Error @ 1: 0.8833
+  Num examples: 1500  Num correct: 187  Error @ 1: 0.8753
+Step 29000: loss = 3.02 (0.114 sec)
+Step 29100: loss = 3.02 (1.170 sec)
+Step 29200: loss = 3.04 (0.048 sec)
+Step 29300: loss = 3.02 (0.049 sec)
+Step 29400: loss = 3.02 (1.054 sec)
+Step 29500: loss = 3.02 (0.049 sec)
+Step 29600: loss = 3.02 (0.175 sec)
+Step 29700: loss = 3.02 (1.181 sec)
+Step 29800: loss = 3.01 (0.049 sec)
+Step 29900: loss = 3.02 (0.136 sec)
+  Num examples: 3000  Num correct: 412  Error @ 1: 0.8627
+  Num examples: 1500  Num correct: 173  Error @ 1: 0.8847
+  Num examples: 1500  Num correct: 181  Error @ 1: 0.8793
+Step 30000: loss = 3.02 (1.764 sec)
+Step 30100: loss = 3.00 (0.135 sec)
+Step 30200: loss = 3.01 (0.058 sec)
+Step 30300: loss = 3.01 (1.662 sec)
+Step 30400: loss = 3.02 (0.049 sec)
+Step 30500: loss = 3.02 (0.159 sec)
+Step 30600: loss = 3.01 (1.494 sec)
+Step 30700: loss = 3.02 (0.070 sec)
+Step 30800: loss = 3.02 (0.048 sec)
+Step 30900: loss = 3.01 (1.325 sec)
+  Num examples: 3000  Num correct: 418  Error @ 1: 0.8607
+  Num examples: 1500  Num correct: 178  Error @ 1: 0.8813
+  Num examples: 1500  Num correct: 182  Error @ 1: 0.8787
+Step 31000: loss = 3.01 (0.059 sec)
+Step 31100: loss = 3.02 (0.049 sec)
+Step 31200: loss = 3.02 (0.978 sec)
+Step 31300: loss = 3.01 (0.193 sec)
+Step 31400: loss = 3.01 (0.050 sec)
+Step 31500: loss = 3.00 (1.532 sec)
+Step 31600: loss = 3.01 (0.048 sec)
+Step 31700: loss = 3.02 (0.043 sec)
+Step 31800: loss = 3.02 (0.416 sec)
+Step 31900: loss = 3.02 (0.179 sec)
+  Num examples: 3000  Num correct: 387  Error @ 1: 0.8710
+  Num examples: 1500  Num correct: 179  Error @ 1: 0.8807
+  Num examples: 1500  Num correct: 182  Error @ 1: 0.8787
+Step 32000: loss = 3.02 (0.079 sec)
+Step 32100: loss = 3.02 (0.439 sec)
+Step 32200: loss = 3.01 (0.052 sec)
+Step 32300: loss = 3.01 (0.045 sec)
+Step 32400: loss = 3.01 (1.126 sec)
+Step 32500: loss = 3.02 (0.048 sec)
+Step 32600: loss = 3.02 (0.049 sec)
+Step 32700: loss = 3.01 (1.015 sec)
+Step 32800: loss = 3.01 (0.069 sec)
+Step 32900: loss = 3.00 (0.050 sec)
+  Num examples: 3000  Num correct: 412  Error @ 1: 0.8627
+  Num examples: 1500  Num correct: 176  Error @ 1: 0.8827
+  Num examples: 1500  Num correct: 187  Error @ 1: 0.8753
+Step 33000: loss = 3.01 (1.786 sec)
+Step 33100: loss = 3.01 (0.164 sec)
+Step 33200: loss = 3.02 (0.050 sec)
+Step 33300: loss = 3.01 (0.589 sec)
+Step 33400: loss = 3.01 (0.051 sec)
+Step 33500: loss = 3.00 (0.093 sec)
+Step 33600: loss = 3.02 (1.257 sec)
+Step 33700: loss = 3.00 (0.190 sec)
+Step 33800: loss = 3.00 (0.069 sec)
+Step 33900: loss = 3.00 (1.929 sec)
+  Num examples: 3000  Num correct: 407  Error @ 1: 0.8643
+  Num examples: 1500  Num correct: 176  Error @ 1: 0.8827
+  Num examples: 1500  Num correct: 187  Error @ 1: 0.8753
+Step 34000: loss = 3.01 (0.070 sec)
+Step 34100: loss = 3.01 (0.049 sec)
+Step 34200: loss = 3.01 (1.821 sec)
+Step 34300: loss = 3.01 (0.071 sec)
+Step 34400: loss = 3.00 (0.067 sec)
+Step 34500: loss = 3.00 (1.926 sec)
+Step 34600: loss = 3.01 (0.042 sec)
+Step 34700: loss = 3.01 (0.050 sec)
+Step 34800: loss = 3.01 (0.338 sec)
+Step 34900: loss = 3.01 (0.051 sec)
+  Num examples: 3000  Num correct: 395  Error @ 1: 0.8683
+  Num examples: 1500  Num correct: 177  Error @ 1: 0.8820
+  Num examples: 1500  Num correct: 183  Error @ 1: 0.8780
+Step 35000: loss = 3.00 (0.049 sec)
+Step 35100: loss = 3.01 (0.384 sec)
+Step 35200: loss = 3.01 (0.048 sec)
+Step 35300: loss = 3.01 (0.047 sec)
+Step 35400: loss = 3.00 (0.856 sec)
+Step 35500: loss = 3.01 (0.051 sec)
+Step 35600: loss = 3.00 (0.172 sec)
+Step 35700: loss = 3.01 (0.343 sec)
+Step 35800: loss = 3.00 (0.048 sec)
+Step 35900: loss = 3.00 (0.044 sec)
+  Num examples: 3000  Num correct: 408  Error @ 1: 0.8640
+  Num examples: 1500  Num correct: 177  Error @ 1: 0.8820
+  Num examples: 1500  Num correct: 184  Error @ 1: 0.8773
+Step 36000: loss = 2.99 (1.881 sec)
+Step 36100: loss = 3.00 (0.049 sec)
+Step 36200: loss = 3.01 (0.047 sec)
+Step 36300: loss = 3.02 (1.179 sec)
+Step 36400: loss = 3.01 (0.047 sec)
+Step 36500: loss = 2.99 (0.048 sec)
+Step 36600: loss = 3.01 (0.838 sec)
+Step 36700: loss = 3.00 (0.068 sec)
+Step 36800: loss = 3.00 (0.048 sec)
+Step 36900: loss = 3.00 (1.372 sec)
+  Num examples: 3000  Num correct: 405  Error @ 1: 0.8650
+  Num examples: 1500  Num correct: 177  Error @ 1: 0.8820
+  Num examples: 1500  Num correct: 185  Error @ 1: 0.8767
+Step 37000: loss = 3.01 (0.078 sec)
+Step 37100: loss = 3.01 (0.050 sec)
+Step 37200: loss = 3.00 (0.649 sec)
+Step 37300: loss = 3.01 (0.049 sec)
+Step 37400: loss = 3.01 (0.153 sec)
+Step 37500: loss = 3.00 (0.328 sec)
+Step 37600: loss = 2.99 (0.197 sec)
+Step 37700: loss = 3.00 (0.047 sec)
+Step 37800: loss = 3.00 (1.806 sec)
+Step 37900: loss = 3.00 (0.044 sec)
+  Num examples: 3000  Num correct: 427  Error @ 1: 0.8577
+  Num examples: 1500  Num correct: 178  Error @ 1: 0.8813
+  Num examples: 1500  Num correct: 184  Error @ 1: 0.8773
+Step 38000: loss = 2.99 (0.065 sec)
+Step 38100: loss = 3.00 (1.733 sec)
+Step 38200: loss = 2.99 (0.175 sec)
+Step 38300: loss = 3.00 (0.045 sec)
+Step 38400: loss = 3.00 (0.872 sec)
+Step 38500: loss = 3.00 (0.192 sec)
+Step 38600: loss = 3.00 (0.051 sec)
+Step 38700: loss = 3.00 (1.792 sec)
+Step 38800: loss = 2.99 (0.083 sec)
+Step 38900: loss = 3.02 (0.052 sec)
+  Num examples: 3000  Num correct: 410  Error @ 1: 0.8633
+  Num examples: 1500  Num correct: 180  Error @ 1: 0.8800
+  Num examples: 1500  Num correct: 190  Error @ 1: 0.8733
+Step 39000: loss = 3.00 (1.912 sec)
+Step 39100: loss = 3.00 (0.203 sec)
+Step 39200: loss = 3.00 (0.086 sec)
+Step 39300: loss = 3.01 (2.034 sec)
+Step 39400: loss = 3.00 (0.138 sec)
+Step 39500: loss = 2.98 (0.050 sec)
+Step 39600: loss = 3.00 (1.516 sec)
+Step 39700: loss = 3.00 (0.047 sec)
+Step 39800: loss = 2.99 (0.167 sec)
+Step 39900: loss = 3.00 (1.596 sec)
+  Num examples: 3000  Num correct: 406  Error @ 1: 0.8647
+  Num examples: 1500  Num correct: 180  Error @ 1: 0.8800
+  Num examples: 1500  Num correct: 186  Error @ 1: 0.8760
+Step 40000: loss = 3.01 (0.063 sec)
+Step 40100: loss = 2.99 (0.049 sec)
+Step 40200: loss = 2.99 (0.331 sec)
+Step 40300: loss = 3.00 (0.048 sec)
+Step 40400: loss = 2.99 (0.066 sec)
+Step 40500: loss = 2.99 (0.721 sec)
+Step 40600: loss = 3.00 (0.048 sec)
+Step 40700: loss = 2.99 (0.083 sec)
+Step 40800: loss = 3.01 (1.159 sec)
+Step 40900: loss = 2.99 (0.180 sec)
+  Num examples: 3000  Num correct: 403  Error @ 1: 0.8657
+  Num examples: 1500  Num correct: 181  Error @ 1: 0.8793
+  Num examples: 1500  Num correct: 187  Error @ 1: 0.8753
+Step 41000: loss = 2.98 (0.059 sec)
+Step 41100: loss = 2.99 (0.638 sec)
+Step 41200: loss = 2.99 (0.050 sec)
+Step 41300: loss = 2.99 (0.194 sec)
+Step 41400: loss = 2.99 (0.776 sec)
+Step 41500: loss = 2.99 (0.050 sec)
+Step 41600: loss = 2.98 (0.046 sec)
+Step 41700: loss = 2.99 (1.720 sec)
+Step 41800: loss = 3.00 (0.059 sec)
+Step 41900: loss = 2.99 (0.044 sec)
+  Num examples: 3000  Num correct: 402  Error @ 1: 0.8660
+  Num examples: 1500  Num correct: 180  Error @ 1: 0.8800
+  Num examples: 1500  Num correct: 188  Error @ 1: 0.8747
+Step 42000: loss = 3.00 (1.456 sec)
+Step 42100: loss = 3.00 (0.202 sec)
+Step 42200: loss = 3.00 (0.048 sec)
+Step 42300: loss = 2.99 (0.418 sec)
+Step 42400: loss = 3.00 (0.048 sec)
+Step 42500: loss = 2.99 (0.076 sec)
+Step 42600: loss = 3.00 (1.399 sec)
+Step 42700: loss = 2.98 (0.047 sec)
+Step 42800: loss = 2.98 (0.132 sec)
+Step 42900: loss = 2.99 (1.209 sec)
+  Num examples: 3000  Num correct: 424  Error @ 1: 0.8587
+  Num examples: 1500  Num correct: 176  Error @ 1: 0.8827
+  Num examples: 1500  Num correct: 184  Error @ 1: 0.8773
+Step 43000: loss = 2.99 (0.057 sec)
+Step 43100: loss = 2.98 (0.051 sec)
+Step 43200: loss = 2.99 (0.403 sec)
+Step 43300: loss = 2.99 (0.046 sec)
+Step 43400: loss = 2.99 (0.047 sec)
+Step 43500: loss = 2.99 (1.660 sec)
+Step 43600: loss = 2.99 (0.049 sec)
+Step 43700: loss = 2.98 (0.051 sec)
+Step 43800: loss = 2.99 (1.242 sec)
+Step 43900: loss = 2.99 (0.043 sec)
+  Num examples: 3000  Num correct: 420  Error @ 1: 0.8600
+  Num examples: 1500  Num correct: 177  Error @ 1: 0.8820
+  Num examples: 1500  Num correct: 186  Error @ 1: 0.8760
+Step 44000: loss = 2.99 (0.067 sec)
+Step 44100: loss = 2.98 (1.797 sec)
+Step 44200: loss = 2.99 (0.048 sec)
+Step 44300: loss = 2.99 (0.045 sec)
+Step 44400: loss = 2.99 (1.263 sec)
+Step 44500: loss = 2.99 (0.045 sec)
+Step 44600: loss = 2.99 (0.089 sec)
+Step 44700: loss = 2.99 (1.190 sec)
+Step 44800: loss = 2.98 (0.182 sec)
+Step 44900: loss = 2.99 (0.048 sec)
+  Num examples: 3000  Num correct: 411  Error @ 1: 0.8630
+  Num examples: 1500  Num correct: 179  Error @ 1: 0.8807
+  Num examples: 1500  Num correct: 186  Error @ 1: 0.8760
+Step 45000: loss = 2.98 (1.268 sec)
+Step 45100: loss = 2.98 (0.046 sec)
+Step 45200: loss = 2.98 (0.061 sec)
+Step 45300: loss = 2.99 (1.322 sec)
+Step 45400: loss = 2.98 (0.048 sec)
+Step 45500: loss = 2.99 (0.047 sec)
+Step 45600: loss = 2.98 (1.352 sec)
+Step 45700: loss = 2.98 (0.051 sec)
+Step 45800: loss = 2.98 (0.046 sec)
+Step 45900: loss = 2.99 (1.894 sec)
+  Num examples: 3000  Num correct: 392  Error @ 1: 0.8693
+  Num examples: 1500  Num correct: 172  Error @ 1: 0.8853
+  Num examples: 1500  Num correct: 186  Error @ 1: 0.8760
+Step 46000: loss = 2.99 (0.066 sec)
+Step 46100: loss = 2.98 (0.050 sec)
+Step 46200: loss = 2.98 (0.898 sec)
+Step 46300: loss = 2.99 (0.048 sec)
+Step 46400: loss = 2.98 (0.048 sec)
+  Num examples: 3000  Num correct: 412  Error @ 1: 0.8627
+  Num examples: 1500  Num correct: 177  Error @ 1: 0.8820
+  Num examples: 1500  Num correct: 188  Error @ 1: 0.8747

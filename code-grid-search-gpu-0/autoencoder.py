@@ -332,7 +332,7 @@ def main_unsupervised():
           loss_summary, loss_value = sess.run([train_op, loss],
                                               feed_dict=feed_dict)
 
-          if step % 100 == 0:
+          if step % 3100 == 0:
             summary_str = sess.run(summary_op, feed_dict=feed_dict)
             summary_writer.add_summary(summary_str, step)
             image_summary_op = \
@@ -426,7 +426,7 @@ def main_supervised(ae):
       duration = time.time() - start_time
 
       # Write the summaries and print an overview fairly often.
-      if step % 100 == 0:
+      if step % 750 == 0:
         # Print status to stdout.
         print('Step %d: loss = %.2f (%.3f sec)' % (step, loss_value, duration))
         # Update the events file.

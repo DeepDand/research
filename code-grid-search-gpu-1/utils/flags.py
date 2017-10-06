@@ -22,9 +22,9 @@ FLAGS = flags.FLAGS
 # Autoencoder Architecture Specific Flags
 flags.DEFINE_integer("num_hidden_layers", 2, "Number of hidden layers")
 
-flags.DEFINE_integer('hidden1_units', 4,
+flags.DEFINE_integer('hidden1_units', 256,
                      'Number of units in hidden layer 1.')
-flags.DEFINE_integer('hidden2_units', 4,
+flags.DEFINE_integer('hidden2_units', 128,
                      'Number of units in hidden layer 2.')
 flags.DEFINE_integer('hidden3_units', 36,
                      'Number of units in hidden layer 3.')

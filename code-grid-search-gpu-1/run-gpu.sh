@@ -1,8 +1,8 @@
 #!/bin/bash
 let pu1=4
 let pu2=4
-for u1 in 256; do
-  for u2 in 128; do
+for u1 in 512; do
+  for u2 in 128 256; do
     echo $u1, $u2
     find utils/flags.py -type f -exec sed -i  "s/1_units', $pu1,/1_units', $u1,/g" {} \;
     find utils/flags.py -type f -exec sed -i  "s/2_units', $pu2,/2_units', $u2,/g" {} \;

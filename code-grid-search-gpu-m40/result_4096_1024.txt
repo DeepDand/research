@@ -1,0 +1,364 @@
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcurand.so locally
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:951] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:03:00.0
+Total memory: 15.89GiB
+Free memory: 15.61GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x2c72bd0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:951] Found device 1 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:82:00.0
+Total memory: 15.89GiB
+Free memory: 15.61GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:855] cannot enable peer access from device ordinal 0 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:855] cannot enable peer access from device ordinal 1 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:972] DMA: 0 1 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] 0:   Y N 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] 1:   N Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:03:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla P100-PCIE-16GB, pci bus id: 0000:82:00.0)
+['S01']
+[]
+[]
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+(3100, 256, 256, 1)
+(1550, 256, 256, 1)
+(1550, 256, 256, 1)
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |    50285.1250 | Layer 1 | Epoch 1  |
+|          3100 |    23109.3379 | Layer 1 | Epoch 2  |
+|          6200 |    21855.8770 | Layer 1 | Epoch 3  |
+|          9300 |    21090.1602 | Layer 1 | Epoch 4  |
+|         12400 |    20335.0098 | Layer 1 | Epoch 5  |
+|         15500 |    19781.8477 | Layer 1 | Epoch 6  |
+|         18600 |    19516.8984 | Layer 1 | Epoch 7  |
+|         21700 |    18790.8125 | Layer 1 | Epoch 8  |
+|         24800 |    18589.0898 | Layer 1 | Epoch 9  |
+|         27900 |    18005.0625 | Layer 1 | Epoch 10  |
+|         31000 |    17662.8672 | Layer 1 | Epoch 11  |
+|         34100 |    17688.5176 | Layer 1 | Epoch 12  |
+|         37200 |    17473.1270 | Layer 1 | Epoch 13  |
+|         40300 |    17555.9609 | Layer 1 | Epoch 14  |
+|         43400 |    17115.7344 | Layer 1 | Epoch 15  |
+|         46500 |    16953.4434 | Layer 1 | Epoch 16  |
+|         49600 |    17120.3145 | Layer 1 | Epoch 17  |
+|         52700 |    16618.8965 | Layer 1 | Epoch 18  |
+|         55800 |    16563.9922 | Layer 1 | Epoch 19  |
+|         58900 |    16994.7227 | Layer 1 | Epoch 20  |
+|         62000 |    16732.8281 | Layer 1 | Epoch 21  |
+|         65100 |    16513.9707 | Layer 1 | Epoch 22  |
+|         68200 |    16280.0938 | Layer 1 | Epoch 23  |
+|         71300 |    16534.9434 | Layer 1 | Epoch 24  |
+|         74400 |    16394.6855 | Layer 1 | Epoch 25  |
+|         77500 |    16490.5898 | Layer 1 | Epoch 26  |
+|         80600 |    16562.7891 | Layer 1 | Epoch 27  |
+|         83700 |    16488.4453 | Layer 1 | Epoch 28  |
+|         86800 |    16565.4043 | Layer 1 | Epoch 29  |
+|         89900 |    16287.7266 | Layer 1 | Epoch 30  |
+|         93000 |    16246.2148 | Layer 1 | Epoch 31  |
+|         96100 |    16674.8086 | Layer 1 | Epoch 32  |
+|         99200 |    16321.7031 | Layer 1 | Epoch 33  |
+|        102300 |    16387.7715 | Layer 1 | Epoch 34  |
+|        105400 |    16160.6777 | Layer 1 | Epoch 35  |
+|        108500 |    16014.1660 | Layer 1 | Epoch 36  |
+|        111600 |    16068.2793 | Layer 1 | Epoch 37  |
+|        114700 |    16110.2695 | Layer 1 | Epoch 38  |
+|        117800 |    16420.1406 | Layer 1 | Epoch 39  |
+|        120900 |    16085.4453 | Layer 1 | Epoch 40  |
+|        124000 |    16257.0830 | Layer 1 | Epoch 41  |
+|        127100 |    16236.7910 | Layer 1 | Epoch 42  |
+|        130200 |    16169.5117 | Layer 1 | Epoch 43  |
+|        133300 |    15888.8643 | Layer 1 | Epoch 44  |
+|        136400 |    16156.8066 | Layer 1 | Epoch 45  |
+|        139500 |    16347.5293 | Layer 1 | Epoch 46  |
+|        142600 |    15934.4004 | Layer 1 | Epoch 47  |
+|        145700 |    15900.5742 | Layer 1 | Epoch 48  |
+|        148800 |    16152.8555 | Layer 1 | Epoch 49  |
+|        151900 |    16212.6201 | Layer 1 | Epoch 50  |
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |     3637.5696 | Layer 2 | Epoch 1  |
+|          3100 |     2164.9263 | Layer 2 | Epoch 2  |
+|          6200 |     2010.4854 | Layer 2 | Epoch 3  |
+|          9300 |     1853.8857 | Layer 2 | Epoch 4  |
+|         12400 |     1784.9700 | Layer 2 | Epoch 5  |
+|         15500 |     1738.8655 | Layer 2 | Epoch 6  |
+|         18600 |     1756.4441 | Layer 2 | Epoch 7  |
+|         21700 |     1709.3574 | Layer 2 | Epoch 8  |
+|         24800 |     1713.3992 | Layer 2 | Epoch 9  |
+|         27900 |     1658.2051 | Layer 2 | Epoch 10  |
+|         31000 |     1642.0508 | Layer 2 | Epoch 11  |
+|         34100 |     1610.4441 | Layer 2 | Epoch 12  |
+|         37200 |     1650.5095 | Layer 2 | Epoch 13  |
+|         40300 |     1610.8062 | Layer 2 | Epoch 14  |
+|         43400 |     1600.3767 | Layer 2 | Epoch 15  |
+|         46500 |     1574.0969 | Layer 2 | Epoch 16  |
+|         49600 |     1622.7296 | Layer 2 | Epoch 17  |
+|         52700 |     1584.1488 | Layer 2 | Epoch 18  |
+|         55800 |     1554.7740 | Layer 2 | Epoch 19  |
+|         58900 |     1538.4897 | Layer 2 | Epoch 20  |
+|         62000 |     1542.4395 | Layer 2 | Epoch 21  |
+|         65100 |     1587.0416 | Layer 2 | Epoch 22  |
+|         68200 |     1554.7599 | Layer 2 | Epoch 23  |
+|         71300 |     1559.3134 | Layer 2 | Epoch 24  |
+|         74400 |     1540.8042 | Layer 2 | Epoch 25  |
+|         77500 |     1498.5059 | Layer 2 | Epoch 26  |
+|         80600 |     1542.1481 | Layer 2 | Epoch 27  |
+|         83700 |     1525.8674 | Layer 2 | Epoch 28  |
+|         86800 |     1490.2043 | Layer 2 | Epoch 29  |
+|         89900 |     1545.7827 | Layer 2 | Epoch 30  |
+|         93000 |     1514.6738 | Layer 2 | Epoch 31  |
+|         96100 |     1498.0554 | Layer 2 | Epoch 32  |
+|         99200 |     1542.0228 | Layer 2 | Epoch 33  |
+|        102300 |     1496.1135 | Layer 2 | Epoch 34  |
+|        105400 |     1497.9275 | Layer 2 | Epoch 35  |
+|        108500 |     1450.6487 | Layer 2 | Epoch 36  |
+|        111600 |     1417.1904 | Layer 2 | Epoch 37  |
+|        114700 |     1482.7869 | Layer 2 | Epoch 38  |
+|        117800 |     1442.0627 | Layer 2 | Epoch 39  |
+|        120900 |     1460.1886 | Layer 2 | Epoch 40  |
+|        124000 |     1437.2985 | Layer 2 | Epoch 41  |
+|        127100 |     1494.4456 | Layer 2 | Epoch 42  |
+|        130200 |     1473.1462 | Layer 2 | Epoch 43  |
+|        133300 |     1502.0697 | Layer 2 | Epoch 44  |
+|        136400 |     1429.0386 | Layer 2 | Epoch 45  |
+|        139500 |     1445.1998 | Layer 2 | Epoch 46  |
+|        142600 |     1413.2656 | Layer 2 | Epoch 47  |
+|        145700 |     1459.4113 | Layer 2 | Epoch 48  |
+|        148800 |     1481.3464 | Layer 2 | Epoch 49  |
+|        151900 |     1473.1396 | Layer 2 | Epoch 50  |
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Extracting labels from data in  ../dataset/*.jpeg ['S01']
+(3100, 256, 256, 1)
+(3100,)
+(1550, 256, 256, 1)
+(1550,)
+(1550, 256, 256, 1)
+(1550,)
+Tensor("ExpandDims_1:0", shape=(250, 1), dtype=int32)
+Tensor("Size:0", shape=(), dtype=int32)
+31
+Step 0: loss = 3.50 (0.116 sec)
+Step 750: loss = 2.59 (0.081 sec)
+  Num examples: 3000  Num correct: 2786  Error @ 1: 0.0713
+  Num examples: 1500  Num correct: 1356  Error @ 1: 0.0960
+  Num examples: 1500  Num correct: 1365  Error @ 1: 0.0900
+Step 1500: loss = 2.53 (0.344 sec)
+  Num examples: 3000  Num correct: 2898  Error @ 1: 0.0340
+  Num examples: 1500  Num correct: 1424  Error @ 1: 0.0507
+  Num examples: 1500  Num correct: 1428  Error @ 1: 0.0480
+Step 2250: loss = 2.53 (0.082 sec)
+  Num examples: 3000  Num correct: 2908  Error @ 1: 0.0307
+  Num examples: 1500  Num correct: 1423  Error @ 1: 0.0513
+  Num examples: 1500  Num correct: 1435  Error @ 1: 0.0433
+Step 3000: loss = 2.54 (0.338 sec)
+Step 3750: loss = 2.52 (0.082 sec)
+  Num examples: 3000  Num correct: 2918  Error @ 1: 0.0273
+  Num examples: 1500  Num correct: 1425  Error @ 1: 0.0500
+  Num examples: 1500  Num correct: 1439  Error @ 1: 0.0407
+Step 4500: loss = 2.53 (0.349 sec)
+  Num examples: 3000  Num correct: 2916  Error @ 1: 0.0280
+  Num examples: 1500  Num correct: 1428  Error @ 1: 0.0480
+  Num examples: 1500  Num correct: 1439  Error @ 1: 0.0407
+Step 5250: loss = 2.51 (0.082 sec)
+  Num examples: 3000  Num correct: 2917  Error @ 1: 0.0277
+  Num examples: 1500  Num correct: 1429  Error @ 1: 0.0473
+  Num examples: 1500  Num correct: 1440  Error @ 1: 0.0400
+Step 6000: loss = 2.51 (0.342 sec)
+Step 6750: loss = 2.52 (0.081 sec)
+  Num examples: 3000  Num correct: 2916  Error @ 1: 0.0280
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1440  Error @ 1: 0.0400
+Step 7500: loss = 2.53 (0.340 sec)
+  Num examples: 3000  Num correct: 2912  Error @ 1: 0.0293
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1441  Error @ 1: 0.0393
+Step 8250: loss = 2.52 (0.083 sec)
+  Num examples: 3000  Num correct: 2919  Error @ 1: 0.0270
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1442  Error @ 1: 0.0387
+Step 9000: loss = 2.53 (0.339 sec)
+Step 9750: loss = 2.51 (0.085 sec)
+  Num examples: 3000  Num correct: 2911  Error @ 1: 0.0297
+  Num examples: 1500  Num correct: 1429  Error @ 1: 0.0473
+  Num examples: 1500  Num correct: 1441  Error @ 1: 0.0393
+Step 10500: loss = 2.51 (0.336 sec)
+  Num examples: 3000  Num correct: 2914  Error @ 1: 0.0287
+  Num examples: 1500  Num correct: 1429  Error @ 1: 0.0473
+  Num examples: 1500  Num correct: 1444  Error @ 1: 0.0373
+Step 11250: loss = 2.52 (0.086 sec)
+  Num examples: 3000  Num correct: 2918  Error @ 1: 0.0273
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 12000: loss = 2.52 (0.338 sec)
+Step 12750: loss = 2.51 (0.082 sec)
+  Num examples: 3000  Num correct: 2912  Error @ 1: 0.0293
+  Num examples: 1500  Num correct: 1430  Error @ 1: 0.0467
+  Num examples: 1500  Num correct: 1442  Error @ 1: 0.0387
+Step 13500: loss = 2.50 (0.354 sec)
+  Num examples: 3000  Num correct: 2910  Error @ 1: 0.0300
+  Num examples: 1500  Num correct: 1430  Error @ 1: 0.0467
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 14250: loss = 2.52 (0.083 sec)
+  Num examples: 3000  Num correct: 2918  Error @ 1: 0.0273
+  Num examples: 1500  Num correct: 1432  Error @ 1: 0.0453
+  Num examples: 1500  Num correct: 1441  Error @ 1: 0.0393
+Step 15000: loss = 2.52 (0.333 sec)
+Step 15750: loss = 2.54 (0.081 sec)
+  Num examples: 3000  Num correct: 2922  Error @ 1: 0.0260
+  Num examples: 1500  Num correct: 1432  Error @ 1: 0.0453
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 16500: loss = 2.53 (0.336 sec)
+  Num examples: 3000  Num correct: 2927  Error @ 1: 0.0243
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 17250: loss = 2.51 (0.084 sec)
+  Num examples: 3000  Num correct: 2919  Error @ 1: 0.0270
+  Num examples: 1500  Num correct: 1435  Error @ 1: 0.0433
+  Num examples: 1500  Num correct: 1442  Error @ 1: 0.0387
+Step 18000: loss = 2.53 (0.330 sec)
+Step 18750: loss = 2.53 (0.082 sec)
+  Num examples: 3000  Num correct: 2917  Error @ 1: 0.0277
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1444  Error @ 1: 0.0373
+Step 19500: loss = 2.50 (0.343 sec)
+  Num examples: 3000  Num correct: 2909  Error @ 1: 0.0303
+  Num examples: 1500  Num correct: 1430  Error @ 1: 0.0467
+  Num examples: 1500  Num correct: 1441  Error @ 1: 0.0393
+Step 20250: loss = 2.50 (0.086 sec)
+  Num examples: 3000  Num correct: 2917  Error @ 1: 0.0277
+  Num examples: 1500  Num correct: 1432  Error @ 1: 0.0453
+  Num examples: 1500  Num correct: 1442  Error @ 1: 0.0387
+Step 21000: loss = 2.54 (0.327 sec)
+Step 21750: loss = 2.52 (0.082 sec)
+  Num examples: 3000  Num correct: 2926  Error @ 1: 0.0247
+  Num examples: 1500  Num correct: 1435  Error @ 1: 0.0433
+  Num examples: 1500  Num correct: 1444  Error @ 1: 0.0373
+Step 22500: loss = 2.52 (0.338 sec)
+  Num examples: 3000  Num correct: 2924  Error @ 1: 0.0253
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 23250: loss = 2.52 (0.086 sec)
+  Num examples: 3000  Num correct: 2919  Error @ 1: 0.0270
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1442  Error @ 1: 0.0387
+Step 24000: loss = 2.52 (0.335 sec)
+Step 24750: loss = 2.49 (0.082 sec)
+  Num examples: 3000  Num correct: 2918  Error @ 1: 0.0273
+  Num examples: 1500  Num correct: 1432  Error @ 1: 0.0453
+  Num examples: 1500  Num correct: 1445  Error @ 1: 0.0367
+Step 25500: loss = 2.52 (0.343 sec)
+  Num examples: 3000  Num correct: 2919  Error @ 1: 0.0270
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1442  Error @ 1: 0.0387
+Step 26250: loss = 2.51 (0.081 sec)
+  Num examples: 3000  Num correct: 2920  Error @ 1: 0.0267
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 27000: loss = 2.51 (0.329 sec)
+Step 27750: loss = 2.51 (0.082 sec)
+  Num examples: 3000  Num correct: 2914  Error @ 1: 0.0287
+  Num examples: 1500  Num correct: 1436  Error @ 1: 0.0427
+  Num examples: 1500  Num correct: 1442  Error @ 1: 0.0387
+Step 28500: loss = 2.52 (0.381 sec)
+  Num examples: 3000  Num correct: 2906  Error @ 1: 0.0313
+  Num examples: 1500  Num correct: 1435  Error @ 1: 0.0433
+  Num examples: 1500  Num correct: 1445  Error @ 1: 0.0367
+Step 29250: loss = 2.51 (0.077 sec)
+  Num examples: 3000  Num correct: 2921  Error @ 1: 0.0263
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 30000: loss = 2.50 (0.335 sec)
+Step 30750: loss = 2.51 (0.082 sec)
+  Num examples: 3000  Num correct: 2916  Error @ 1: 0.0280
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1444  Error @ 1: 0.0373
+Step 31500: loss = 2.52 (0.345 sec)
+  Num examples: 3000  Num correct: 2922  Error @ 1: 0.0260
+  Num examples: 1500  Num correct: 1434  Error @ 1: 0.0440
+  Num examples: 1500  Num correct: 1446  Error @ 1: 0.0360
+Step 32250: loss = 2.51 (0.081 sec)
+  Num examples: 3000  Num correct: 2918  Error @ 1: 0.0273
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1442  Error @ 1: 0.0387
+Step 33000: loss = 2.52 (0.325 sec)
+Step 33750: loss = 2.53 (0.082 sec)
+  Num examples: 3000  Num correct: 2926  Error @ 1: 0.0247
+  Num examples: 1500  Num correct: 1436  Error @ 1: 0.0427
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 34500: loss = 2.52 (0.338 sec)
+  Num examples: 3000  Num correct: 2916  Error @ 1: 0.0280
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1447  Error @ 1: 0.0353
+Step 35250: loss = 2.51 (0.082 sec)
+  Num examples: 3000  Num correct: 2920  Error @ 1: 0.0267
+  Num examples: 1500  Num correct: 1434  Error @ 1: 0.0440
+  Num examples: 1500  Num correct: 1444  Error @ 1: 0.0373
+Step 36000: loss = 2.51 (0.328 sec)
+Step 36750: loss = 2.52 (0.082 sec)
+  Num examples: 3000  Num correct: 2917  Error @ 1: 0.0277
+  Num examples: 1500  Num correct: 1435  Error @ 1: 0.0433
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 37500: loss = 2.53 (0.343 sec)
+  Num examples: 3000  Num correct: 2921  Error @ 1: 0.0263
+  Num examples: 1500  Num correct: 1435  Error @ 1: 0.0433
+  Num examples: 1500  Num correct: 1443  Error @ 1: 0.0380
+Step 38250: loss = 2.50 (0.080 sec)
+  Num examples: 3000  Num correct: 2920  Error @ 1: 0.0267
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1446  Error @ 1: 0.0360
+Step 39000: loss = 2.53 (0.328 sec)
+Step 39750: loss = 2.52 (0.081 sec)
+  Num examples: 3000  Num correct: 2916  Error @ 1: 0.0280
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1445  Error @ 1: 0.0367
+Step 40500: loss = 2.51 (0.358 sec)
+  Num examples: 3000  Num correct: 2914  Error @ 1: 0.0287
+  Num examples: 1500  Num correct: 1435  Error @ 1: 0.0433
+  Num examples: 1500  Num correct: 1446  Error @ 1: 0.0360
+Step 41250: loss = 2.52 (0.082 sec)
+  Num examples: 3000  Num correct: 2920  Error @ 1: 0.0267
+  Num examples: 1500  Num correct: 1432  Error @ 1: 0.0453
+  Num examples: 1500  Num correct: 1445  Error @ 1: 0.0367
+Step 42000: loss = 2.52 (0.335 sec)
+Step 42750: loss = 2.52 (0.083 sec)
+  Num examples: 3000  Num correct: 2922  Error @ 1: 0.0260
+  Num examples: 1500  Num correct: 1435  Error @ 1: 0.0433
+  Num examples: 1500  Num correct: 1446  Error @ 1: 0.0360
+Step 43500: loss = 2.50 (0.344 sec)
+  Num examples: 3000  Num correct: 2922  Error @ 1: 0.0260
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1445  Error @ 1: 0.0367
+Step 44250: loss = 2.52 (0.081 sec)
+  Num examples: 3000  Num correct: 2922  Error @ 1: 0.0260
+  Num examples: 1500  Num correct: 1433  Error @ 1: 0.0447
+  Num examples: 1500  Num correct: 1444  Error @ 1: 0.0373
+Step 45000: loss = 2.52 (0.331 sec)
+Step 45750: loss = 2.52 (0.082 sec)
+  Num examples: 3000  Num correct: 2921  Error @ 1: 0.0263
+  Num examples: 1500  Num correct: 1431  Error @ 1: 0.0460
+  Num examples: 1500  Num correct: 1446  Error @ 1: 0.0360
+  Num examples: 3000  Num correct: 2919  Error @ 1: 0.0270
+  Num examples: 1500  Num correct: 1434  Error @ 1: 0.0440
+  Num examples: 1500  Num correct: 1445  Error @ 1: 0.0367

@@ -8,5 +8,6 @@
 *.fox
 *.asl-fox
 *.red-fox
+*.pablo-virtual-machine
 .DS_Store
 t*.csv

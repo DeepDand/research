@@ -1,0 +1,51 @@
+2017-12-07 20:49:41.366581: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-07 20:49:41.366628: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-07 20:49:41.366634: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+['S01']
+[]
+[]
+Loading images  ../../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+(3100, 256, 256, 1)
+(1550, 256, 256, 1)
+(1550, 256, 256, 1)
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |    45426.1250 | Layer 1 | Epoch 1  |
+|          1000 |    43494.1211 | Layer 1 | Epoch 1  |
+|          2000 |    41776.7852 | Layer 1 | Epoch 1  |
+|          3000 |    40306.6094 | Layer 1 | Epoch 1  |
+|          4000 |    38819.3906 | Layer 1 | Epoch 2  |
+|          5000 |    37604.1172 | Layer 1 | Epoch 2  |
+|          6000 |    36381.0312 | Layer 1 | Epoch 2  |
+Loading images  ../../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Extracting labels from data in  ../../dataset/*.jpeg ['S01']
+(3100, 256, 256, 1)
+(3100,)
+(1550, 256, 256, 1)
+(1550,)
+(1550, 256, 256, 1)
+(1550,)
+Tensor("ExpandDims_1:0", shape=(250, 1), dtype=int32)
+Traceback (most recent call last):
+  File "autoencoder.py", line 482, in <module>
+    main_supervised(ae)
+  File "autoencoder.py", line 399, in main_supervised
+    loss = loss_supervised(logits, labels_placeholder)
+  File "/home/pablo/research/code-2d-cpu/ae/utils/eval.py", line 26, in loss_supervised
+    concated = tf.concat(1, [indices, labels])
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/array_ops.py", line 1062, in concat
+    ).assert_is_compatible_with(tensor_shape.scalar())
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/tensor_shape.py", line 737, in assert_is_compatible_with
+    raise ValueError("Shapes %s and %s are incompatible" % (self, other))
+ValueError: Shapes (2, 250, 1) and () are incompatible

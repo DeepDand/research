@@ -1,0 +1,41 @@
+2018-03-26 22:53:19.883377: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-03-26 22:53:19.883429: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-03-26 22:53:19.883442: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+['S01']
+[]
+[]
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+(3100, 256, 256, 1)
+(1550, 256, 256, 1)
+(1550, 256, 256, 1)
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |    45749.7969 | Layer 1 | Epoch 1  |
+|          5000 |    26055.8242 | Layer 1 | Epoch 2  |
+|         10000 |    24099.2344 | Layer 1 | Epoch 4  |
+|         15000 |    22392.7285 | Layer 1 | Epoch 5  |
+|         20000 |    21238.0664 | Layer 1 | Epoch 7  |
+|         25000 |    20240.6523 | Layer 1 | Epoch 9  |
+|         30000 |    20060.6836 | Layer 1 | Epoch 10  |
+|         35000 |    19597.3867 | Layer 1 | Epoch 12  |
+|         40000 |    19046.8438 | Layer 1 | Epoch 13  |
+|         45000 |    18902.8379 | Layer 1 | Epoch 15  |
+|         50000 |    18443.4297 | Layer 1 | Epoch 17  |
+|         55000 |    18183.7598 | Layer 1 | Epoch 18  |
+|         60000 |    18046.3633 | Layer 1 | Epoch 20  |
+|         65000 |    17847.7559 | Layer 1 | Epoch 21  |
+|         70000 |    17937.5293 | Layer 1 | Epoch 23  |
+|         75000 |    17382.0234 | Layer 1 | Epoch 25  |
+|         80000 |    17651.2227 | Layer 1 | Epoch 26  |
+|         85000 |    17418.3535 | Layer 1 | Epoch 28  |
+|         90000 |    17042.0156 | Layer 1 | Epoch 30  |
+|         95000 |    17189.7930 | Layer 1 | Epoch 31  |
+|        100000 |    17458.1445 | Layer 1 | Epoch 33  |
+|        105000 |    17440.8477 | Layer 1 | Epoch 34  |

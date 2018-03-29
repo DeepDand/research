@@ -1,7 +1,7 @@
 #!/bin/bash
 let pu1=4
 let pu2=4
-for u1 in 1024 2048 4096 8192; do
+for u1 in 1024 2048 4096; do
   for u2 in 2 4 8 16; do
     echo $u1, $u2
     find utils/flags.py -type f -exec sed -i  "s/1_units', $pu1,/1_units', $u1,/g" {} \;

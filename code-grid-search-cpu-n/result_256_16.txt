@@ -1,0 +1,180 @@
+2018-04-01 06:46:22.169088: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 06:46:22.169124: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 06:46:22.169129: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 06:46:22.169133: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 06:46:22.169137: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 06:46:23.824854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:04:00.0
+Total memory: 15.89GiB
+Free memory: 714.25MiB
+2018-04-01 06:46:24.517680: W tensorflow/stream_executor/cuda/cuda_driver.cc:523] A non-primary context 0x2a876b0 exists before initializing the StreamExecutor. We haven't verified StreamExecutor works with that.
+2018-04-01 06:46:24.519453: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 1 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:06:00.0
+Total memory: 15.89GiB
+Free memory: 15.61GiB
+2018-04-01 06:46:25.254761: W tensorflow/stream_executor/cuda/cuda_driver.cc:523] A non-primary context 0x2b89780 exists before initializing the StreamExecutor. We haven't verified StreamExecutor works with that.
+2018-04-01 06:46:25.255577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 2 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:07:00.0
+Total memory: 15.89GiB
+Free memory: 710.25MiB
+2018-04-01 06:46:25.963036: W tensorflow/stream_executor/cuda/cuda_driver.cc:523] A non-primary context 0x2b8d100 exists before initializing the StreamExecutor. We haven't verified StreamExecutor works with that.
+2018-04-01 06:46:25.963806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 3 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:08:00.0
+Total memory: 15.89GiB
+Free memory: 714.25MiB
+2018-04-01 06:46:25.973805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 1 2 3 
+2018-04-01 06:46:25.973821: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y Y Y Y 
+2018-04-01 06:46:25.973842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 1:   Y Y Y Y 
+2018-04-01 06:46:25.973846: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 2:   Y Y Y Y 
+2018-04-01 06:46:25.973850: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 3:   Y Y Y Y 
+2018-04-01 06:46:25.973862: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0000:04:00.0)
+2018-04-01 06:46:25.973883: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla P100-SXM2-16GB, pci bus id: 0000:06:00.0)
+2018-04-01 06:46:25.973889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla P100-SXM2-16GB, pci bus id: 0000:07:00.0)
+2018-04-01 06:46:25.973893: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla P100-SXM2-16GB, pci bus id: 0000:08:00.0)
+['S01']
+[]
+[]
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+(3100, 256, 256, 1)
+(1550, 256, 256, 1)
+(1550, 256, 256, 1)
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |    45725.1992 | Layer 1 | Epoch 1  |
+|          5000 |    26575.7891 | Layer 1 | Epoch 2  |
+|         10000 |    24003.6758 | Layer 1 | Epoch 4  |
+|         15000 |    22656.8379 | Layer 1 | Epoch 5  |
+|         20000 |    21539.0000 | Layer 1 | Epoch 7  |
+|         25000 |    20553.7734 | Layer 1 | Epoch 9  |
+|         30000 |    19883.4434 | Layer 1 | Epoch 10  |
+|         35000 |    19249.7988 | Layer 1 | Epoch 12  |
+|         40000 |    18979.8008 | Layer 1 | Epoch 13  |
+|         45000 |    18621.6562 | Layer 1 | Epoch 15  |
+|         50000 |    18484.5488 | Layer 1 | Epoch 17  |
+|         55000 |    18214.7207 | Layer 1 | Epoch 18  |
+|         60000 |    18023.8633 | Layer 1 | Epoch 20  |
+|         65000 |    17973.8145 | Layer 1 | Epoch 21  |
+|         70000 |    17966.2266 | Layer 1 | Epoch 23  |
+|         75000 |    17828.0879 | Layer 1 | Epoch 25  |
+|         80000 |    17548.6621 | Layer 1 | Epoch 26  |
+|         85000 |    17798.8379 | Layer 1 | Epoch 28  |
+|         90000 |    17289.8672 | Layer 1 | Epoch 30  |
+|         95000 |    17573.7734 | Layer 1 | Epoch 31  |
+|        100000 |    17323.3613 | Layer 1 | Epoch 33  |
+|        105000 |    17516.3652 | Layer 1 | Epoch 34  |
+|        110000 |    17724.6523 | Layer 1 | Epoch 36  |
+|        115000 |    17325.4102 | Layer 1 | Epoch 38  |
+|        120000 |    17263.2676 | Layer 1 | Epoch 39  |
+|        125000 |    17191.8867 | Layer 1 | Epoch 41  |
+|        130000 |    17180.6875 | Layer 1 | Epoch 42  |
+|        135000 |    16883.5078 | Layer 1 | Epoch 44  |
+|        140000 |    17257.0039 | Layer 1 | Epoch 46  |
+|        145000 |    17075.1094 | Layer 1 | Epoch 47  |
+|        150000 |    16962.1758 | Layer 1 | Epoch 49  |
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |      190.8786 | Layer 2 | Epoch 1  |
+|          5000 |      169.9690 | Layer 2 | Epoch 2  |
+|         10000 |      165.0989 | Layer 2 | Epoch 4  |
+|         15000 |      160.6659 | Layer 2 | Epoch 5  |
+|         20000 |      156.4934 | Layer 2 | Epoch 7  |
+|         25000 |      154.5128 | Layer 2 | Epoch 9  |
+|         30000 |      149.6412 | Layer 2 | Epoch 10  |
+|         35000 |      148.3703 | Layer 2 | Epoch 12  |
+|         40000 |      146.8105 | Layer 2 | Epoch 13  |
+|         45000 |      143.5231 | Layer 2 | Epoch 15  |
+|         50000 |      140.9093 | Layer 2 | Epoch 17  |
+|         55000 |      139.3456 | Layer 2 | Epoch 18  |
+|         60000 |      138.3859 | Layer 2 | Epoch 20  |
+|         65000 |      137.0366 | Layer 2 | Epoch 21  |
+|         70000 |      134.0397 | Layer 2 | Epoch 23  |
+|         75000 |      134.1263 | Layer 2 | Epoch 25  |
+|         80000 |      133.7958 | Layer 2 | Epoch 26  |
+|         85000 |      130.7956 | Layer 2 | Epoch 28  |
+|         90000 |      128.8204 | Layer 2 | Epoch 30  |
+|         95000 |      127.6253 | Layer 2 | Epoch 31  |
+|        100000 |      126.6261 | Layer 2 | Epoch 33  |
+|        105000 |      126.6953 | Layer 2 | Epoch 34  |
+|        110000 |      126.2191 | Layer 2 | Epoch 36  |
+|        115000 |      124.4609 | Layer 2 | Epoch 38  |
+|        120000 |      123.0411 | Layer 2 | Epoch 39  |
+|        125000 |      122.2723 | Layer 2 | Epoch 41  |
+|        130000 |      123.0111 | Layer 2 | Epoch 42  |
+|        135000 |      120.9804 | Layer 2 | Epoch 44  |
+|        140000 |      120.6077 | Layer 2 | Epoch 46  |
+|        145000 |      121.2194 | Layer 2 | Epoch 47  |
+|        150000 |      120.2312 | Layer 2 | Epoch 49  |
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Extracting labels from data in  ../dataset/*.jpeg ['S01']
+(3100, 256, 256, 1)
+(3100,)
+(1550, 256, 256, 1)
+(1550,)
+(1550, 256, 256, 1)
+(1550,)
+Tensor("ExpandDims_1:0", shape=(250, 1), dtype=int32)
+Tensor("ExpandDims:0", shape=(250, 1), dtype=int32)
+Tensor("Size:0", shape=(), dtype=int32)
+31
+Step 0: loss = 3.46 (0.132 sec)
+  Num examples: 3000  Num correct: 1757  Error @ 1: 0.4143
+  Num examples: 1500  Num correct: 818  Error @ 1: 0.4547
+  Num examples: 1500  Num correct: 870  Error @ 1: 0.4200
+Step 5000: loss = 2.93 (0.085 sec)
+  Num examples: 3000  Num correct: 2094  Error @ 1: 0.3020
+  Num examples: 1500  Num correct: 1004  Error @ 1: 0.3307
+  Num examples: 1500  Num correct: 1037  Error @ 1: 0.3087
+Step 10000: loss = 2.83 (0.093 sec)
+  Num examples: 3000  Num correct: 2154  Error @ 1: 0.2820
+  Num examples: 1500  Num correct: 1037  Error @ 1: 0.3087
+  Num examples: 1500  Num correct: 1064  Error @ 1: 0.2907
+Step 15000: loss = 2.72 (0.414 sec)
+  Num examples: 3000  Num correct: 2265  Error @ 1: 0.2450
+  Num examples: 1500  Num correct: 1089  Error @ 1: 0.2740
+  Num examples: 1500  Num correct: 1125  Error @ 1: 0.2500
+Step 20000: loss = 2.70 (0.096 sec)
+  Num examples: 3000  Num correct: 2249  Error @ 1: 0.2503
+  Num examples: 1500  Num correct: 1087  Error @ 1: 0.2753
+  Num examples: 1500  Num correct: 1125  Error @ 1: 0.2500
+Step 25000: loss = 2.71 (0.079 sec)
+  Num examples: 3000  Num correct: 2262  Error @ 1: 0.2460
+  Num examples: 1500  Num correct: 1103  Error @ 1: 0.2647
+  Num examples: 1500  Num correct: 1121  Error @ 1: 0.2527
+Step 30000: loss = 2.69 (0.416 sec)
+  Num examples: 3000  Num correct: 2237  Error @ 1: 0.2543
+  Num examples: 1500  Num correct: 1086  Error @ 1: 0.2760
+  Num examples: 1500  Num correct: 1102  Error @ 1: 0.2653
+Step 35000: loss = 2.66 (0.085 sec)
+  Num examples: 3000  Num correct: 2213  Error @ 1: 0.2623
+  Num examples: 1500  Num correct: 1087  Error @ 1: 0.2753
+  Num examples: 1500  Num correct: 1102  Error @ 1: 0.2653
+Step 40000: loss = 2.64 (0.097 sec)
+  Num examples: 3000  Num correct: 2234  Error @ 1: 0.2553
+  Num examples: 1500  Num correct: 1087  Error @ 1: 0.2753
+  Num examples: 1500  Num correct: 1111  Error @ 1: 0.2593
+Step 45000: loss = 2.63 (0.435 sec)
+  Num examples: 3000  Num correct: 2236  Error @ 1: 0.2547
+  Num examples: 1500  Num correct: 1089  Error @ 1: 0.2740
+  Num examples: 1500  Num correct: 1097  Error @ 1: 0.2687

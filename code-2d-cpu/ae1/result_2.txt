@@ -1,0 +1,1065 @@
+2018-04-03 01:05:39.548055: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-03 01:05:39.548089: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-03 01:05:39.548095: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-03 01:05:39.548100: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-03 01:05:39.548104: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-03 01:05:41.134433: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:08:00.0
+Total memory: 15.89GiB
+Free memory: 15.61GiB
+2018-04-03 01:05:41.134464: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-04-03 01:05:41.134470: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-04-03 01:05:41.134520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0000:08:00.0)
+['S01', 'S02', 'S03', 'S04', 'S05']
+['S01']
+['S02']
+Loading images  ../../dataset/*.jpeg ['S01', 'S02', 'S03', 'S04', 'S05']
+Number of images: 31001
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (31001, 256, 256, 1)
+Loading images  ../../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Loading images  ../../dataset/*.jpeg ['S02']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+(31001, 256, 256, 1)
+(6200, 256, 256, 1)
+(6200, 256, 256, 1)
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |    45428.6016 | Layer 1 | Epoch 1  |
+|          5000 |    37407.7969 | Layer 1 | Epoch 1  |
+|         10000 |    32842.8672 | Layer 1 | Epoch 1  |
+|         15000 |    29531.9180 | Layer 1 | Epoch 1  |
+|         20000 |    27451.7695 | Layer 1 | Epoch 1  |
+|         25000 |    24425.2109 | Layer 1 | Epoch 1  |
+|         30000 |    24265.6797 | Layer 1 | Epoch 1  |
+|         35000 |    23432.8281 | Layer 1 | Epoch 2  |
+|         40000 |    20635.4961 | Layer 1 | Epoch 2  |
+|         45000 |    23512.9863 | Layer 1 | Epoch 2  |
+|         50000 |    24395.4883 | Layer 1 | Epoch 2  |
+|         55000 |    24989.9844 | Layer 1 | Epoch 2  |
+|         60000 |    20635.6758 | Layer 1 | Epoch 2  |
+|         65000 |    20265.8203 | Layer 1 | Epoch 3  |
+|         70000 |    25255.6230 | Layer 1 | Epoch 3  |
+|         75000 |    19576.5371 | Layer 1 | Epoch 3  |
+|         80000 |    18120.9668 | Layer 1 | Epoch 3  |
+|         85000 |    18845.3262 | Layer 1 | Epoch 3  |
+|         90000 |    24802.1172 | Layer 1 | Epoch 3  |
+|         95000 |    19030.8750 | Layer 1 | Epoch 4  |
+|        100000 |    18596.9688 | Layer 1 | Epoch 4  |
+|        105000 |    17148.1426 | Layer 1 | Epoch 4  |
+|        110000 |    17013.0078 | Layer 1 | Epoch 4  |
+|        115000 |    18863.4043 | Layer 1 | Epoch 4  |
+|        120000 |    21330.9023 | Layer 1 | Epoch 4  |
+|        125000 |    19458.0430 | Layer 1 | Epoch 5  |
+|        130000 |    17068.6504 | Layer 1 | Epoch 5  |
+|        135000 |    22140.6562 | Layer 1 | Epoch 5  |
+|        140000 |    17420.7383 | Layer 1 | Epoch 5  |
+|        145000 |    16828.2305 | Layer 1 | Epoch 5  |
+|        150000 |    18326.1973 | Layer 1 | Epoch 5  |
+|        155000 |    17094.4805 | Layer 1 | Epoch 5  |
+|        160000 |    18560.7988 | Layer 1 | Epoch 6  |
+|        165000 |    16376.3379 | Layer 1 | Epoch 6  |
+|        170000 |    22704.9668 | Layer 1 | Epoch 6  |
+|        175000 |    18610.1367 | Layer 1 | Epoch 6  |
+|        180000 |    16025.1211 | Layer 1 | Epoch 6  |
+|        185000 |    17740.1680 | Layer 1 | Epoch 6  |
+|        190000 |    20545.1914 | Layer 1 | Epoch 7  |
+|        195000 |    16472.0469 | Layer 1 | Epoch 7  |
+|        200000 |    18066.1094 | Layer 1 | Epoch 7  |
+|        205000 |    15562.3496 | Layer 1 | Epoch 7  |
+|        210000 |    17902.4199 | Layer 1 | Epoch 7  |
+|        215000 |    15686.9141 | Layer 1 | Epoch 7  |
+|        220000 |    16593.1289 | Layer 1 | Epoch 8  |
+|        225000 |    19886.4844 | Layer 1 | Epoch 8  |
+|        230000 |    21915.7051 | Layer 1 | Epoch 8  |
+|        235000 |    15218.1221 | Layer 1 | Epoch 8  |
+|        240000 |    18014.1836 | Layer 1 | Epoch 8  |
+|        245000 |    14973.9150 | Layer 1 | Epoch 8  |
+|        250000 |    18335.9688 | Layer 1 | Epoch 9  |
+|        255000 |    23791.1836 | Layer 1 | Epoch 9  |
+|        260000 |    17979.4199 | Layer 1 | Epoch 9  |
+|        265000 |    15279.5156 | Layer 1 | Epoch 9  |
+|        270000 |    17651.3379 | Layer 1 | Epoch 9  |
+|        275000 |    21979.3008 | Layer 1 | Epoch 9  |
+|        280000 |    17821.2559 | Layer 1 | Epoch 10  |
+|        285000 |    16008.9863 | Layer 1 | Epoch 10  |
+|        290000 |    17904.5293 | Layer 1 | Epoch 10  |
+|        295000 |    17723.0625 | Layer 1 | Epoch 10  |
+|        300000 |    17443.9277 | Layer 1 | Epoch 10  |
+|        305000 |    18579.8438 | Layer 1 | Epoch 10  |
+|        310000 |    21311.2539 | Layer 1 | Epoch 10  |
+|        315000 |    22414.6816 | Layer 1 | Epoch 11  |
+|        320000 |    14014.7354 | Layer 1 | Epoch 11  |
+|        325000 |    20832.6855 | Layer 1 | Epoch 11  |
+|        330000 |    16550.7949 | Layer 1 | Epoch 11  |
+|        335000 |    15605.9062 | Layer 1 | Epoch 11  |
+|        340000 |    17688.2070 | Layer 1 | Epoch 11  |
+|        345000 |    22047.2910 | Layer 1 | Epoch 12  |
+|        350000 |    19247.9375 | Layer 1 | Epoch 12  |
+|        355000 |    17382.0625 | Layer 1 | Epoch 12  |
+|        360000 |    18795.8477 | Layer 1 | Epoch 12  |
+|        365000 |    20377.5176 | Layer 1 | Epoch 12  |
+|        370000 |    14639.4805 | Layer 1 | Epoch 12  |
+|        375000 |    18079.3652 | Layer 1 | Epoch 13  |
+|        380000 |    13324.9141 | Layer 1 | Epoch 13  |
+|        385000 |    16820.7656 | Layer 1 | Epoch 13  |
+|        390000 |    15620.5664 | Layer 1 | Epoch 13  |
+|        395000 |    20082.9434 | Layer 1 | Epoch 13  |
+|        400000 |    16364.7295 | Layer 1 | Epoch 13  |
+|        405000 |    21434.0957 | Layer 1 | Epoch 14  |
+|        410000 |    17847.6016 | Layer 1 | Epoch 14  |
+|        415000 |    16827.4336 | Layer 1 | Epoch 14  |
+|        420000 |    16030.4482 | Layer 1 | Epoch 14  |
+|        425000 |    26181.6367 | Layer 1 | Epoch 14  |
+|        430000 |    16473.7402 | Layer 1 | Epoch 14  |
+|        435000 |    17099.1758 | Layer 1 | Epoch 15  |
+|        440000 |    15405.5801 | Layer 1 | Epoch 15  |
+|        445000 |    21365.7031 | Layer 1 | Epoch 15  |
+|        450000 |    18466.0508 | Layer 1 | Epoch 15  |
+|        455000 |    20124.1953 | Layer 1 | Epoch 15  |
+|        460000 |    17669.0820 | Layer 1 | Epoch 15  |
+|        465000 |    17355.9141 | Layer 1 | Epoch 15  |
+|        470000 |    25093.8477 | Layer 1 | Epoch 16  |
+|        475000 |    16396.7832 | Layer 1 | Epoch 16  |
+|        480000 |    18861.0742 | Layer 1 | Epoch 16  |
+|        485000 |    21243.6836 | Layer 1 | Epoch 16  |
+|        490000 |    18760.0547 | Layer 1 | Epoch 16  |
+|        495000 |    17930.6445 | Layer 1 | Epoch 16  |
+|        500000 |    17249.6680 | Layer 1 | Epoch 17  |
+|        505000 |    17892.3066 | Layer 1 | Epoch 17  |
+|        510000 |    16070.7988 | Layer 1 | Epoch 17  |
+|        515000 |    24157.4531 | Layer 1 | Epoch 17  |
+|        520000 |    16631.6641 | Layer 1 | Epoch 17  |
+|        525000 |    19536.3496 | Layer 1 | Epoch 17  |
+|        530000 |    20729.8828 | Layer 1 | Epoch 18  |
+|        535000 |    18314.7852 | Layer 1 | Epoch 18  |
+|        540000 |    21401.1309 | Layer 1 | Epoch 18  |
+|        545000 |    25196.8555 | Layer 1 | Epoch 18  |
+|        550000 |    17636.2246 | Layer 1 | Epoch 18  |
+|        555000 |    14763.2422 | Layer 1 | Epoch 18  |
+|        560000 |    15796.4961 | Layer 1 | Epoch 19  |
+|        565000 |    15407.5234 | Layer 1 | Epoch 19  |
+|        570000 |    18959.6016 | Layer 1 | Epoch 19  |
+|        575000 |    16382.6094 | Layer 1 | Epoch 19  |
+|        580000 |    14222.4902 | Layer 1 | Epoch 19  |
+|        585000 |    17087.1250 | Layer 1 | Epoch 19  |
+|        590000 |    15821.3760 | Layer 1 | Epoch 20  |
+|        595000 |    17447.1289 | Layer 1 | Epoch 20  |
+|        600000 |    24688.6172 | Layer 1 | Epoch 20  |
+|        605000 |    16060.0557 | Layer 1 | Epoch 20  |
+|        610000 |    22543.6406 | Layer 1 | Epoch 20  |
+|        615000 |    22193.0918 | Layer 1 | Epoch 20  |
+|        620000 |    16098.5527 | Layer 1 | Epoch 20  |
+|        625000 |    16696.4023 | Layer 1 | Epoch 21  |
+|        630000 |    21158.1367 | Layer 1 | Epoch 21  |
+|        635000 |    15361.4570 | Layer 1 | Epoch 21  |
+|        640000 |    15096.2510 | Layer 1 | Epoch 21  |
+|        645000 |    17252.0078 | Layer 1 | Epoch 21  |
+|        650000 |    17701.4023 | Layer 1 | Epoch 21  |
+|        655000 |    15257.9277 | Layer 1 | Epoch 22  |
+|        660000 |    15816.4941 | Layer 1 | Epoch 22  |
+|        665000 |    15331.3564 | Layer 1 | Epoch 22  |
+|        670000 |    29826.5820 | Layer 1 | Epoch 22  |
+|        675000 |    15556.1553 | Layer 1 | Epoch 22  |
+|        680000 |    20303.1914 | Layer 1 | Epoch 22  |
+|        685000 |    16171.3633 | Layer 1 | Epoch 23  |
+|        690000 |    14065.6250 | Layer 1 | Epoch 23  |
+|        695000 |    24463.5117 | Layer 1 | Epoch 23  |
+|        700000 |    17983.9473 | Layer 1 | Epoch 23  |
+|        705000 |    18273.9219 | Layer 1 | Epoch 23  |
+|        710000 |    15310.0938 | Layer 1 | Epoch 23  |
+|        715000 |    17213.7480 | Layer 1 | Epoch 24  |
+|        720000 |    14905.2227 | Layer 1 | Epoch 24  |
+|        725000 |    20963.0703 | Layer 1 | Epoch 24  |
+|        730000 |    14463.2881 | Layer 1 | Epoch 24  |
+|        735000 |    18252.0527 | Layer 1 | Epoch 24  |
+|        740000 |    24746.9570 | Layer 1 | Epoch 24  |
+|        745000 |    15929.3203 | Layer 1 | Epoch 25  |
+|        750000 |    21249.7754 | Layer 1 | Epoch 25  |
+|        755000 |    18513.4414 | Layer 1 | Epoch 25  |
+|        760000 |    16105.0352 | Layer 1 | Epoch 25  |
+|        765000 |    21664.1172 | Layer 1 | Epoch 25  |
+|        770000 |    18843.9336 | Layer 1 | Epoch 25  |
+|        775000 |    23307.2734 | Layer 1 | Epoch 25  |
+|        780000 |    16022.3184 | Layer 1 | Epoch 26  |
+|        785000 |    15081.6484 | Layer 1 | Epoch 26  |
+|        790000 |    24256.0039 | Layer 1 | Epoch 26  |
+|        795000 |    19026.7695 | Layer 1 | Epoch 26  |
+|        800000 |    14433.0264 | Layer 1 | Epoch 26  |
+|        805000 |    17230.8887 | Layer 1 | Epoch 26  |
+|        810000 |    19397.1602 | Layer 1 | Epoch 27  |
+|        815000 |    19170.7871 | Layer 1 | Epoch 27  |
+|        820000 |    17424.5449 | Layer 1 | Epoch 27  |
+|        825000 |    23097.0625 | Layer 1 | Epoch 27  |
+|        830000 |    15927.7959 | Layer 1 | Epoch 27  |
+|        835000 |    16793.0664 | Layer 1 | Epoch 27  |
+|        840000 |    25618.7598 | Layer 1 | Epoch 28  |
+|        845000 |    20092.6641 | Layer 1 | Epoch 28  |
+|        850000 |    15969.4092 | Layer 1 | Epoch 28  |
+|        855000 |    13060.3887 | Layer 1 | Epoch 28  |
+|        860000 |    23395.6328 | Layer 1 | Epoch 28  |
+|        865000 |    18052.8242 | Layer 1 | Epoch 28  |
+|        870000 |    18712.7383 | Layer 1 | Epoch 29  |
+|        875000 |    23795.3516 | Layer 1 | Epoch 29  |
+|        880000 |    15687.5469 | Layer 1 | Epoch 29  |
+|        885000 |    20110.7383 | Layer 1 | Epoch 29  |
+|        890000 |    16496.1406 | Layer 1 | Epoch 29  |
+|        895000 |    14236.7070 | Layer 1 | Epoch 29  |
+|        900000 |    15022.1465 | Layer 1 | Epoch 30  |
+|        905000 |    17983.3086 | Layer 1 | Epoch 30  |
+|        910000 |    22538.3008 | Layer 1 | Epoch 30  |
+|        915000 |    21613.0566 | Layer 1 | Epoch 30  |
+|        920000 |    22004.6094 | Layer 1 | Epoch 30  |
+|        925000 |    17850.1758 | Layer 1 | Epoch 30  |
+|        930000 |    16551.0020 | Layer 1 | Epoch 30  |
+|        935000 |    13243.5781 | Layer 1 | Epoch 31  |
+|        940000 |    15521.1211 | Layer 1 | Epoch 31  |
+|        945000 |    19885.5234 | Layer 1 | Epoch 31  |
+|        950000 |    24435.5508 | Layer 1 | Epoch 31  |
+|        955000 |    23370.1367 | Layer 1 | Epoch 31  |
+|        960000 |    18512.3379 | Layer 1 | Epoch 31  |
+|        965000 |    19968.7422 | Layer 1 | Epoch 32  |
+|        970000 |    16643.7734 | Layer 1 | Epoch 32  |
+|        975000 |    15254.4453 | Layer 1 | Epoch 32  |
+|        980000 |    15646.9521 | Layer 1 | Epoch 32  |
+|        985000 |    15468.1709 | Layer 1 | Epoch 32  |
+|        990000 |    20310.1621 | Layer 1 | Epoch 32  |
+|        995000 |    17695.0840 | Layer 1 | Epoch 33  |
+|       1000000 |    17152.1367 | Layer 1 | Epoch 33  |
+|       1005000 |    17395.6719 | Layer 1 | Epoch 33  |
+|       1010000 |    18482.9766 | Layer 1 | Epoch 33  |
+|       1015000 |    20326.4199 | Layer 1 | Epoch 33  |
+|       1020000 |    16358.4727 | Layer 1 | Epoch 33  |
+|       1025000 |    16048.8008 | Layer 1 | Epoch 34  |
+|       1030000 |    15740.2598 | Layer 1 | Epoch 34  |
+|       1035000 |    16200.4141 | Layer 1 | Epoch 34  |
+|       1040000 |    16917.4375 | Layer 1 | Epoch 34  |
+|       1045000 |    19697.4043 | Layer 1 | Epoch 34  |
+|       1050000 |    21199.2812 | Layer 1 | Epoch 34  |
+|       1055000 |    13990.9189 | Layer 1 | Epoch 35  |
+|       1060000 |    15551.3604 | Layer 1 | Epoch 35  |
+|       1065000 |    13583.0547 | Layer 1 | Epoch 35  |
+|       1070000 |    16208.6367 | Layer 1 | Epoch 35  |
+|       1075000 |    14781.1338 | Layer 1 | Epoch 35  |
+|       1080000 |    15865.2500 | Layer 1 | Epoch 35  |
+|       1085000 |    22647.9082 | Layer 1 | Epoch 35  |
+|       1090000 |    18869.0117 | Layer 1 | Epoch 36  |
+|       1095000 |    18986.0801 | Layer 1 | Epoch 36  |
+|       1100000 |    16924.5039 | Layer 1 | Epoch 36  |
+|       1105000 |    25210.5117 | Layer 1 | Epoch 36  |
+|       1110000 |    17989.4766 | Layer 1 | Epoch 36  |
+|       1115000 |    14619.8359 | Layer 1 | Epoch 36  |
+|       1120000 |    16134.7148 | Layer 1 | Epoch 37  |
+|       1125000 |    17091.2266 | Layer 1 | Epoch 37  |
+|       1130000 |    14880.5332 | Layer 1 | Epoch 37  |
+|       1135000 |    17314.0645 | Layer 1 | Epoch 37  |
+|       1140000 |    20199.8477 | Layer 1 | Epoch 37  |
+|       1145000 |    15505.9600 | Layer 1 | Epoch 37  |
+|       1150000 |    14989.0840 | Layer 1 | Epoch 38  |
+|       1155000 |    23926.0176 | Layer 1 | Epoch 38  |
+|       1160000 |    17151.1562 | Layer 1 | Epoch 38  |
+|       1165000 |    14326.7148 | Layer 1 | Epoch 38  |
+|       1170000 |    17958.1406 | Layer 1 | Epoch 38  |
+|       1175000 |    15370.5039 | Layer 1 | Epoch 38  |
+|       1180000 |    22927.0703 | Layer 1 | Epoch 39  |
+|       1185000 |    18854.0312 | Layer 1 | Epoch 39  |
+|       1190000 |    16806.8750 | Layer 1 | Epoch 39  |
+|       1195000 |    19574.6914 | Layer 1 | Epoch 39  |
+|       1200000 |    16937.4297 | Layer 1 | Epoch 39  |
+|       1205000 |    15272.7871 | Layer 1 | Epoch 39  |
+|       1210000 |    17971.5410 | Layer 1 | Epoch 40  |
+|       1215000 |    19556.2871 | Layer 1 | Epoch 40  |
+|       1220000 |    14359.0195 | Layer 1 | Epoch 40  |
+|       1225000 |    18186.8203 | Layer 1 | Epoch 40  |
+|       1230000 |    25270.7305 | Layer 1 | Epoch 40  |
+|       1235000 |    21475.8047 | Layer 1 | Epoch 40  |
+|       1240000 |    23356.1250 | Layer 1 | Epoch 40  |
+|       1245000 |    26191.7031 | Layer 1 | Epoch 41  |
+|       1250000 |    18272.1055 | Layer 1 | Epoch 41  |
+|       1255000 |    15025.5020 | Layer 1 | Epoch 41  |
+|       1260000 |    14923.6406 | Layer 1 | Epoch 41  |
+|       1265000 |    17760.7109 | Layer 1 | Epoch 41  |
+|       1270000 |    19554.3984 | Layer 1 | Epoch 41  |
+|       1275000 |    18995.8809 | Layer 1 | Epoch 42  |
+|       1280000 |    16647.5703 | Layer 1 | Epoch 42  |
+|       1285000 |    14483.7031 | Layer 1 | Epoch 42  |
+|       1290000 |    13670.5498 | Layer 1 | Epoch 42  |
+|       1295000 |    15567.5586 | Layer 1 | Epoch 42  |
+|       1300000 |    18163.2031 | Layer 1 | Epoch 42  |
+|       1305000 |    16269.4443 | Layer 1 | Epoch 43  |
+|       1310000 |    26123.9336 | Layer 1 | Epoch 43  |
+|       1315000 |    14770.3516 | Layer 1 | Epoch 43  |
+|       1320000 |    16220.8457 | Layer 1 | Epoch 43  |
+|       1325000 |    15085.7461 | Layer 1 | Epoch 43  |
+|       1330000 |    17422.9688 | Layer 1 | Epoch 43  |
+|       1335000 |    13015.5195 | Layer 1 | Epoch 44  |
+|       1340000 |    19349.4648 | Layer 1 | Epoch 44  |
+|       1345000 |    18693.2520 | Layer 1 | Epoch 44  |
+|       1350000 |    14252.0391 | Layer 1 | Epoch 44  |
+|       1355000 |    18322.4805 | Layer 1 | Epoch 44  |
+|       1360000 |    13534.2012 | Layer 1 | Epoch 44  |
+|       1365000 |    16764.4551 | Layer 1 | Epoch 45  |
+|       1370000 |    18777.8125 | Layer 1 | Epoch 45  |
+|       1375000 |    25232.2617 | Layer 1 | Epoch 45  |
+|       1380000 |    19369.3496 | Layer 1 | Epoch 45  |
+|       1385000 |    15601.7324 | Layer 1 | Epoch 45  |
+|       1390000 |    17385.0859 | Layer 1 | Epoch 45  |
+|       1395000 |    16595.1680 | Layer 1 | Epoch 45  |
+|       1400000 |    16636.8672 | Layer 1 | Epoch 46  |
+|       1405000 |    17130.9180 | Layer 1 | Epoch 46  |
+|       1410000 |    15670.6201 | Layer 1 | Epoch 46  |
+|       1415000 |    16600.9766 | Layer 1 | Epoch 46  |
+|       1420000 |    14950.5605 | Layer 1 | Epoch 46  |
+|       1425000 |    20656.7754 | Layer 1 | Epoch 46  |
+|       1430000 |    23233.0820 | Layer 1 | Epoch 47  |
+|       1435000 |    21812.1602 | Layer 1 | Epoch 47  |
+|       1440000 |    16938.4922 | Layer 1 | Epoch 47  |
+|       1445000 |    17476.5742 | Layer 1 | Epoch 47  |
+|       1450000 |    21010.6055 | Layer 1 | Epoch 47  |
+|       1455000 |    17944.8359 | Layer 1 | Epoch 47  |
+|       1460000 |    18702.4805 | Layer 1 | Epoch 48  |
+|       1465000 |    18238.5391 | Layer 1 | Epoch 48  |
+|       1470000 |    17426.7207 | Layer 1 | Epoch 48  |
+|       1475000 |    18882.6523 | Layer 1 | Epoch 48  |
+|       1480000 |    17312.7812 | Layer 1 | Epoch 48  |
+|       1485000 |    17003.1172 | Layer 1 | Epoch 48  |
+|       1490000 |    16474.9980 | Layer 1 | Epoch 49  |
+|       1495000 |    15359.0918 | Layer 1 | Epoch 49  |
+|       1500000 |    16797.0664 | Layer 1 | Epoch 49  |
+|       1505000 |    15235.9854 | Layer 1 | Epoch 49  |
+|       1510000 |    15926.8535 | Layer 1 | Epoch 49  |
+|       1515000 |    14840.9805 | Layer 1 | Epoch 49  |
+|       1520000 |    13337.3965 | Layer 1 | Epoch 50  |
+|       1525000 |    21341.2207 | Layer 1 | Epoch 50  |
+|       1530000 |    16156.2910 | Layer 1 | Epoch 50  |
+|       1535000 |    15871.2627 | Layer 1 | Epoch 50  |
+|       1540000 |    17750.9453 | Layer 1 | Epoch 50  |
+|       1545000 |    16692.7500 | Layer 1 | Epoch 50  |
+|       1550000 |    23205.5078 | Layer 1 | Epoch 50  |
+|       1555000 |    23224.8398 | Layer 1 | Epoch 51  |
+|       1560000 |    18742.0781 | Layer 1 | Epoch 51  |
+|       1565000 |    17861.9453 | Layer 1 | Epoch 51  |
+|       1570000 |    16082.0195 | Layer 1 | Epoch 51  |
+|       1575000 |    19248.2578 | Layer 1 | Epoch 51  |
+|       1580000 |    26587.0039 | Layer 1 | Epoch 51  |
+|       1585000 |    16862.6387 | Layer 1 | Epoch 52  |
+|       1590000 |    22194.6562 | Layer 1 | Epoch 52  |
+|       1595000 |    17889.1152 | Layer 1 | Epoch 52  |
+|       1600000 |    19235.8203 | Layer 1 | Epoch 52  |
+|       1605000 |    16395.7188 | Layer 1 | Epoch 52  |
+|       1610000 |    16841.9297 | Layer 1 | Epoch 52  |
+|       1615000 |    16695.4199 | Layer 1 | Epoch 53  |
+|       1620000 |    19523.6016 | Layer 1 | Epoch 53  |
+|       1625000 |    14302.9043 | Layer 1 | Epoch 53  |
+|       1630000 |    17862.3047 | Layer 1 | Epoch 53  |
+|       1635000 |    19322.3594 | Layer 1 | Epoch 53  |
+|       1640000 |    18099.6953 | Layer 1 | Epoch 53  |
+|       1645000 |    15652.6875 | Layer 1 | Epoch 54  |
+|       1650000 |    15988.7080 | Layer 1 | Epoch 54  |
+|       1655000 |    15163.6367 | Layer 1 | Epoch 54  |
+|       1660000 |    14287.4600 | Layer 1 | Epoch 54  |
+|       1665000 |    23475.7988 | Layer 1 | Epoch 54  |
+|       1670000 |    20664.9219 | Layer 1 | Epoch 54  |
+|       1675000 |    16343.2344 | Layer 1 | Epoch 55  |
+|       1680000 |    15218.6904 | Layer 1 | Epoch 55  |
+|       1685000 |    16480.0195 | Layer 1 | Epoch 55  |
+|       1690000 |    18412.4082 | Layer 1 | Epoch 55  |
+|       1695000 |    22913.1172 | Layer 1 | Epoch 55  |
+|       1700000 |    14730.3906 | Layer 1 | Epoch 55  |
+|       1705000 |    15447.0146 | Layer 1 | Epoch 55  |
+|       1710000 |    14605.1836 | Layer 1 | Epoch 56  |
+|       1715000 |    18818.1680 | Layer 1 | Epoch 56  |
+|       1720000 |    23342.7344 | Layer 1 | Epoch 56  |
+|       1725000 |    15937.4180 | Layer 1 | Epoch 56  |
+|       1730000 |    22316.8945 | Layer 1 | Epoch 56  |
+|       1735000 |    15755.3105 | Layer 1 | Epoch 56  |
+|       1740000 |    17672.1797 | Layer 1 | Epoch 57  |
+|       1745000 |    20948.7461 | Layer 1 | Epoch 57  |
+|       1750000 |    16273.8535 | Layer 1 | Epoch 57  |
+|       1755000 |    19510.6797 | Layer 1 | Epoch 57  |
+|       1760000 |    15139.7324 | Layer 1 | Epoch 57  |
+|       1765000 |    19021.9961 | Layer 1 | Epoch 57  |
+|       1770000 |    17413.0723 | Layer 1 | Epoch 58  |
+|       1775000 |    16325.3340 | Layer 1 | Epoch 58  |
+|       1780000 |    14943.8760 | Layer 1 | Epoch 58  |
+|       1785000 |    16754.5391 | Layer 1 | Epoch 58  |
+|       1790000 |    15944.8145 | Layer 1 | Epoch 58  |
+|       1795000 |    15901.6523 | Layer 1 | Epoch 58  |
+|       1800000 |    20852.8867 | Layer 1 | Epoch 59  |
+|       1805000 |    16999.8613 | Layer 1 | Epoch 59  |
+|       1810000 |    21034.6836 | Layer 1 | Epoch 59  |
+|       1815000 |    19438.5234 | Layer 1 | Epoch 59  |
+|       1820000 |    16806.1035 | Layer 1 | Epoch 59  |
+|       1825000 |    14369.0605 | Layer 1 | Epoch 59  |
+|       1830000 |    24292.4023 | Layer 1 | Epoch 60  |
+|       1835000 |    16735.3945 | Layer 1 | Epoch 60  |
+|       1840000 |    23421.6582 | Layer 1 | Epoch 60  |
+|       1845000 |    19218.4844 | Layer 1 | Epoch 60  |
+|       1850000 |    19859.9297 | Layer 1 | Epoch 60  |
+|       1855000 |    15875.5430 | Layer 1 | Epoch 60  |
+|       1860000 |    15369.8418 | Layer 1 | Epoch 60  |
+|       1865000 |    18239.1387 | Layer 1 | Epoch 61  |
+|       1870000 |    14865.8281 | Layer 1 | Epoch 61  |
+|       1875000 |    15489.9258 | Layer 1 | Epoch 61  |
+|       1880000 |    15149.7930 | Layer 1 | Epoch 61  |
+|       1885000 |    18446.1445 | Layer 1 | Epoch 61  |
+|       1890000 |    22136.1543 | Layer 1 | Epoch 61  |
+|       1895000 |    17596.7656 | Layer 1 | Epoch 62  |
+|       1900000 |    23013.8809 | Layer 1 | Epoch 62  |
+|       1905000 |    21607.7188 | Layer 1 | Epoch 62  |
+|       1910000 |    22630.7402 | Layer 1 | Epoch 62  |
+|       1915000 |    19880.4316 | Layer 1 | Epoch 62  |
+|       1920000 |    18746.0801 | Layer 1 | Epoch 62  |
+|       1925000 |    16733.0508 | Layer 1 | Epoch 63  |
+|       1930000 |    17606.2402 | Layer 1 | Epoch 63  |
+|       1935000 |    15965.2988 | Layer 1 | Epoch 63  |
+|       1940000 |    14357.2734 | Layer 1 | Epoch 63  |
+|       1945000 |    22856.8457 | Layer 1 | Epoch 63  |
+|       1950000 |    17219.7852 | Layer 1 | Epoch 63  |
+|       1955000 |    15139.0293 | Layer 1 | Epoch 64  |
+|       1960000 |    17322.6484 | Layer 1 | Epoch 64  |
+|       1965000 |    17209.4414 | Layer 1 | Epoch 64  |
+|       1970000 |    16536.6387 | Layer 1 | Epoch 64  |
+|       1975000 |    19281.2070 | Layer 1 | Epoch 64  |
+|       1980000 |    16564.0273 | Layer 1 | Epoch 64  |
+|       1985000 |    16856.6445 | Layer 1 | Epoch 65  |
+|       1990000 |    19263.6797 | Layer 1 | Epoch 65  |
+|       1995000 |    21913.5352 | Layer 1 | Epoch 65  |
+|       2000000 |    15249.8574 | Layer 1 | Epoch 65  |
+|       2005000 |    28141.6719 | Layer 1 | Epoch 65  |
+|       2010000 |    15227.4824 | Layer 1 | Epoch 65  |
+|       2015000 |    20323.2188 | Layer 1 | Epoch 65  |
+|       2020000 |    16446.1465 | Layer 1 | Epoch 66  |
+|       2025000 |    24499.8398 | Layer 1 | Epoch 66  |
+|       2030000 |    17532.6094 | Layer 1 | Epoch 66  |
+|       2035000 |    21606.5566 | Layer 1 | Epoch 66  |
+|       2040000 |    14479.4355 | Layer 1 | Epoch 66  |
+|       2045000 |    14890.9414 | Layer 1 | Epoch 66  |
+|       2050000 |    14418.4277 | Layer 1 | Epoch 67  |
+|       2055000 |    17949.1387 | Layer 1 | Epoch 67  |
+|       2060000 |    15753.5254 | Layer 1 | Epoch 67  |
+|       2065000 |    17017.9102 | Layer 1 | Epoch 67  |
+|       2070000 |    18177.2441 | Layer 1 | Epoch 67  |
+|       2075000 |    18144.7930 | Layer 1 | Epoch 67  |
+|       2080000 |    14330.5234 | Layer 1 | Epoch 68  |
+|       2085000 |    16733.5645 | Layer 1 | Epoch 68  |
+|       2090000 |    17286.5176 | Layer 1 | Epoch 68  |
+|       2095000 |    14598.8262 | Layer 1 | Epoch 68  |
+|       2100000 |    15597.5400 | Layer 1 | Epoch 68  |
+|       2105000 |    16592.8125 | Layer 1 | Epoch 68  |
+|       2110000 |    18661.0469 | Layer 1 | Epoch 69  |
+|       2115000 |    16356.6680 | Layer 1 | Epoch 69  |
+|       2120000 |    14548.2383 | Layer 1 | Epoch 69  |
+|       2125000 |    21877.2266 | Layer 1 | Epoch 69  |
+|       2130000 |    15724.7441 | Layer 1 | Epoch 69  |
+|       2135000 |    16292.0156 | Layer 1 | Epoch 69  |
+|       2140000 |    25100.4414 | Layer 1 | Epoch 70  |
+|       2145000 |    20148.3848 | Layer 1 | Epoch 70  |
+|       2150000 |    16250.0566 | Layer 1 | Epoch 70  |
+|       2155000 |    13754.5508 | Layer 1 | Epoch 70  |
+|       2160000 |    18598.5781 | Layer 1 | Epoch 70  |
+|       2165000 |    19422.1855 | Layer 1 | Epoch 70  |
+|       2170000 |    16600.9258 | Layer 1 | Epoch 70  |
+|       2175000 |    14448.5645 | Layer 1 | Epoch 71  |
+|       2180000 |    15399.6973 | Layer 1 | Epoch 71  |
+|       2185000 |    15459.6152 | Layer 1 | Epoch 71  |
+|       2190000 |    17928.5234 | Layer 1 | Epoch 71  |
+|       2195000 |    25923.6602 | Layer 1 | Epoch 71  |
+|       2200000 |    17047.2051 | Layer 1 | Epoch 71  |
+|       2205000 |    15260.4316 | Layer 1 | Epoch 72  |
+|       2210000 |    17974.9805 | Layer 1 | Epoch 72  |
+|       2215000 |    25891.2656 | Layer 1 | Epoch 72  |
+|       2220000 |    20059.1133 | Layer 1 | Epoch 72  |
+|       2225000 |    16387.7305 | Layer 1 | Epoch 72  |
+|       2230000 |    16750.1035 | Layer 1 | Epoch 72  |
+|       2235000 |    19724.3320 | Layer 1 | Epoch 73  |
+|       2240000 |    13913.9102 | Layer 1 | Epoch 73  |
+|       2245000 |    26638.0430 | Layer 1 | Epoch 73  |
+|       2250000 |    20090.3359 | Layer 1 | Epoch 73  |
+|       2255000 |    19315.9570 | Layer 1 | Epoch 73  |
+|       2260000 |    19702.3516 | Layer 1 | Epoch 73  |
+|       2265000 |    18981.3613 | Layer 1 | Epoch 74  |
+|       2270000 |    20499.1680 | Layer 1 | Epoch 74  |
+|       2275000 |    19169.5215 | Layer 1 | Epoch 74  |
+|       2280000 |    18841.8555 | Layer 1 | Epoch 74  |
+|       2285000 |    16511.2305 | Layer 1 | Epoch 74  |
+|       2290000 |    13926.9414 | Layer 1 | Epoch 74  |
+|       2295000 |    16298.3721 | Layer 1 | Epoch 75  |
+|       2300000 |    16066.2051 | Layer 1 | Epoch 75  |
+|       2305000 |    21861.9922 | Layer 1 | Epoch 75  |
+|       2310000 |    17326.8242 | Layer 1 | Epoch 75  |
+|       2315000 |    24905.5781 | Layer 1 | Epoch 75  |
+|       2320000 |    19056.9180 | Layer 1 | Epoch 75  |
+|       2325000 |    16209.6777 | Layer 1 | Epoch 75  |
+|       2330000 |    16902.2363 | Layer 1 | Epoch 76  |
+|       2335000 |    23740.0078 | Layer 1 | Epoch 76  |
+|       2340000 |    15968.6406 | Layer 1 | Epoch 76  |
+|       2345000 |    23469.1055 | Layer 1 | Epoch 76  |
+|       2350000 |    17606.1816 | Layer 1 | Epoch 76  |
+|       2355000 |    15118.6494 | Layer 1 | Epoch 76  |
+|       2360000 |    16335.2324 | Layer 1 | Epoch 77  |
+|       2365000 |    16827.4961 | Layer 1 | Epoch 77  |
+|       2370000 |    15265.1338 | Layer 1 | Epoch 77  |
+|       2375000 |    16671.9883 | Layer 1 | Epoch 77  |
+|       2380000 |    15952.4297 | Layer 1 | Epoch 77  |
+|       2385000 |    21879.8555 | Layer 1 | Epoch 77  |
+|       2390000 |    17725.0547 | Layer 1 | Epoch 78  |
+|       2395000 |    14313.8574 | Layer 1 | Epoch 78  |
+|       2400000 |    22275.8965 | Layer 1 | Epoch 78  |
+|       2405000 |    15275.2715 | Layer 1 | Epoch 78  |
+|       2410000 |    15854.7520 | Layer 1 | Epoch 78  |
+|       2415000 |    12758.0957 | Layer 1 | Epoch 78  |
+|       2420000 |    15337.0254 | Layer 1 | Epoch 79  |
+|       2425000 |    17613.1953 | Layer 1 | Epoch 79  |
+|       2430000 |    20802.9141 | Layer 1 | Epoch 79  |
+|       2435000 |    17169.9668 | Layer 1 | Epoch 79  |
+|       2440000 |    16510.5137 | Layer 1 | Epoch 79  |
+|       2445000 |    14374.8672 | Layer 1 | Epoch 79  |
+|       2450000 |    13630.6680 | Layer 1 | Epoch 80  |
+|       2455000 |    18583.3828 | Layer 1 | Epoch 80  |
+|       2460000 |    15946.3984 | Layer 1 | Epoch 80  |
+|       2465000 |    16962.8633 | Layer 1 | Epoch 80  |
+|       2470000 |    19933.6523 | Layer 1 | Epoch 80  |
+|       2475000 |    15239.0039 | Layer 1 | Epoch 80  |
+|       2480000 |    15808.5273 | Layer 1 | Epoch 80  |
+|       2485000 |    19310.5918 | Layer 1 | Epoch 81  |
+|       2490000 |    18317.2051 | Layer 1 | Epoch 81  |
+|       2495000 |    19264.0469 | Layer 1 | Epoch 81  |
+|       2500000 |    13768.8301 | Layer 1 | Epoch 81  |
+|       2505000 |    15198.8662 | Layer 1 | Epoch 81  |
+|       2510000 |    24984.7441 | Layer 1 | Epoch 81  |
+|       2515000 |    17101.6289 | Layer 1 | Epoch 82  |
+|       2520000 |    19764.2637 | Layer 1 | Epoch 82  |
+|       2525000 |    15716.8496 | Layer 1 | Epoch 82  |
+|       2530000 |    18083.6914 | Layer 1 | Epoch 82  |
+|       2535000 |    19067.6055 | Layer 1 | Epoch 82  |
+|       2540000 |    16021.0430 | Layer 1 | Epoch 82  |
+|       2545000 |    18671.0703 | Layer 1 | Epoch 83  |
+|       2550000 |    16421.1855 | Layer 1 | Epoch 83  |
+|       2555000 |    16538.8945 | Layer 1 | Epoch 83  |
+|       2560000 |    22551.1895 | Layer 1 | Epoch 83  |
+|       2565000 |    25711.6914 | Layer 1 | Epoch 83  |
+|       2570000 |    18976.2734 | Layer 1 | Epoch 83  |
+|       2575000 |    18935.3184 | Layer 1 | Epoch 84  |
+|       2580000 |    15023.8027 | Layer 1 | Epoch 84  |
+|       2585000 |    18158.0039 | Layer 1 | Epoch 84  |
+|       2590000 |    22021.2617 | Layer 1 | Epoch 84  |
+|       2595000 |    14047.1865 | Layer 1 | Epoch 84  |
+|       2600000 |    13204.3281 | Layer 1 | Epoch 84  |
+|       2605000 |    19257.1016 | Layer 1 | Epoch 85  |
+|       2610000 |    14042.1699 | Layer 1 | Epoch 85  |
+|       2615000 |    29065.5996 | Layer 1 | Epoch 85  |
+|       2620000 |    20923.5039 | Layer 1 | Epoch 85  |
+|       2625000 |    19083.9082 | Layer 1 | Epoch 85  |
+|       2630000 |    18014.1035 | Layer 1 | Epoch 85  |
+|       2635000 |    16495.0078 | Layer 1 | Epoch 85  |
+|       2640000 |    18259.2539 | Layer 1 | Epoch 86  |
+|       2645000 |    14280.8623 | Layer 1 | Epoch 86  |
+|       2650000 |    15987.0840 | Layer 1 | Epoch 86  |
+|       2655000 |    16351.3809 | Layer 1 | Epoch 86  |
+|       2660000 |    18446.1172 | Layer 1 | Epoch 86  |
+|       2665000 |    16569.3906 | Layer 1 | Epoch 86  |
+|       2670000 |    20333.2578 | Layer 1 | Epoch 87  |
+|       2675000 |    25134.4766 | Layer 1 | Epoch 87  |
+|       2680000 |    15744.8760 | Layer 1 | Epoch 87  |
+|       2685000 |    18851.8398 | Layer 1 | Epoch 87  |
+|       2690000 |    17502.6641 | Layer 1 | Epoch 87  |
+|       2695000 |    16674.3223 | Layer 1 | Epoch 87  |
+|       2700000 |    15578.8809 | Layer 1 | Epoch 88  |
+|       2705000 |    19905.9902 | Layer 1 | Epoch 88  |
+|       2710000 |    16336.3594 | Layer 1 | Epoch 88  |
+|       2715000 |    21510.7207 | Layer 1 | Epoch 88  |
+|       2720000 |    20309.6562 | Layer 1 | Epoch 88  |
+|       2725000 |    16100.7109 | Layer 1 | Epoch 88  |
+|       2730000 |    14021.5098 | Layer 1 | Epoch 89  |
+|       2735000 |    18766.3184 | Layer 1 | Epoch 89  |
+|       2740000 |    14844.1309 | Layer 1 | Epoch 89  |
+|       2745000 |    20251.7754 | Layer 1 | Epoch 89  |
+|       2750000 |    16867.1641 | Layer 1 | Epoch 89  |
+|       2755000 |    15579.9473 | Layer 1 | Epoch 89  |
+|       2760000 |    17026.7891 | Layer 1 | Epoch 90  |
+|       2765000 |    14962.6670 | Layer 1 | Epoch 90  |
+|       2770000 |    16688.4219 | Layer 1 | Epoch 90  |
+|       2775000 |    14784.5391 | Layer 1 | Epoch 90  |
+|       2780000 |    16346.6309 | Layer 1 | Epoch 90  |
+|       2785000 |    16666.6699 | Layer 1 | Epoch 90  |
+|       2790000 |    17148.8086 | Layer 1 | Epoch 90  |
+|       2795000 |    22110.5059 | Layer 1 | Epoch 91  |
+|       2800000 |    15965.1279 | Layer 1 | Epoch 91  |
+|       2805000 |    21931.0684 | Layer 1 | Epoch 91  |
+|       2810000 |    17240.0859 | Layer 1 | Epoch 91  |
+|       2815000 |    16925.7949 | Layer 1 | Epoch 91  |
+|       2820000 |    18495.1406 | Layer 1 | Epoch 91  |
+|       2825000 |    16932.6152 | Layer 1 | Epoch 92  |
+|       2830000 |    20409.4160 | Layer 1 | Epoch 92  |
+|       2835000 |    17139.8926 | Layer 1 | Epoch 92  |
+|       2840000 |    16203.1816 | Layer 1 | Epoch 92  |
+|       2845000 |    18594.3438 | Layer 1 | Epoch 92  |
+|       2850000 |    19365.2656 | Layer 1 | Epoch 92  |
+|       2855000 |    21081.4023 | Layer 1 | Epoch 93  |
+|       2860000 |    23084.0117 | Layer 1 | Epoch 93  |
+|       2865000 |    15893.2754 | Layer 1 | Epoch 93  |
+|       2870000 |    18998.0449 | Layer 1 | Epoch 93  |
+|       2875000 |    17456.0977 | Layer 1 | Epoch 93  |
+|       2880000 |    16104.2754 | Layer 1 | Epoch 93  |
+|       2885000 |    16582.8262 | Layer 1 | Epoch 94  |
+|       2890000 |    16919.5215 | Layer 1 | Epoch 94  |
+|       2895000 |    15450.5996 | Layer 1 | Epoch 94  |
+|       2900000 |    22861.0508 | Layer 1 | Epoch 94  |
+|       2905000 |    18109.6797 | Layer 1 | Epoch 94  |
+|       2910000 |    15089.1016 | Layer 1 | Epoch 94  |
+|       2915000 |    16486.9277 | Layer 1 | Epoch 95  |
+|       2920000 |    18102.1758 | Layer 1 | Epoch 95  |
+|       2925000 |    16889.4473 | Layer 1 | Epoch 95  |
+|       2930000 |    17794.6094 | Layer 1 | Epoch 95  |
+|       2935000 |    14119.9580 | Layer 1 | Epoch 95  |
+|       2940000 |    16927.5039 | Layer 1 | Epoch 95  |
+|       2945000 |    19441.3125 | Layer 1 | Epoch 95  |
+|       2950000 |    15128.9746 | Layer 1 | Epoch 96  |
+|       2955000 |    20167.7500 | Layer 1 | Epoch 96  |
+|       2960000 |    23880.7812 | Layer 1 | Epoch 96  |
+|       2965000 |    17486.7090 | Layer 1 | Epoch 96  |
+|       2970000 |    15594.5078 | Layer 1 | Epoch 96  |
+|       2975000 |    17959.1445 | Layer 1 | Epoch 96  |
+|       2980000 |    16072.3047 | Layer 1 | Epoch 97  |
+|       2985000 |    25873.3770 | Layer 1 | Epoch 97  |
+|       2990000 |    13998.4180 | Layer 1 | Epoch 97  |
+|       2995000 |    23019.9668 | Layer 1 | Epoch 97  |
+|       3000000 |    17921.9062 | Layer 1 | Epoch 97  |
+|       3005000 |    17494.4023 | Layer 1 | Epoch 97  |
+|       3010000 |    16951.6055 | Layer 1 | Epoch 98  |
+|       3015000 |    20749.7402 | Layer 1 | Epoch 98  |
+|       3020000 |    20873.7930 | Layer 1 | Epoch 98  |
+|       3025000 |    16610.7266 | Layer 1 | Epoch 98  |
+|       3030000 |    13739.1943 | Layer 1 | Epoch 98  |
+|       3035000 |    23503.2129 | Layer 1 | Epoch 98  |
+|       3040000 |    13879.1123 | Layer 1 | Epoch 99  |
+|       3045000 |    21982.8555 | Layer 1 | Epoch 99  |
+|       3050000 |    24396.5469 | Layer 1 | Epoch 99  |
+|       3055000 |    17387.2520 | Layer 1 | Epoch 99  |
+|       3060000 |    17860.0488 | Layer 1 | Epoch 99  |
+|       3065000 |    17032.0957 | Layer 1 | Epoch 99  |
+|       3070000 |    13862.4092 | Layer 1 | Epoch 100  |
+|       3075000 |    25381.0430 | Layer 1 | Epoch 100  |
+|       3080000 |    20491.6113 | Layer 1 | Epoch 100  |
+|       3085000 |    18382.0840 | Layer 1 | Epoch 100  |
+|       3090000 |    14554.4834 | Layer 1 | Epoch 100  |
+|       3095000 |    15105.0723 | Layer 1 | Epoch 100  |
+|       3100000 |    15668.6758 | Layer 1 | Epoch 100  |
+Loading images  ../../dataset/*.jpeg ['S01', 'S02', 'S03', 'S04', 'S05']
+Number of images: 31001
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (31001, 256, 256, 1)
+Extracting labels from data in  ../../dataset/*.jpeg ['S01', 'S02', 'S03', 'S04', 'S05']
+Loading images  ../../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Extracting labels from data in  ../../dataset/*.jpeg ['S01']
+Loading images  ../../dataset/*.jpeg ['S02']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Extracting labels from data in  ../../dataset/*.jpeg ['S02']
+(31001, 256, 256, 1)
+(31001,)
+(6200, 256, 256, 1)
+(6200,)
+(6200, 256, 256, 1)
+(6200,)
+Tensor("ExpandDims_1:0", shape=(2, 1), dtype=int32)
+Tensor("ExpandDims:0", shape=(2, 1), dtype=int32)
+Tensor("Size:0", shape=(), dtype=int32)
+31
+Step 0: loss = 3.25 (0.033 sec)
+  Num examples: 31000  Num correct: 1080  Error @ 1: 0.9652
+  Num examples: 6200  Num correct: 238  Error @ 1: 0.9616
+  Num examples: 6200  Num correct: 240  Error @ 1: 0.9613
+Step 5000: loss = 3.35 (0.038 sec)
+  Num examples: 31000  Num correct: 2874  Error @ 1: 0.9073
+  Num examples: 6200  Num correct: 547  Error @ 1: 0.9118
+  Num examples: 6200  Num correct: 579  Error @ 1: 0.9066
+Step 10000: loss = 3.20 (0.077 sec)
+  Num examples: 31000  Num correct: 2888  Error @ 1: 0.9068
+  Num examples: 6200  Num correct: 581  Error @ 1: 0.9063
+  Num examples: 6200  Num correct: 581  Error @ 1: 0.9063
+Step 15000: loss = 3.15 (0.043 sec)
+  Num examples: 31000  Num correct: 2809  Error @ 1: 0.9094
+  Num examples: 6200  Num correct: 544  Error @ 1: 0.9123
+  Num examples: 6200  Num correct: 576  Error @ 1: 0.9071
+Step 20000: loss = 3.10 (0.038 sec)
+  Num examples: 31000  Num correct: 2849  Error @ 1: 0.9081
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+  Num examples: 6200  Num correct: 576  Error @ 1: 0.9071
+Step 25000: loss = 3.32 (0.038 sec)
+  Num examples: 31000  Num correct: 2880  Error @ 1: 0.9071
+  Num examples: 6200  Num correct: 574  Error @ 1: 0.9074
+  Num examples: 6200  Num correct: 600  Error @ 1: 0.9032
+Step 30000: loss = 3.05 (0.037 sec)
+  Num examples: 31000  Num correct: 2813  Error @ 1: 0.9093
+  Num examples: 6200  Num correct: 569  Error @ 1: 0.9082
+  Num examples: 6200  Num correct: 573  Error @ 1: 0.9076
+Step 35000: loss = 3.27 (0.034 sec)
+  Num examples: 31000  Num correct: 2823  Error @ 1: 0.9089
+  Num examples: 6200  Num correct: 537  Error @ 1: 0.9134
+  Num examples: 6200  Num correct: 576  Error @ 1: 0.9071
+Step 40000: loss = 3.46 (0.038 sec)
+  Num examples: 31000  Num correct: 2823  Error @ 1: 0.9089
+  Num examples: 6200  Num correct: 529  Error @ 1: 0.9147
+  Num examples: 6200  Num correct: 569  Error @ 1: 0.9082
+Step 45000: loss = 3.09 (0.040 sec)
+  Num examples: 31000  Num correct: 2812  Error @ 1: 0.9093
+  Num examples: 6200  Num correct: 587  Error @ 1: 0.9053
+  Num examples: 6200  Num correct: 572  Error @ 1: 0.9077
+Step 50000: loss = 3.06 (0.039 sec)
+  Num examples: 31000  Num correct: 2825  Error @ 1: 0.9089
+  Num examples: 6200  Num correct: 560  Error @ 1: 0.9097
+  Num examples: 6200  Num correct: 564  Error @ 1: 0.9090
+Step 55000: loss = 3.43 (0.034 sec)
+  Num examples: 31000  Num correct: 2827  Error @ 1: 0.9088
+  Num examples: 6200  Num correct: 545  Error @ 1: 0.9121
+  Num examples: 6200  Num correct: 572  Error @ 1: 0.9077
+Step 60000: loss = 2.96 (0.037 sec)
+  Num examples: 31000  Num correct: 2768  Error @ 1: 0.9107
+  Num examples: 6200  Num correct: 545  Error @ 1: 0.9121
+  Num examples: 6200  Num correct: 570  Error @ 1: 0.9081
+Step 65000: loss = 3.06 (0.039 sec)
+  Num examples: 31000  Num correct: 2837  Error @ 1: 0.9085
+  Num examples: 6200  Num correct: 560  Error @ 1: 0.9097
+  Num examples: 6200  Num correct: 564  Error @ 1: 0.9090
+Step 70000: loss = 3.25 (0.034 sec)
+  Num examples: 31000  Num correct: 2874  Error @ 1: 0.9073
+  Num examples: 6200  Num correct: 577  Error @ 1: 0.9069
+  Num examples: 6200  Num correct: 600  Error @ 1: 0.9032
+Step 75000: loss = 3.03 (0.038 sec)
+  Num examples: 31000  Num correct: 2819  Error @ 1: 0.9091
+  Num examples: 6200  Num correct: 560  Error @ 1: 0.9097
+  Num examples: 6200  Num correct: 554  Error @ 1: 0.9106
+Step 80000: loss = 2.95 (0.038 sec)
+  Num examples: 31000  Num correct: 2773  Error @ 1: 0.9105
+  Num examples: 6200  Num correct: 560  Error @ 1: 0.9097
+  Num examples: 6200  Num correct: 557  Error @ 1: 0.9102
+Step 85000: loss = 3.06 (0.038 sec)
+  Num examples: 31000  Num correct: 2791  Error @ 1: 0.9100
+  Num examples: 6200  Num correct: 560  Error @ 1: 0.9097
+  Num examples: 6200  Num correct: 554  Error @ 1: 0.9106
+Step 90000: loss = 3.35 (0.037 sec)
+  Num examples: 31000  Num correct: 2783  Error @ 1: 0.9102
+  Num examples: 6200  Num correct: 560  Error @ 1: 0.9097
+  Num examples: 6200  Num correct: 556  Error @ 1: 0.9103
+Step 95000: loss = 3.06 (0.037 sec)
+  Num examples: 31000  Num correct: 2773  Error @ 1: 0.9105
+  Num examples: 6200  Num correct: 560  Error @ 1: 0.9097
+  Num examples: 6200  Num correct: 554  Error @ 1: 0.9106
+Step 100000: loss = 3.04 (0.038 sec)
+  Num examples: 31000  Num correct: 2849  Error @ 1: 0.9081
+  Num examples: 6200  Num correct: 559  Error @ 1: 0.9098
+  Num examples: 6200  Num correct: 550  Error @ 1: 0.9113
+Step 105000: loss = 3.05 (0.039 sec)
+  Num examples: 31000  Num correct: 2790  Error @ 1: 0.9100
+  Num examples: 6200  Num correct: 559  Error @ 1: 0.9098
+  Num examples: 6200  Num correct: 551  Error @ 1: 0.9111
+Step 110000: loss = 3.02 (0.039 sec)
+  Num examples: 31000  Num correct: 2884  Error @ 1: 0.9070
+  Num examples: 6200  Num correct: 523  Error @ 1: 0.9156
+  Num examples: 6200  Num correct: 551  Error @ 1: 0.9111
+Step 115000: loss = 2.98 (0.039 sec)
+  Num examples: 31000  Num correct: 2822  Error @ 1: 0.9090
+  Num examples: 6200  Num correct: 525  Error @ 1: 0.9153
+  Num examples: 6200  Num correct: 551  Error @ 1: 0.9111
+Step 120000: loss = 3.02 (0.046 sec)
+  Num examples: 31000  Num correct: 2876  Error @ 1: 0.9072
+  Num examples: 6200  Num correct: 570  Error @ 1: 0.9081
+  Num examples: 6200  Num correct: 557  Error @ 1: 0.9102
+Step 125000: loss = 2.93 (0.036 sec)
+  Num examples: 31000  Num correct: 2875  Error @ 1: 0.9073
+  Num examples: 6200  Num correct: 527  Error @ 1: 0.9150
+  Num examples: 6200  Num correct: 542  Error @ 1: 0.9126
+Step 130000: loss = 3.03 (0.038 sec)
+  Num examples: 31000  Num correct: 2758  Error @ 1: 0.9110
+  Num examples: 6200  Num correct: 529  Error @ 1: 0.9147
+  Num examples: 6200  Num correct: 545  Error @ 1: 0.9121
+Step 135000: loss = 2.98 (0.036 sec)
+  Num examples: 31000  Num correct: 2836  Error @ 1: 0.9085
+  Num examples: 6200  Num correct: 529  Error @ 1: 0.9147
+  Num examples: 6200  Num correct: 548  Error @ 1: 0.9116
+Step 140000: loss = 3.18 (0.039 sec)
+  Num examples: 31000  Num correct: 2851  Error @ 1: 0.9080
+  Num examples: 6200  Num correct: 534  Error @ 1: 0.9139
+  Num examples: 6200  Num correct: 549  Error @ 1: 0.9115
+Step 145000: loss = 3.48 (0.048 sec)
+  Num examples: 31000  Num correct: 2864  Error @ 1: 0.9076
+  Num examples: 6200  Num correct: 533  Error @ 1: 0.9140
+  Num examples: 6200  Num correct: 551  Error @ 1: 0.9111
+Step 150000: loss = 3.02 (0.037 sec)
+  Num examples: 31000  Num correct: 2844  Error @ 1: 0.9083
+  Num examples: 6200  Num correct: 529  Error @ 1: 0.9147
+  Num examples: 6200  Num correct: 550  Error @ 1: 0.9113
+Step 155000: loss = 3.12 (12.692 sec)
+  Num examples: 31000  Num correct: 2859  Error @ 1: 0.9078
+  Num examples: 6200  Num correct: 522  Error @ 1: 0.9158
+  Num examples: 6200  Num correct: 550  Error @ 1: 0.9113
+Step 160000: loss = 3.02 (0.165 sec)
+  Num examples: 31000  Num correct: 2793  Error @ 1: 0.9099
+  Num examples: 6200  Num correct: 519  Error @ 1: 0.9163
+  Num examples: 6200  Num correct: 551  Error @ 1: 0.9111
+Step 165000: loss = 3.37 (0.038 sec)
+  Num examples: 31000  Num correct: 2815  Error @ 1: 0.9092
+  Num examples: 6200  Num correct: 522  Error @ 1: 0.9158
+  Num examples: 6200  Num correct: 549  Error @ 1: 0.9115
+Step 170000: loss = 3.02 (0.043 sec)
+  Num examples: 31000  Num correct: 2840  Error @ 1: 0.9084
+  Num examples: 6200  Num correct: 527  Error @ 1: 0.9150
+  Num examples: 6200  Num correct: 550  Error @ 1: 0.9113
+Step 175000: loss = 3.07 (0.038 sec)
+  Num examples: 31000  Num correct: 2603  Error @ 1: 0.9160
+  Num examples: 6200  Num correct: 448  Error @ 1: 0.9277
+  Num examples: 6200  Num correct: 532  Error @ 1: 0.9142
+Step 180000: loss = 3.07 (0.036 sec)
+  Num examples: 31000  Num correct: 2594  Error @ 1: 0.9163
+  Num examples: 6200  Num correct: 448  Error @ 1: 0.9277
+  Num examples: 6200  Num correct: 533  Error @ 1: 0.9140
+Step 185000: loss = 3.08 (0.039 sec)
+  Num examples: 31000  Num correct: 2591  Error @ 1: 0.9164
+  Num examples: 6200  Num correct: 448  Error @ 1: 0.9277
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 190000: loss = 3.02 (0.038 sec)
+  Num examples: 31000  Num correct: 2609  Error @ 1: 0.9158
+  Num examples: 6200  Num correct: 447  Error @ 1: 0.9279
+  Num examples: 6200  Num correct: 532  Error @ 1: 0.9142
+Step 195000: loss = 3.08 (0.039 sec)
+  Num examples: 31000  Num correct: 2592  Error @ 1: 0.9164
+  Num examples: 6200  Num correct: 447  Error @ 1: 0.9279
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 200000: loss = 3.11 (0.038 sec)
+  Num examples: 31000  Num correct: 2605  Error @ 1: 0.9160
+  Num examples: 6200  Num correct: 450  Error @ 1: 0.9274
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 205000: loss = 3.55 (0.037 sec)
+  Num examples: 31000  Num correct: 2645  Error @ 1: 0.9147
+  Num examples: 6200  Num correct: 450  Error @ 1: 0.9274
+  Num examples: 6200  Num correct: 535  Error @ 1: 0.9137
+Step 210000: loss = 2.97 (0.039 sec)
+  Num examples: 31000  Num correct: 2608  Error @ 1: 0.9159
+  Num examples: 6200  Num correct: 451  Error @ 1: 0.9273
+  Num examples: 6200  Num correct: 534  Error @ 1: 0.9139
+Step 215000: loss = 3.26 (0.040 sec)
+  Num examples: 31000  Num correct: 2647  Error @ 1: 0.9146
+  Num examples: 6200  Num correct: 451  Error @ 1: 0.9273
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 220000: loss = 2.84 (0.036 sec)
+  Num examples: 31000  Num correct: 2658  Error @ 1: 0.9143
+  Num examples: 6200  Num correct: 494  Error @ 1: 0.9203
+  Num examples: 6200  Num correct: 551  Error @ 1: 0.9111
+Step 225000: loss = 3.48 (0.039 sec)
+  Num examples: 31000  Num correct: 2615  Error @ 1: 0.9156
+  Num examples: 6200  Num correct: 450  Error @ 1: 0.9274
+  Num examples: 6200  Num correct: 539  Error @ 1: 0.9131
+Step 230000: loss = 3.50 (0.040 sec)
+  Num examples: 31000  Num correct: 2607  Error @ 1: 0.9159
+  Num examples: 6200  Num correct: 451  Error @ 1: 0.9273
+  Num examples: 6200  Num correct: 543  Error @ 1: 0.9124
+Step 235000: loss = 2.98 (0.045 sec)
+  Num examples: 31000  Num correct: 2634  Error @ 1: 0.9150
+  Num examples: 6200  Num correct: 455  Error @ 1: 0.9266
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 240000: loss = 3.02 (0.039 sec)
+  Num examples: 31000  Num correct: 2598  Error @ 1: 0.9162
+  Num examples: 6200  Num correct: 454  Error @ 1: 0.9268
+  Num examples: 6200  Num correct: 534  Error @ 1: 0.9139
+Step 245000: loss = 3.03 (0.049 sec)
+  Num examples: 31000  Num correct: 2625  Error @ 1: 0.9153
+  Num examples: 6200  Num correct: 455  Error @ 1: 0.9266
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 250000: loss = 3.19 (0.037 sec)
+  Num examples: 31000  Num correct: 2674  Error @ 1: 0.9137
+  Num examples: 6200  Num correct: 454  Error @ 1: 0.9268
+  Num examples: 6200  Num correct: 535  Error @ 1: 0.9137
+Step 255000: loss = 3.53 (0.036 sec)
+  Num examples: 31000  Num correct: 2680  Error @ 1: 0.9135
+  Num examples: 6200  Num correct: 455  Error @ 1: 0.9266
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 260000: loss = 3.39 (0.037 sec)
+  Num examples: 31000  Num correct: 2743  Error @ 1: 0.9115
+  Num examples: 6200  Num correct: 489  Error @ 1: 0.9211
+  Num examples: 6200  Num correct: 588  Error @ 1: 0.9052
+Step 265000: loss = 2.99 (0.034 sec)
+  Num examples: 31000  Num correct: 2757  Error @ 1: 0.9111
+  Num examples: 6200  Num correct: 496  Error @ 1: 0.9200
+  Num examples: 6200  Num correct: 557  Error @ 1: 0.9102
+Step 270000: loss = 2.95 (0.038 sec)
+  Num examples: 31000  Num correct: 2654  Error @ 1: 0.9144
+  Num examples: 6200  Num correct: 455  Error @ 1: 0.9266
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 275000: loss = 2.99 (0.034 sec)
+  Num examples: 31000  Num correct: 2628  Error @ 1: 0.9152
+  Num examples: 6200  Num correct: 455  Error @ 1: 0.9266
+  Num examples: 6200  Num correct: 536  Error @ 1: 0.9135
+Step 280000: loss = 3.43 (0.044 sec)
+  Num examples: 31000  Num correct: 2674  Error @ 1: 0.9137
+  Num examples: 6200  Num correct: 454  Error @ 1: 0.9268
+  Num examples: 6200  Num correct: 538  Error @ 1: 0.9132
+Step 285000: loss = 2.97 (0.038 sec)
+  Num examples: 31000  Num correct: 2751  Error @ 1: 0.9113
+  Num examples: 6200  Num correct: 480  Error @ 1: 0.9226
+  Num examples: 6200  Num correct: 592  Error @ 1: 0.9045
+Step 290000: loss = 3.08 (0.037 sec)
+  Num examples: 31000  Num correct: 2745  Error @ 1: 0.9115
+  Num examples: 6200  Num correct: 483  Error @ 1: 0.9221
+  Num examples: 6200  Num correct: 587  Error @ 1: 0.9053
+Step 295000: loss = 3.06 (0.037 sec)
+  Num examples: 31000  Num correct: 2750  Error @ 1: 0.9113
+  Num examples: 6200  Num correct: 485  Error @ 1: 0.9218
+  Num examples: 6200  Num correct: 584  Error @ 1: 0.9058
+Step 300000: loss = 3.02 (0.036 sec)
+  Num examples: 31000  Num correct: 2778  Error @ 1: 0.9104
+  Num examples: 6200  Num correct: 488  Error @ 1: 0.9213
+  Num examples: 6200  Num correct: 586  Error @ 1: 0.9055
+Step 305000: loss = 3.09 (0.038 sec)
+  Num examples: 31000  Num correct: 2730  Error @ 1: 0.9119
+  Num examples: 6200  Num correct: 493  Error @ 1: 0.9205
+  Num examples: 6200  Num correct: 565  Error @ 1: 0.9089
+Step 310000: loss = 3.02 (3.161 sec)
+  Num examples: 31000  Num correct: 2795  Error @ 1: 0.9098
+  Num examples: 6200  Num correct: 486  Error @ 1: 0.9216
+  Num examples: 6200  Num correct: 589  Error @ 1: 0.9050
+Step 315000: loss = 3.09 (0.035 sec)
+  Num examples: 31000  Num correct: 2741  Error @ 1: 0.9116
+  Num examples: 6200  Num correct: 486  Error @ 1: 0.9216
+  Num examples: 6200  Num correct: 588  Error @ 1: 0.9052
+Step 320000: loss = 3.12 (0.038 sec)
+  Num examples: 31000  Num correct: 2687  Error @ 1: 0.9133
+  Num examples: 6200  Num correct: 495  Error @ 1: 0.9202
+  Num examples: 6200  Num correct: 558  Error @ 1: 0.9100
+Step 325000: loss = 2.96 (0.040 sec)
+  Num examples: 31000  Num correct: 2669  Error @ 1: 0.9139
+  Num examples: 6200  Num correct: 496  Error @ 1: 0.9200
+  Num examples: 6200  Num correct: 589  Error @ 1: 0.9050
+Step 330000: loss = 3.07 (0.037 sec)
+  Num examples: 31000  Num correct: 2692  Error @ 1: 0.9132
+  Num examples: 6200  Num correct: 494  Error @ 1: 0.9203
+  Num examples: 6200  Num correct: 587  Error @ 1: 0.9053
+Step 335000: loss = 3.01 (0.038 sec)
+  Num examples: 31000  Num correct: 2725  Error @ 1: 0.9121
+  Num examples: 6200  Num correct: 496  Error @ 1: 0.9200
+  Num examples: 6200  Num correct: 558  Error @ 1: 0.9100
+Step 340000: loss = 2.89 (0.035 sec)
+  Num examples: 31000  Num correct: 2705  Error @ 1: 0.9127
+  Num examples: 6200  Num correct: 484  Error @ 1: 0.9219
+  Num examples: 6200  Num correct: 586  Error @ 1: 0.9055
+Step 345000: loss = 3.18 (0.037 sec)
+  Num examples: 31000  Num correct: 2729  Error @ 1: 0.9120
+  Num examples: 6200  Num correct: 497  Error @ 1: 0.9198
+  Num examples: 6200  Num correct: 566  Error @ 1: 0.9087
+Step 350000: loss = 3.01 (0.037 sec)
+  Num examples: 31000  Num correct: 2620  Error @ 1: 0.9155
+  Num examples: 6200  Num correct: 470  Error @ 1: 0.9242
+  Num examples: 6200  Num correct: 590  Error @ 1: 0.9048
+Step 355000: loss = 3.37 (0.042 sec)
+  Num examples: 31000  Num correct: 2732  Error @ 1: 0.9119
+  Num examples: 6200  Num correct: 493  Error @ 1: 0.9205
+  Num examples: 6200  Num correct: 565  Error @ 1: 0.9089
+Step 360000: loss = 2.97 (0.035 sec)
+  Num examples: 31000  Num correct: 2666  Error @ 1: 0.9140
+  Num examples: 6200  Num correct: 480  Error @ 1: 0.9226
+  Num examples: 6200  Num correct: 588  Error @ 1: 0.9052
+Step 365000: loss = 2.89 (0.046 sec)
+  Num examples: 31000  Num correct: 2735  Error @ 1: 0.9118
+  Num examples: 6200  Num correct: 484  Error @ 1: 0.9219
+  Num examples: 6200  Num correct: 591  Error @ 1: 0.9047
+Step 370000: loss = 3.15 (0.038 sec)
+  Num examples: 31000  Num correct: 2718  Error @ 1: 0.9123
+  Num examples: 6200  Num correct: 483  Error @ 1: 0.9221
+  Num examples: 6200  Num correct: 591  Error @ 1: 0.9047
+Step 375000: loss = 2.89 (0.036 sec)
+  Num examples: 31000  Num correct: 2775  Error @ 1: 0.9105
+  Num examples: 6200  Num correct: 487  Error @ 1: 0.9215
+  Num examples: 6200  Num correct: 587  Error @ 1: 0.9053
+Step 380000: loss = 3.03 (0.036 sec)
+  Num examples: 31000  Num correct: 2749  Error @ 1: 0.9113
+  Num examples: 6200  Num correct: 482  Error @ 1: 0.9223
+  Num examples: 6200  Num correct: 591  Error @ 1: 0.9047
+Step 385000: loss = 3.03 (0.038 sec)
+  Num examples: 31000  Num correct: 2747  Error @ 1: 0.9114
+  Num examples: 6200  Num correct: 478  Error @ 1: 0.9229
+  Num examples: 6200  Num correct: 592  Error @ 1: 0.9045
+Step 390000: loss = 2.89 (0.039 sec)
+  Num examples: 31000  Num correct: 2506  Error @ 1: 0.9192
+  Num examples: 6200  Num correct: 476  Error @ 1: 0.9232
+  Num examples: 6200  Num correct: 560  Error @ 1: 0.9097
+Step 395000: loss = 3.55 (0.037 sec)
+  Num examples: 31000  Num correct: 2566  Error @ 1: 0.9172
+  Num examples: 6200  Num correct: 477  Error @ 1: 0.9231
+  Num examples: 6200  Num correct: 559  Error @ 1: 0.9098
+Step 400000: loss = 3.51 (0.035 sec)
+  Num examples: 31000  Num correct: 2593  Error @ 1: 0.9164
+  Num examples: 6200  Num correct: 483  Error @ 1: 0.9221
+  Num examples: 6200  Num correct: 556  Error @ 1: 0.9103
+Step 405000: loss = 3.50 (0.039 sec)
+  Num examples: 31000  Num correct: 2783  Error @ 1: 0.9102
+  Num examples: 6200  Num correct: 498  Error @ 1: 0.9197
+  Num examples: 6200  Num correct: 569  Error @ 1: 0.9082
+Step 410000: loss = 3.03 (0.036 sec)
+  Num examples: 31000  Num correct: 2731  Error @ 1: 0.9119
+  Num examples: 6200  Num correct: 495  Error @ 1: 0.9202
+  Num examples: 6200  Num correct: 577  Error @ 1: 0.9069
+Step 415000: loss = 3.06 (0.036 sec)
+  Num examples: 31000  Num correct: 2751  Error @ 1: 0.9113
+  Num examples: 6200  Num correct: 493  Error @ 1: 0.9205
+  Num examples: 6200  Num correct: 589  Error @ 1: 0.9050
+Step 420000: loss = 2.96 (0.036 sec)
+  Num examples: 31000  Num correct: 2780  Error @ 1: 0.9103
+  Num examples: 6200  Num correct: 493  Error @ 1: 0.9205
+  Num examples: 6200  Num correct: 588  Error @ 1: 0.9052
+Step 425000: loss = 3.01 (0.037 sec)
+  Num examples: 31000  Num correct: 2786  Error @ 1: 0.9101
+  Num examples: 6200  Num correct: 498  Error @ 1: 0.9197
+  Num examples: 6200  Num correct: 583  Error @ 1: 0.9060
+Step 430000: loss = 3.19 (0.039 sec)
+  Num examples: 31000  Num correct: 2765  Error @ 1: 0.9108
+  Num examples: 6200  Num correct: 490  Error @ 1: 0.9210
+  Num examples: 6200  Num correct: 589  Error @ 1: 0.9050
+Step 435000: loss = 3.20 (0.034 sec)
+  Num examples: 31000  Num correct: 2707  Error @ 1: 0.9127
+  Num examples: 6200  Num correct: 500  Error @ 1: 0.9194
+  Num examples: 6200  Num correct: 587  Error @ 1: 0.9053
+Step 440000: loss = 3.01 (0.036 sec)
+  Num examples: 31000  Num correct: 2775  Error @ 1: 0.9105
+  Num examples: 6200  Num correct: 500  Error @ 1: 0.9194
+  Num examples: 6200  Num correct: 585  Error @ 1: 0.9056
+Step 445000: loss = 2.96 (0.037 sec)
+  Num examples: 31000  Num correct: 2766  Error @ 1: 0.9108
+  Num examples: 6200  Num correct: 504  Error @ 1: 0.9187
+  Num examples: 6200  Num correct: 584  Error @ 1: 0.9058
+Step 450000: loss = 2.96 (0.047 sec)
+  Num examples: 31000  Num correct: 2739  Error @ 1: 0.9116
+  Num examples: 6200  Num correct: 496  Error @ 1: 0.9200
+  Num examples: 6200  Num correct: 587  Error @ 1: 0.9053
+Step 455000: loss = 3.04 (0.052 sec)
+  Num examples: 31000  Num correct: 2699  Error @ 1: 0.9129
+  Num examples: 6200  Num correct: 502  Error @ 1: 0.9190
+  Num examples: 6200  Num correct: 585  Error @ 1: 0.9056
+Step 460000: loss = 2.96 (0.038 sec)
+  Num examples: 31000  Num correct: 2739  Error @ 1: 0.9116
+  Num examples: 6200  Num correct: 485  Error @ 1: 0.9218
+  Num examples: 6200  Num correct: 592  Error @ 1: 0.9045
+Step 465000: loss = 3.14 (4.670 sec)
+  Num examples: 31000  Num correct: 2739  Error @ 1: 0.9116
+  Num examples: 6200  Num correct: 485  Error @ 1: 0.9218
+  Num examples: 6200  Num correct: 592  Error @ 1: 0.9045

@@ -3,6 +3,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import pandas as pd
+import sys
 import time
 import glob
 import numpy as np
@@ -12,8 +13,9 @@ from sklearn.manifold import TSNE
 from ggplot import *
 from collections import OrderedDict
 
+aef = sys.argv[1]
 #get data
-PATH='/home/pablo/research/dataset/'
+PATH='/home/cc/research/dataset/'
 #PATH='/Users/pablorp80/Documents/Faculty/marist/papermlj17/repo/dataset/'
 #datafiles = glob.glob(PATH + '*00.jpeg')
 datafiles = glob.glob(PATH + '*.jpeg')
@@ -112,14 +114,14 @@ rndperm = np.random.permutation(N)
 
 
 time_start = time.time()
-datafiles = sorted(glob.glob('./ae/chkpts/filters?.npy'))
+datafiles = sorted(glob.glob('./'+aef+'/chkpts/filters?.npy'))
 ae_results = np.array([])
 layers = 0
 for fname in datafiles:
   print fname
   layers = layers + 1
   ae = np.load(fname)
-  b = np.load('./ae/chkpts/biases'+ fname[19] +'.npy')
+  b = np.load('./'+aef+'/chkpts/biases'+ fname[20] +'.npy')
   if ae_results.size == 0:
     ae_results = df[feat_cols].values.dot(ae) + b
   else:
@@ -168,14 +170,14 @@ print "second chart done!"
 
 
 time_start = time.time()
-datafiles = sorted(glob.glob('./ae/chkpts/filters?ft.npy'))
+datafiles = sorted(glob.glob('./'+aef+'/chkpts/filters?ft.npy'))
 ae_results = np.array([])
 layers = 0
 for fname in datafiles:
   print fname
   layers = layers + 1
   ae = np.load(fname)
-  b = np.load('./ae/chkpts/biases'+ fname[19] +'ft.npy')
+  b = np.load('./'+aef+'/chkpts/biases'+ fname[20] +'ft.npy')
   if ae_results.size == 0:
     ae_results = df[feat_cols].values.dot(ae) + b
   else:

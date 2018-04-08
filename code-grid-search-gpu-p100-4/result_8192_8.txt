@@ -1,0 +1,153 @@
+2018-04-01 01:02:42.844135: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 01:02:42.844233: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 01:02:42.844245: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 01:02:42.844254: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 01:02:42.844264: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-01 01:02:43.570203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:08:00.0
+Total memory: 15.89GiB
+Free memory: 15.33GiB
+2018-04-01 01:02:43.570316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-04-01 01:02:43.570347: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-04-01 01:02:43.570384: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0000:08:00.0)
+['S01']
+[]
+[]
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+(3100, 256, 256, 1)
+(1550, 256, 256, 1)
+(1550, 256, 256, 1)
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |    54437.5469 | Layer 1 | Epoch 1  |
+|          5000 |    20721.8125 | Layer 1 | Epoch 2  |
+|         10000 |    19548.0391 | Layer 1 | Epoch 4  |
+|         15000 |    18508.0508 | Layer 1 | Epoch 5  |
+|         20000 |    17987.5820 | Layer 1 | Epoch 7  |
+|         25000 |    17964.3535 | Layer 1 | Epoch 9  |
+|         30000 |    17458.6699 | Layer 1 | Epoch 10  |
+|         35000 |    17256.1016 | Layer 1 | Epoch 12  |
+|         40000 |    16698.1172 | Layer 1 | Epoch 13  |
+|         45000 |    16882.0625 | Layer 1 | Epoch 15  |
+|         50000 |    16710.6777 | Layer 1 | Epoch 17  |
+|         55000 |    16697.5059 | Layer 1 | Epoch 18  |
+|         60000 |    16483.4707 | Layer 1 | Epoch 20  |
+|         65000 |    16375.1826 | Layer 1 | Epoch 21  |
+|         70000 |    16541.9102 | Layer 1 | Epoch 23  |
+|         75000 |    16228.6406 | Layer 1 | Epoch 25  |
+|         80000 |    16357.8301 | Layer 1 | Epoch 26  |
+|         85000 |    16527.3340 | Layer 1 | Epoch 28  |
+|         90000 |    16256.0449 | Layer 1 | Epoch 30  |
+|         95000 |    15947.6895 | Layer 1 | Epoch 31  |
+|        100000 |    15683.2324 | Layer 1 | Epoch 33  |
+|        105000 |    15903.3623 | Layer 1 | Epoch 34  |
+|        110000 |    16057.2588 | Layer 1 | Epoch 36  |
+|        115000 |    16236.5957 | Layer 1 | Epoch 38  |
+|        120000 |    15712.4307 | Layer 1 | Epoch 39  |
+|        125000 |    15731.3057 | Layer 1 | Epoch 41  |
+|        130000 |    15974.9365 | Layer 1 | Epoch 42  |
+|        135000 |    16021.6094 | Layer 1 | Epoch 44  |
+|        140000 |    15888.6270 | Layer 1 | Epoch 46  |
+|        145000 |    16082.1133 | Layer 1 | Epoch 47  |
+|        150000 |    16008.1250 | Layer 1 | Epoch 49  |
+
+
+
+| Training Step | Cross Entropy |  Layer  |   Epoch  |
+|---------------|---------------|---------|----------|
+|             0 |     5689.3340 | Layer 2 | Epoch 1  |
+|          5000 |     5522.1543 | Layer 2 | Epoch 2  |
+|         10000 |     5388.4614 | Layer 2 | Epoch 4  |
+|         15000 |     5327.7861 | Layer 2 | Epoch 5  |
+|         20000 |     5256.6650 | Layer 2 | Epoch 7  |
+|         25000 |     5236.3809 | Layer 2 | Epoch 9  |
+|         30000 |     5167.0615 | Layer 2 | Epoch 10  |
+|         35000 |     5157.0449 | Layer 2 | Epoch 12  |
+|         40000 |     5121.1826 | Layer 2 | Epoch 13  |
+|         45000 |     5119.7637 | Layer 2 | Epoch 15  |
+|         50000 |     5068.6641 | Layer 2 | Epoch 17  |
+|         55000 |     5078.7676 | Layer 2 | Epoch 18  |
+|         60000 |     5011.4878 | Layer 2 | Epoch 20  |
+|         65000 |     4998.4990 | Layer 2 | Epoch 21  |
+|         70000 |     4976.6353 | Layer 2 | Epoch 23  |
+|         75000 |     5002.3032 | Layer 2 | Epoch 25  |
+|         80000 |     4970.6519 | Layer 2 | Epoch 26  |
+|         85000 |     4992.4888 | Layer 2 | Epoch 28  |
+|         90000 |     4962.7236 | Layer 2 | Epoch 30  |
+|         95000 |     4953.3325 | Layer 2 | Epoch 31  |
+|        100000 |     4971.5869 | Layer 2 | Epoch 33  |
+|        105000 |     4935.3726 | Layer 2 | Epoch 34  |
+|        110000 |     4937.2690 | Layer 2 | Epoch 36  |
+|        115000 |     4917.0757 | Layer 2 | Epoch 38  |
+|        120000 |     4908.6416 | Layer 2 | Epoch 39  |
+|        125000 |     4910.9854 | Layer 2 | Epoch 41  |
+|        130000 |     4911.0430 | Layer 2 | Epoch 42  |
+|        135000 |     4877.1592 | Layer 2 | Epoch 44  |
+|        140000 |     4927.4380 | Layer 2 | Epoch 46  |
+|        145000 |     4938.4678 | Layer 2 | Epoch 47  |
+|        150000 |     4891.6929 | Layer 2 | Epoch 49  |
+Loading images  ../dataset/*.jpeg ['S01']
+Number of images: 6200
+Number of rows: 256
+Number of cols: 256
+Dataset array size:  (6200, 256, 256, 1)
+Extracting labels from data in  ../dataset/*.jpeg ['S01']
+(3100, 256, 256, 1)
+(3100,)
+(1550, 256, 256, 1)
+(1550,)
+(1550, 256, 256, 1)
+(1550,)
+Tensor("ExpandDims_1:0", shape=(250, 1), dtype=int32)
+Tensor("ExpandDims:0", shape=(250, 1), dtype=int32)
+Tensor("Size:0", shape=(), dtype=int32)
+31
+Step 0: loss = 3.56 (0.192 sec)
+  Num examples: 3000  Num correct: 164  Error @ 1: 0.9453
+  Num examples: 1500  Num correct: 73  Error @ 1: 0.9513
+  Num examples: 1500  Num correct: 67  Error @ 1: 0.9553
+Step 5000: loss = 3.05 (0.125 sec)
+  Num examples: 3000  Num correct: 1251  Error @ 1: 0.5830
+  Num examples: 1500  Num correct: 572  Error @ 1: 0.6187
+  Num examples: 1500  Num correct: 594  Error @ 1: 0.6040
+Step 10000: loss = 2.90 (0.127 sec)
+  Num examples: 3000  Num correct: 1552  Error @ 1: 0.4827
+  Num examples: 1500  Num correct: 780  Error @ 1: 0.4800
+  Num examples: 1500  Num correct: 735  Error @ 1: 0.5100
+Step 15000: loss = 2.80 (0.490 sec)
+  Num examples: 3000  Num correct: 1665  Error @ 1: 0.4450
+  Num examples: 1500  Num correct: 806  Error @ 1: 0.4627
+  Num examples: 1500  Num correct: 765  Error @ 1: 0.4900
+Step 20000: loss = 2.77 (0.130 sec)
+  Num examples: 3000  Num correct: 1625  Error @ 1: 0.4583
+  Num examples: 1500  Num correct: 828  Error @ 1: 0.4480
+  Num examples: 1500  Num correct: 791  Error @ 1: 0.4727
+Step 25000: loss = 2.75 (0.126 sec)
+  Num examples: 3000  Num correct: 1669  Error @ 1: 0.4437
+  Num examples: 1500  Num correct: 842  Error @ 1: 0.4387
+  Num examples: 1500  Num correct: 808  Error @ 1: 0.4613
+Step 30000: loss = 2.73 (0.479 sec)
+  Num examples: 3000  Num correct: 1620  Error @ 1: 0.4600
+  Num examples: 1500  Num correct: 851  Error @ 1: 0.4327
+  Num examples: 1500  Num correct: 808  Error @ 1: 0.4613
+Step 35000: loss = 2.71 (0.125 sec)
+  Num examples: 3000  Num correct: 1691  Error @ 1: 0.4363
+  Num examples: 1500  Num correct: 854  Error @ 1: 0.4307
+  Num examples: 1500  Num correct: 807  Error @ 1: 0.4620
+Step 40000: loss = 2.69 (0.126 sec)
+  Num examples: 3000  Num correct: 1770  Error @ 1: 0.4100
+  Num examples: 1500  Num correct: 890  Error @ 1: 0.4067
+  Num examples: 1500  Num correct: 845  Error @ 1: 0.4367
+Step 45000: loss = 2.67 (0.445 sec)
+  Num examples: 3000  Num correct: 1784  Error @ 1: 0.4053
+  Num examples: 1500  Num correct: 898  Error @ 1: 0.4013
+  Num examples: 1500  Num correct: 858  Error @ 1: 0.4280

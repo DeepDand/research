@@ -12,7 +12,7 @@ NUM_CLASSES = 31
 
 
 # subjects for training/testing/validation
-sub = {'tr': ['S01'],
+sub = {'tr': ['S01','S02','S03','S04','S05'],
        'te': [],
       'val': []}
 
@@ -22,9 +22,9 @@ FLAGS = flags.FLAGS
 # Autoencoder Architecture Specific Flags
 flags.DEFINE_integer("num_hidden_layers", 2, "Number of hidden layers")
 
-flags.DEFINE_integer('hidden1_units', 4,
+flags.DEFINE_integer('hidden1_units', 4096,
                      'Number of units in hidden layer 1.')
-flags.DEFINE_integer('hidden2_units', 4,
+flags.DEFINE_integer('hidden2_units', 2048,
                      'Number of units in hidden layer 2.')
 flags.DEFINE_integer('hidden3_units', 36,
                      'Number of units in hidden layer 3.')

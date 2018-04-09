@@ -47,3 +47,4 @@ Dataset array size:  (31001, 256, 256, 1)
 | Training Step | Cross Entropy |  Layer  |   Epoch  |
 |---------------|---------------|---------|----------|
 |             0 |    50136.0586 | Layer 1 | Epoch 1  |
+|          5000 |    23147.8203 | Layer 1 | Epoch 1  |
